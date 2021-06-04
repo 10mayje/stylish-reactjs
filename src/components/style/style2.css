@@ -1,0 +1,184 @@
+@media screen and (max-width: 680px){
+    .backgound{
+        margin-right: 10vw;
+        margin-right: 10vw;
+      }
+    .navb{
+        position: fixed;
+    }
+    .navbar-nav{
+        margin-left: 4vw;
+    }
+    .nav-link{
+        width: 20vw;
+    }
+    .navbar-brand{
+        margin-left:4vw;
+    }
+
+ .container-one{
+        flex-direction: column-reverse;       
+    }
+    
+.item-one{
+    width: 75vw;
+}
+.item-two{
+    margin-top: 74px;
+}
+.item-two img{
+    width: 80vw;
+}
+.bt-n{
+    width: 400px;
+}
+.b1{
+    font-size: 16px!important;
+}
+.contact{
+
+margin-top: 15vh;
+}
+
+.item-one h1{
+    margin-top: 20px;  
+    margin-bottom: 2vh;
+}
+
+.container-two{
+    width: 100%;
+}
+
+
+
+.container-three{
+    flex-direction: column;
+   
+}
+.item-3{
+    width: 80vw;  
+}
+.item-3 h1{
+    width:80vw;
+    height: auto;
+
+  
+    margin-top: 44px;
+    
+
+font-size: 36px;
+line-height: 40px;
+
+}
+
+.item-3 p{
+      font-size: 19px;
+    line-height: 20px;
+margin-top: 14px;
+
+color: #939AA9;
+}
+
+
+
+
+.box1{
+  
+    margin-left: 0vw;
+}
+
+.b3{
+    margin-left: 0vw;
+}
+.box1 h2{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+margin-top: 4vh;
+width: 90%;
+color: #EDEFF3;
+
+}
+.box1 img{
+
+width: 100%;
+height: auto;
+ transition: all 0.3s ease 0s;
+overflow: hidden;
+}
+.box1 div{
+    width: 90%;
+    overflow: hidden;
+}
+  
+  .box1 img:hover {
+    transform: scale(1.05);
+  }
+
+
+.dis{
+font-family: Rubik;
+width: 90%;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+
+color: #939AA9;
+}
+.head{
+    font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+margin-top: 10vh;
+
+color: #EDEFF3;
+}
+.navigation{
+
+margin-top: 72px;
+
+}
+.n{
+margin: 0;
+margin-right: 0;
+
+}
+.b2{
+    margin: 0;
+}
+.frame{
+    margin-top: 1vh;
+   
+}
+.n button{
+    position: static;
+    font-size: 12px;
+    margin-bottom: 1vh;
+
+
+}
+.system{
+    width: 90vw;
+}
+
+.bio{
+ 
+margin-top: -25px; 
+margin-bottom: 4px;
+
+}
+.anmate-text{
+font-size: 18px;
+height: 34px; 
+
+}
+
+
+
+
+}
