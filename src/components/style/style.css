@@ -68,7 +68,7 @@ color: #EDEFF3;
    
     background: linear-gradient(180deg, #26282B 0%, #08090C 100%);
 
-    width: 98.9vw;
+    width: 100vw;
 }
 
 .background{
@@ -78,7 +78,7 @@ color: #EDEFF3;
 .navb{
     background-color:#26282B ;
     position: fixed;
-    width: 98.9vw;
+    width: 100vw;
     z-index: 9999999;
 }
 .navbar-nav{
