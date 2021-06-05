@@ -5,61 +5,30 @@ import "aos/dist/aos.css";
 import UX from './uxresearch';
 import PD from './product';
 import VD from './visual';
-import img from '../images/Interests.png';
-import icon from '../images/twitter (1).png';
-import button from '../images/Back-to-top.png'; 
-import icon2 from '../images/instagram 1.png';
-import icon3 from '../images/linkedin 1.png';
-import icon4 from '../images/dribbble-logo.png';
-import icon5 from '../images/Behance.png';
-import icon6 from '../images/medium 1.png';
-import Nav from "./navbar";
+
 import gif from '../images/Hero-animation.gif';
 import './style/style.css';
 import Cont3 from './container3';
+import Countdown from './countdown';
+import img1 from '../images/logo_mark.png';
 const Body=()=>{
-    const [dis, setDis] = useState('');
-    const [value,setValue]=useState('');
+    
     const [nav,setNav]=useState(0);
-    let i=0;
-    
-    const array=[
-    {text:"years as a freelancer",value:"02"},
-    {text:"Academic Research Projects",value:"02"},
-    {text:"Degrees",value:"02"},
-    {text:"Awards Won",value:"02"},
-    {text:"years as of experience",value:"05"},
-    {text:"years lived",value:"24"}
-  ]
-  
-  let interval=useRef();
-  const timer=()=>{
 
-    interval=setInterval(()=>{
-     
-        setDis(array[i].text,1000);
-        setValue(array[i].value,1000);
-        i++;
-        if(i==6){
-          i=0;
-        }
-    },1000);
-    
-  }
+
  
     useEffect(()=>{ 
       
       Aos.init({duration:800});
-      timer(); 
-      return()=>{
-        clearInterval(interval.current);
-      }     
+     
       
     },[]); 
     
     return(
     <div className="background">
-        
+       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'10px',marginLeft:'0.5vw'}}>
+            <img src={img1}/>
+        </div> 
         <div className="container-one" > 
                <div className="item-one "  >
                   <h1><span data-aos="new" data-aos-delay="50">👋</span>
@@ -87,7 +56,7 @@ const Body=()=>{
                        <button type="button" class="btn btn-primary btn-lg b1">Let's talk!</button>
 <button type="button" class="btn btn-secondary btn-lg b2">Explore my work</button>
                        </div>
-                       <div data-aos="new" data-aos-delay="1600">
+                       <div data-aos="new" data-aos-delay="1000">
                          
                          <h3 className="contact">Contact</h3><h2 className="c2"> ronuxdnr@gmail.com</h2>
                        </div>
@@ -103,9 +72,11 @@ const Body=()=>{
             </h2>
 
           </div>
+          
              <Cont3/>
 
              {/* third fase*/}
+              <Countdown/>
               {/* fourth fase*/}
               <div className="system" id="work">
              <h1 className="head" data-aos="new" data-aos-delay="200">Selected Work</h1>

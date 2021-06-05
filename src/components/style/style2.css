@@ -1,7 +1,7 @@
 @media screen and (max-width: 680px){
     .backgound{
-        margin-right: 10vw;
-        margin-right: 10vw;
+        margin-right: 7vw;
+        margin-left: 7vw;
       }
     .navb{
         position: fixed;
@@ -24,7 +24,9 @@
     width: 75vw;
 }
 .item-two{
+    margin: 0;
     margin-top: 74px;
+    
 }
 .item-two img{
     width: 80vw;
@@ -79,9 +81,30 @@ margin-top: 14px;
 color: #939AA9;
 }
 
+/*third box*/
 
+.count{
+    width: 100%!important;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10vh;
+    
+}
 
+.j{
+    height: 30vh;
+}
+.j h1{
+font-size: 32px;
+line-height: 32px;
+}
+.j p{
 
+font-size: 10px;
+line-height: 14px;
+color: #939AA9;
+}
+/* fourth box*/
 .box1{
   
     margin-left: 0vw;
@@ -101,6 +124,9 @@ width: 90%;
 color: #EDEFF3;
 
 }
+.btext{
+    height: 70px;
+}
 .box1 img{
 
 width: 100%;
@@ -119,24 +145,19 @@ overflow: hidden;
 
 
 .dis{
-font-family: Rubik;
+
 width: 90%;
-font-style: normal;
-font-weight: normal;
+
 font-size: 24px;
 line-height: 32px;
 
-color: #939AA9;
 }
 .head{
-    font-family: Rubik;
-font-style: normal;
-font-weight: bold;
+ 
 font-size: 26px;
 line-height: 30px;
 margin-top: 10vh;
-
-color: #EDEFF3;
+;
 }
 .navigation{
 
@@ -177,8 +198,93 @@ font-size: 18px;
 height: 34px; 
 
 }
+/* intersest*/
+.one{
+    height: 12vh;
+    margin-top: 30vh;
+}
+.two{
+    height: 14vh;
+    margin-top: 20vh;
+}
+.three{
+    height: 15vh;
+    margin-top: 16vh;
+}
+.four{
+    height: 15vh;
+    margin-top: 30vh;
+}
+.table2 {
 
+    text-align: center;
+    width: 80%;
+    margin-left: 6vw;
+    opacity: 0.8;
+}
+.table2 h1{
 
+font-size: 24px;
+line-height: 24px;
+
+}
+.table2 p{
+
+font-size: 14px;
+line-height: 14px;
+
+}
+.five{
+    height: 22vh;
+    width: 23vw;
+margin-left: 11vw;
+margin-top:5vh; 
+overflow: hidden;
+}
+.five img{
+    height: 22vh;
+width: 23vw;
+}
+.six{
+    width: 24vw;
+    height: 25vh;
+    overflow: hidden;
+margin-left: 7vw;
+margin-top: 17vh;
+}
+.six img{
+      width: 24vw;
+height: 25vh;
+}
+.seven{
+    width: 17vw;
+height: 15vh;
+margin-left: 2vw;
+margin-top:3vh;
+overflow: hidden;
+
+}
+.seven img{
+    width: 17vw;
+    height: 15vh;
+}
+/*footer*/
+.fouter{
+    flex-direction: column;
+ 
+}
+.fo1{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+.fo2{
+    width: 100%;
+    margin-top: 10vh;
+    margin: 0;
+    text-align: center;
+}
 
 
 }

@@ -1,24 +1,34 @@
 
 import React from "react";
+
 function Nav() {
   return (
 <div >
-<nav className="navbar navbar-expand-lg navbar-dark  navb">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+
+<div class="navbar navbar-expand-lg navbar-dark navb">
+  <div class="container-fluid">
+    <a class="navbar-brand" style={{width:40,height:40,zIndex:'9'}} ></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
-      <div className="navbar-nav  ">
-        
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+      
+        <li class="nav-item">
         <a className="nav-link active" href="#work">WORK</a>
+        </li>
+        <li>
         <a className="nav-link active" href="#About">ABOUT ME</a>
-        <a className="nav-link active" href="#Contact" tabindex="-1" aria-disabled="true">CONTACT</a>
-      </div>
+          
+        </li>
+        <li class="nav-item">
+          <a className="nav-link active" href="#Contact" >CONTACT</a>
+        </li>
+      </ul>
+     
     </div>
   </div>
-</nav>
+</div>
 </div>
   );
 }
