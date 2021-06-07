@@ -33,7 +33,7 @@ const Foot=()=>{
               <br/>
               <br/>
               <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">Have an idea?</p>
-              <span className="span" data-aos="fade-right" data-aos-delay="400" data-aos-duration="500">ronuxdnr@gmail.com</span>
+              <a style={{textDecorationLine:'none'}} href="mailto:ronuxdnr@gmail.com"><span className="span" data-aos="fade-right" data-aos-delay="400" data-aos-duration="500">ronuxdnr@gmail.com</span></a>
 
             </div>
             <div className="fo2 ">

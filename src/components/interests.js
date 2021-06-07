@@ -20,12 +20,12 @@ const Intrest=()=>{
     return(
         <div>
               <div className="table1">
-                  <div className="one"><img data-aos="fade-up"  src={img}/></div>
-                  <div className="two"><img data-aos="fade-up" src={img2}/></div>
-                  <div className="three"><img data-aos="fade-up" src={img3}/></div>
-                  <div className="four"><img data-aos="fade-up" src={img4}/></div>
+                  <div className="one"><img data-aos="fade-up" data-aos-delay="200"  src={img}/></div>
+                  <div className="two"><img data-aos="fade-up" data-aos-delay="400" src={img2}/></div>
+                  <div className="three"><img data-aos="fade-up" data-aos-delay="600" src={img3}/></div>
+                  <div className="four"><img data-aos="fade-up" data-aos-delay="800" src={img4}/></div>
               </div>
-              <div className="table2">
+              <div className="table2" data-aos="fade-up" data-aos-delay="1400">
                   <h1>Interests</h1>
                   <p>When I’m not working, I’m usually working out or trying my 
                       hand around a sketch. I love playing football, sometimes 
@@ -33,9 +33,9 @@ const Intrest=()=>{
                       conferences too!</p>
               </div>
               <div className="table3">
-              <div className="five"><img data-aos="fade-up"  src={img5}/></div>
-                  <div className="six"><img data-aos="fade-up" src={img6}/></div>
-                  <div className="seven"><img data-aos="fade-up" src={img7}/></div>
+              <div className="five"><img data-aos="fade-up" data-aos-delay="1400" src={img5}/></div>
+                  <div className="six"><img data-aos="fade-up" data-aos-delay="1200" src={img6}/></div>
+                  <div className="seven"><img data-aos="fade-up" data-aos-delay="1000" src={img7}/></div>
                   
                   </div>            
 

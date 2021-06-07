@@ -5,11 +5,12 @@ import "aos/dist/aos.css";
 import UX from './uxresearch';
 import PD from './product';
 import VD from './visual';
-
+import img from '../images/Contact-me.png'
 import gif from '../images/Hero-animation.gif';
 import './style/style.css';
 import Cont3 from './container3';
 import Countdown from './countdown';
+import Form from './form';
 import img1 from '../images/logo_mark.png';
 const Body=()=>{
     
@@ -52,16 +53,23 @@ const Body=()=>{
                       <span className="t-text"data-aos="new" data-aos-delay="1200"> meaningful impacts. Also, I design and  </span>  
                        <span className="t-text" data-aos="new" data-aos-delay="1200">can animate to make things more </span> 
                        <span className="t-text" data-aos="new" data-aos-delay="1400"> exciting!</span> 
-                       <div className="t-text"className="bt-n" data-aos="new" data-aos-delay="1500">
-                       <button type="button" class="btn btn-primary btn-lg b1">Let's talk!</button>
-<button type="button" class="btn btn-secondary btn-lg b2">Explore my work</button>
+                       <div className="bt-n" data-aos="new" data-aos-delay="1500">
+                      
+                       <button type="button" class="btn btn-primary btn-lg b1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Let's talk!
+</button>
+
+
+
+<a href='#work'>
+<button type="button"  class="btn btn-secondary  b2">Explore my work</button></a>
                        </div>
                        <div data-aos="new" data-aos-delay="1000">
                          
-                         <h3 className="contact">Contact</h3><h2 className="c2"> ronuxdnr@gmail.com</h2>
+                         <h3 className="contact">Contact</h3><a style={{textDecorationLine:'none'}} href="mailto:ronuxdnr@gmail.com"> <h2 className="c2"> ronuxdnr@gmail.com</h2>  </a>
                        </div>
                </div>
-               <div className="item-two " data-aos="new" data-aos-duration="1000"   ><img src={gif}/></div>
+               <div className="item-two " data-aos="fade-up" data-aos-duration="1000"   ><img src={gif}/></div>
 
           </div>
           {/* secound fase */}
@@ -94,7 +102,32 @@ const Body=()=>{
 
                     
                   
-          </div>       
+          </div>  
+
+
+
+
+
+                                 {/*-- Modal --*/}
+<div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{zIndex:'99999999999999'}}>
+  <div class="modal-fullscreen modal-dialog" >
+    <div class="modal-content " >
+      <div class="modal-header">
+      
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+           <div className='im'><img src={img}/><div className='top'><h6 style={{fontsize: '10px'}}>Don’t worry, I’m here to help you!</h6></div></div>
+           <div>
+               
+             <Form/>
+           </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
         
     </div>);
 }

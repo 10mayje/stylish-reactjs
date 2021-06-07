@@ -49,9 +49,9 @@ const Main=()=> {
       
       Aos.init({duration:800});
       timer(); 
-      return()=>{
+           return()=>{
         clearInterval(interval.current);
-      }     
+      }
       
     },[]); 
     return (
@@ -148,16 +148,16 @@ const Main=()=> {
                 <div className="n" ><button onClick={()=>setNav(1)}>PRODUCT DESIGN</button></div>
                 <div className="n"><button onClick={()=>setNav(2)}>VISUAL DESIGN</button></div>
                   
-             </div>  <hr style={{color:"white",marginTop:"-1vh"}}/>
+             </div>  <hr style={{color:"white"}}/>
              <div className="frame" data-aos="fade-up" data-aos-delay="200">
                      {nav==0?<UX/>:<div style={{diaplay:'none'}}></div>} {nav==2?<VD/>:<div style={{diaplay:'none'}}></div>}
                      {nav==1?<PD/>:<div style={{diaplay:'none'}}></div>}
                     </div>
 
-                    <hr style={{color:"white",marginTop:"-1vh"}} />
+                    <hr style={{color:"white"}} />
                     <div className="bio"><h1 className="anmate-text text-moving" >I’m crafting five new products at Stylework. Stay tuned for the updates!  </h1>
                       </div>
-                    <hr style={{color:"white",marginTop:"-1vh"}} />
+                    <hr style={{color:"white"}} />
                   
           </div>
           <div className='cont-3' data-aos="fade-up" data-aos-delay="1000">

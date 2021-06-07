@@ -8,6 +8,8 @@
 
 .anmate-text{
     font-family: Rubik;
+    margin-top: 51px;
+    margin-bottom: 51px;
 font-style: normal;
 font-weight: 300;
 font-size: 56px;
@@ -58,31 +60,40 @@ color: #EDEFF3;
 
 
 
-
-
+body{
+    position: static;
+    width: 100%;
+    background-color: #24292C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
 
 
 
 
 .main{
-   
-    background: linear-gradient(180deg, #26282B 0%, #08090C 100%);
-
-    width: 100vw;
+   background-color: #24292C;
+  
+    
+    width: 97.9vw;
 }
 
 .background{
   margin-left: 10vw;
   margin-right: 10vw;
+  
 }
 .navb{
     background-color:#26282B ;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 9999999;
 }
 .navbar-nav{
-    margin-left: 50vw;
+    margin-left: 45vw;
 }
 .nav-link{
     width: 15vw;
@@ -95,7 +106,7 @@ color: #EDEFF3;
 /* first box*/
 .container-one{
     display:flex;
-    
+    overflow: hidden;
     padding: 10px;
     
 }
@@ -105,9 +116,19 @@ color: #EDEFF3;
 .item-two{
     margin-top: 112px;
     margin-left: 2vw;
+    width: 90vw;
+    
+height: 70vh;
+    overflow: hidden;
+    
+    
 }
 .item-two img{
     width: 100%;
+    margin-left: -1vw;
+    
+  
+
 }
 .t-text{
    font-family: Rubik;
@@ -122,7 +143,7 @@ color: #EDEFF3;
 }
 .bt-n{
     display:flex;
-    margin-top: 10vh;     
+    margin-top: 7.5vh;     
 }
 .contact{
     font-family: Rubik;
@@ -153,15 +174,46 @@ color: #EDEFF3;
     margin-bottom: 2vh;
 }
 .b1{
+  
     background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
-    border: transparent;
+
+    margin-right: 18px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+border-color: #9cb7e7;
+border-radius: 4px;
+/* identical to box height, or 100% */
+width: 150px;
+height: 56px;
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
 }
 .b2{
     background: transparent;
     border: transparent;
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+width: 202px;
+height: 56px;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+/* Text/Tertiary */
+
+color: #BFC6EB;
 
 }
-
+.b2:hover{
+    background: transparent !important;
+}
 /* secound box*/
 .container-two{
     color:#939AA9;
@@ -186,11 +238,11 @@ color: #EDEFF3;
 }
 .item-3 h1{
     width:40vw;
-    opacity: 0.3;
+    opacity: 1;
 
-  
+    color: #363A40;;
     margin-top: 290px;
-   
+    font-family: Rubik;
 font-style: normal;
 font-weight: bold;
 font-size: 56px;
@@ -218,7 +270,7 @@ color: #939AA9;
     width: 100%!important;
     text-align: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 20vh;
     
 }
 
@@ -258,9 +310,16 @@ color: #939AA9;
 .box1{
     margin-bottom: 10vh;
     margin-left: 5vw;
+    width: 50vw;
     
 }
-
+.p{
+   opacity: 1;
+}
+.z{
+    
+    opacity: 0.5;
+}
 .b3{
     margin-left: 30vw;
 }
@@ -279,6 +338,19 @@ color: #EDEFF3;
     height: 84px;
     overflow: hidden;
 }
+.btext span{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* Text/Light-30 */
+
+color: #6C778C;
+}
 .box1 img{
 
 width: 50vw;
@@ -296,10 +368,74 @@ overflow: hidden;
     
     
 }
+.number{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+color: #6C778C;
+letter-spacing: 0.05em;
+transform: rotate(-90deg);
+/* Text/Dark-grey */
+position:absolute;
+top: 19vh;
+left: 31vw;
+z-index: 99999999999;
 
+}
+.number2{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+color: #6C778C;
+letter-spacing: 0.05em;
+transform: rotate(-90deg);
+/* Text/Dark-grey */
+position:absolute;
+top: 117vh;
+left: 3.9vw;
+z-index: 99999999999;
 
+}
+.number3{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+color: #6C778C;
+letter-spacing: 0.05em;
+transform: rotate(-90deg);
+/* Text/Dark-grey */
+position:absolute;
+top: 214vh;
+left: 31vw;
+z-index: 99999999999;
 
+}
+.number4{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+color: #6C778C;
+letter-spacing: 0.05em;
+transform: rotate(-90deg);
+/* Text/Dark-grey */
+position:absolute;
+top: 312vh;
+left: 3.9vw;
+z-index: 99999999999;
 
+}
 
 
 .dis{
@@ -317,7 +453,7 @@ color: #939AA9;
 font-style: normal;
 font-weight: bold;
 font-size: 56px;
-line-height: 72px;
+line-height: 62px;
 
 color: #EDEFF3;
 }
@@ -334,12 +470,12 @@ margin-top: 72px;
 flex-direction: row;
 align-items: flex-start;
 
-margin-right: 10%;
+margin-right: 64px;
 position: static;
 flex: none;
 order: 2;
 flex-grow: 0;
-
+margin-bottom: 8px;
 }
 .frame{
     margin-top: 10vh;
@@ -360,6 +496,53 @@ flex-grow: 0;
 }
 .n button:hover{
     color:#c1c4d6;
+}
+.invisible{
+    display: none;
+}
+.invisible a{
+    display: none;
+}
+.hoverbutton{
+    position: absolute;
+    z-index: 999999999;
+    display: flex;
+    left: 22vw;
+    margin-top:25vh;
+}
+.hoverbutton2{
+    position: absolute;
+    z-index: 999999999;
+    display: flex;
+    left: 50vw;
+    margin-top:29vh;
+}
+.bt-1{
+    width: 196px;
+height: 56px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+color: #EDEFF3;
+background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+box-shadow: -5px -5px 30px rgba(255, 255, 255, 0.25), 10px 10px 40px #0C0D0E;
+border-radius: 4px;
+}
+.bt-2{
+    margin-top: 32px;
+    width: 196px;
+height: 56px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #EDEFF3;
+    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+    box-shadow: -5px -5px 30px rgba(255, 255, 255, 0.25), 10px 10px 40px #0C0D0E;
+    border-radius: 4px;
 }
 
 .black{
@@ -491,7 +674,7 @@ overflow: hidden;
 /* footer */
 .bottom{
     margin-left: 10vw;
-    margin-right: 10vw;
+   
 }
 
 
@@ -555,11 +738,254 @@ color: #7C7F86;
 }
 .icons img{
     margin: 5px;
-    width: 40px;
-height: 25px;
+
 margin-right: 4%;
 }
 .last{
     text-align: center;
     padding-bottom: 5vh;
+}
+.copy{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+/* Text/Dark-20 */
+
+color: #363A40;
+}
+
+
+
+/*model*/
+.modal-content{
+    background: #2D3136;
+   border-radius: 20px;
+
+    box-shadow: 10px 10px 40px 0px rgba(12, 13, 13, 0.7);
+
+box-shadow: -10px -10px 40px 0px rgba(212, 211, 226, 0.15);
+
+box-shadow: 5px 5px 24px 0px rgba(12, 13, 13, 0.25) inset;
+
+box-shadow: -5px -5px 24px 0px rgba(179, 178, 186, 0.05) inset;
+
+
+
+}
+.model{
+    padding: 0;
+}
+.modal-fullscreen{
+    width: 80vw!important;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    height: 89vh;
+    background: #2D3136;
+ 
+    box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15), 10px 10px 40px rgba(12, 13, 13, 0.7), inset -5px -5px 24px rgba(179, 178, 186, 0.05), inset 5px 5px 24px rgba(12, 13, 13, 0.25);
+    border-radius: 20px;
+   
+}
+
+.modal-header{
+    border: transparent;
+}
+.modal-footer{
+    border: transparent;
+}
+
+.modal-body img{
+    
+width: 35vw;
+height: 70vh;
+margin-left: 60px;
+margin-top: 20px;
+padding: 0!important;
+
+}
+.modal-body{
+    display: flex;
+
+}
+.from{
+    width: 30vw;
+    margin-left: 3vw;
+}
+.texttop h1{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+color: #EDEFF3;
+}
+.top{
+    display: none;
+}
+.im{
+    display: flex;
+}
+.texttop p{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #939AA9;
+}
+.inputtext label{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+margin-top: 36px;
+
+/* Text/Light-20 */
+
+color: #939AA9;
+
+}
+.inputtext input{
+    background: transparent;
+    border-left-width: 2px;
+    
+    border-right-width: 0px;
+    /*border-color: linear-gradient(to right, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0));*/
+    width: 360px;
+height: 56px;
+border-radius: 4px 0px 0px 4px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+margin-top: 10px;
+
+/* Text/Light */
+
+color: #FCFCFC;
+}
+.inputtext textarea{
+    border-left-width: 2px;
+  
+    border-right-width: 0px;
+    height: 192px;
+    background: transparent;      
+    width: 360px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    margin-top: 10px;
+    
+    /* Text/Light */
+    
+    color: #FCFCFC;
+    border-radius: 4px 0px 0px 4px;
+}
+.inputtext button{
+    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+border-radius: 4px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+margin-top: 40px;
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
+
+width: 250px;
+height: 56px;
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+}
+.ondone{
+    text-align: center;
+    margin-left: 12.5vw;
+    
+}
+.ondone img{
+    width: 50vw;
+    height: 50vh;
+}
+.ondone button{
+    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+    
+    border-radius: 4px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+width: 258px;
+height: 56px;
+margin-top: 50px;
+/* identical to box height, or 100% */
+
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
+
+}
+.ondone h2{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
+}
+.ondone p{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+/* Text/Light-20 */
+
+color: #939AA9;
+}
+.ondone span{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
+}
+.i{
+    display: block;
+}
+.k{
+    display: none;
 }

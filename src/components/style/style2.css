@@ -1,10 +1,15 @@
 @media screen and (max-width: 680px){
     .backgound{
-        margin-right: 7vw;
+      
         margin-left: 7vw;
+      }
+      .main{
+          width: 100vw;
+          position:absolute;
       }
     .navb{
         position: fixed;
+        width: 100vw;
     }
     .navbar-nav{
         margin-left: 4vw;
@@ -26,25 +31,39 @@
 .item-two{
     margin: 0;
     margin-top: 74px;
+    height: 35vh;
     
 }
 .item-two img{
     width: 80vw;
 }
 .bt-n{
-    width: 400px;
+    width: 100vw;
+    margin-left: 0;
+    position: absolute;
+    
 }
 .b1{
     font-size: 16px!important;
+    width: 30vw;
+    height: 40px;
+    
+}
+.b2{
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+    height: 40px;
 }
 .contact{
 
-margin-top: 15vh;
+margin-top: 30vh;
 }
 
 .item-one h1{
     margin-top: 20px;  
     margin-bottom: 2vh;
+    font-size: 40px;
 }
 
 .container-two{
@@ -106,6 +125,7 @@ color: #939AA9;
 }
 /* fourth box*/
 .box1{
+    width: 95vw;
   
     margin-left: 0vw;
 }
@@ -114,28 +134,46 @@ color: #939AA9;
     margin-left: 0vw;
 }
 .box1 h2{
-    font-family: Rubik;
-font-style: normal;
-font-weight: normal;
+ 
 font-size: 14px;
 line-height: 14px;
 margin-top: 4vh;
-width: 90%;
+width: 95%;
 color: #EDEFF3;
 
+}
+.btext span{
+    font-size: 14px;
+line-height: 14px;
+}
+.number{
+    top: 10vh;
+    left: 37vw;
+}
+.number2{
+    top: 67vh;
+    left: 37vw;
+}
+.number3{
+    top:123vh;
+    left: 37vw;
+}
+.number4{
+    top:180vh;
+    left: 37vw;
 }
 .btext{
     height: 70px;
 }
 .box1 img{
 
-width: 100%;
-height: auto;
+width: 95vw;
+height: 36vh;
  transition: all 0.3s ease 0s;
 overflow: hidden;
 }
 .box1 div{
-    width: 90%;
+    width: 95%;
     overflow: hidden;
 }
   
@@ -155,7 +193,7 @@ line-height: 32px;
 .head{
  
 font-size: 26px;
-line-height: 30px;
+line-height: 29px;
 margin-top: 10vh;
 ;
 }
@@ -178,10 +216,40 @@ margin-right: 0;
 }
 .n button{
     position: static;
+    font-size: 11px;
+    margin-right: 2vw;
+    margin-bottom: 0.5vh;
+
+
+}
+
+.invisible{
+    display: none;
+}
+.invisible a{
+    display: none;
+}
+.hoverbutton{
+ 
+    margin-left: 1vw;
+   margin-top:-23vh ; 
+}
+.bt-1{
+    width: 96px;
+height: 36px;
+
+font-size: 12px;
+line-height: 12px;
+
+}
+.bt-2{
+    margin-top: 12px;
+    width: 96px;
+height: 36px;
+   
     font-size: 12px;
-    margin-bottom: 1vh;
-
-
+    line-height: 12px;
+  
 }
 .system{
     width: 90vw;
@@ -285,6 +353,182 @@ overflow: hidden;
     margin: 0;
     text-align: center;
 }
+
+
+
+
+.anmate-text{
+    font-family: Rubik;
+    margin-top: 30px;
+    margin-bottom: -1px;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 16px;
+
+}
+.modal-content{
+    background: #2D3136;
+    box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15), 10px 10px 40px rgba(12, 13, 13, 0.7), inset -5px -5px 24px rgba(179, 178, 186, 0.05), inset 5px 5px 24px rgba(12, 13, 13, 0.25);
+    border-radius: 20px;
+
+
+}
+.model{
+    padding: 0;
+}
+.modal-fullscreen{
+    width: 85vw!important;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    height: 89vh;
+    position: fixed;
+    
+   
+}
+.im{
+    width: 90vw;
+    
+}
+.top{
+    display: block;
+ 
+width: 150px;
+height: 42px;
+
+margin-top: 7vh;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+
+
+color: #EDEFF3;
+}
+.modal-header{
+    margin: 0;
+    height: 0px;
+}
+.modal-body img{
+    
+width: 30vw;
+height: 20vh;
+margin-left: 5px;
+margin-top: 0px;
+padding: 0!important;
+
+}
+.modal-body{
+    flex-direction: column;
+    margin-top: 0vh;
+
+}
+.from{
+    width: 70vw;
+    margin-left: 3vw;
+}
+.texttop h1{
+display: none;
+font-size: 20px;
+line-height: 20px;
+
+}
+.texttop p{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #939AA9;
+}
+.inputtext label{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+margin-top: 5px;
+
+/* Text/Light-20 */
+
+color: #939AA9;
+
+}
+.inputtext input{
+    background: transparent;
+    width: 360px;
+height: 46px;
+border-radius: 4px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+margin-top: 0px;
+
+/* Text/Light */
+
+color: #FCFCFC;
+}
+.inputtext textarea{
+    height: 100px;
+    
+    /* or 150% */
+    margin-top: 10px;
+    
+    /* Text/Light */
+    
+    color: #FCFCFC;
+border-radius: 4px;
+}
+.inputtext button{
+    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+border-radius: 4px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+margin-top: 0px;
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
+
+width: 250px;
+height: 46px;
+
+}
+
+
+.ondone{
+    width: 80vw;
+    margin: 0;
+}
+
+.ondone img{
+    width: 100%;
+    height: auto;
+}
+
+.ondone h2{
+    font-size: 16px;
+line-height: 21px;
+margin-top: 16px;
+}
+.ondone p{
+    font-size: 12.9px;
+line-height: 13px;
+margin-top: 22px;
+}
+.ondone button{
+    margin-top: 58px;
+}
+
+
+
 
 
 }

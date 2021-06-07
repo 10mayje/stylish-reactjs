@@ -22,10 +22,11 @@ const PD=()=>{
                          <img  src={Img}/>    
                         </div>
                     
-                    </a></Tilt></div>
+                    </a></Tilt><h2 className="number">01</h2> 
+                    </div>
                 <div className="btext">
 
-                   <h2  data-aos="new" data-aos-delay="1000">PAYU NEXTGEN MERCHANTS</h2> 
+                   <h2  data-aos="new" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">PAYU NEXTGEN MERCHANTS</h2> 
                 </div>
             
         </div>
@@ -37,9 +38,10 @@ const PD=()=>{
                          <img  src={Img2}/>    
                         </div>
                     
-                    </a></Tilt></div>
+                    </a></Tilt><h2 className="number2">02</h2> 
+                    </div>
                 <div className="btext">
-<h2  data-aos="new" data-aos-delay="1000">KLOH APP-MEET WITH PEOPLE OFFLINE</h2>
+<h2  data-aos="new" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">KLOH APP-MEET WITH PEOPLE OFFLINE</h2>
 
                 </div>
             
@@ -52,9 +54,10 @@ const PD=()=>{
                          <img  src={Img3}/>    
                         </div>
                     
-                    </a></Tilt></div>
+                    </a></Tilt><h2  className="number3">03</h2> 
+                    </div>
                     <div className="btext">
- <h2 data-aos="new" data-aos-delay="1000">ETARK-APPLICATION DESIGN + BUSINESS ADVISORY</h2>
+ <h2 data-aos="new" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">ETARK-APPLICATION DESIGN + BUSINESS ADVISORY</h2>
 
                     </div>
            
