@@ -66,7 +66,12 @@ const Body=()=>{
                        </div>
                        <div data-aos="new" data-aos-delay="1000">
                          
-                         <h3 className="contact">Contact</h3><a style={{textDecorationLine:'none'}} href="mailto:ronuxdnr@gmail.com"> <h2 className="c2"> ronuxdnr@gmail.com</h2>  </a>
+                         <h3 className="contact">Contact</h3>
+                          
+                         <h2 className="c2"> <a style={{textDecorationLine:'none',color:'#EDEFF3'}} href="mailto:ronuxdnr@gmail.com">
+                         ronuxdnr@gmail.com</a>
+                         </h2>  
+                         
                        </div>
                </div>
                <div className="item-two " data-aos="fade-up" data-aos-duration="1000"   ><img src={gif}/></div>
