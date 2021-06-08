@@ -5,8 +5,16 @@ const Form=()=>{
     const [text,setText]=useState('');
     const [text2,setText2]=useState('');
     const [r,setR]=useState(0);
-    const [style,setStyle]=useState('i');
-
+    const [style,setStyle]=useState('k');
+    const [style2,setStyle2]=useState('k');
+   const click=()=>{
+     if(text==''){
+       setStyle('id')
+     }
+     if(text2==''){
+       setStyle2('id')
+     }
+   } 
    const sendEmail=(e)=>{
        e.preventDefault();
        
@@ -42,20 +50,23 @@ const Form=()=>{
                    even end-to-end product design projects!</p>
           </div>
           <div className="inputtext">
-             <form onSubmit={sendEmail}>
+             <form onSubmit={sendEmail} >
                  <label>What do you want me to call you?</label><br/>
-                 <input placeholder='Tell me your name' type='text' name='name' value={text} onChange={(e)=>{
+              
+                    <input id={style} placeholder={style=='id'?'This is important to be filled up!':'Tell me your name'} type='text' name='name' value={text} onChange={(e)=>{
                      setText(e.target.value);
                    
                 
-                }} required /><br/>
+                }} required />
+                
+                <br/>
                  <label>What do you want me to build/solve?</label><br/>
-                 <textarea placeholder='Tell me what you want to solve' name='message' onChange={(e)=>{
+                 <textarea id={style2} placeholder={style=='id'?'This is important to be filled up!':'Tell me what you want to solve'} name='message' onChange={(e)=>{
                     setText2(e.target.value);
                   
                  }
                    } required>{text2}</textarea><br/>
-                 {text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
+                 {text==''||text2==''?<button type='button' onClick={click} style={{background: '#656971'}} >Send your requirement</button>:
                  <button type='submit'  data-bs-toggle="modal" data-bs-target="#example"   >Send your requirement</button>}
              </form>
 

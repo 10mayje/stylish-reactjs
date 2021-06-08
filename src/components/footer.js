@@ -32,6 +32,7 @@ const Foot=()=>{
                 </h2>
               <br/>
               <br/>
+              <br/>
               <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">Have an idea?</p>
               <a style={{textDecorationLine:'none'}} href="mailto:ronuxdnr@gmail.com"><span className="span" data-aos="fade-right" data-aos-delay="400" data-aos-duration="500">ronuxdnr@gmail.com</span></a>
 
@@ -46,7 +47,7 @@ const Foot=()=>{
                 <img  src={icon2}/>
                 <img src={icon3}/>
                 <img src={icon4}/>
-                <img src={icon5}/>
+                <img src={icon5} />
                 <img src={icon6}/>
               
               </div>
