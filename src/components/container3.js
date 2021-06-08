@@ -39,19 +39,22 @@ const Cont3=()=>{
 
      <span data-aos="new" data-aos-delay="200">A little bit about me. I started my career as a freelancer in </span>
            <span data-aos="new" data-aos-delay="400">graphics design when I discovered UI and slowly started  </span>
-           <span data-aos="new" data-aos-delay="600">thinking about user experience. I’ve done my master’s </span>
-           <span data-aos="new" data-aos-delay="800">in Human-computer Interaction from University of York,   </span>
-           <span data-aos="new" data-aos-delay="1000">United Kingdom, the time which got me hooked to user </span>
-           <span data-aos="new" data-aos-delay="1200"> experience research. After a considerable amount of academic </span>
+           <span data-aos="new" data-aos-delay="600">thinking about user experience. I’ve done my master’s in</span>
+           <span data-aos="new" style={{color:'#FCFCFC'}} data-aos-delay="800"> Human-computer Interaction    </span>
+           <span data-aos="new" data-aos-delay="800">  from    </span>
+           <span data-aos="new" style={{color:'#FCFCFC'}} data-aos-delay="900">  University of York, United Kingdom,  </span>
+           <span data-aos="new" data-aos-delay="1000"> the time which got me hooked to  </span>
+           <span data-aos="new" style={{color:'#FCFCFC'}} data-aos-delay="1100"> user  experience research.</span>
+           <span data-aos="new" data-aos-delay="1200">  After a considerable amount of academic </span>
            <span data-aos="new" data-aos-delay="1400">research, I started my journey as a UX-er in industry.</span>
            <span data-aos="new" data-aos-delay="1600"> Although my expertise lies in UX, I love aesthetics and </span>
            <span data-aos="new" data-aos-delay="1800"> hence like contributing to design in every way possible </span>
            <span data-aos="new" data-aos-delay="1800"> (yes, including motion).</span>  
-           <br/>
-           <br/>
+           </p>
+           <p className='belowtext'>
             <span data-aos="new" data-aos-delay="1900" >      
            I prefer outcomes which can influence human behaviours </span>
-           <span data-aos="new" data-aos-delay="2000">and have a meaningful impact. Occasionally, I draw :)</span> 
+           <span data-aos="new" data-aos-delay="2100">and have a meaningful impact. Occasionally, I draw :)</span> 
              </p>
       
           

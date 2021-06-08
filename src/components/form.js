@@ -1,6 +1,9 @@
 import emailjs from 'emailjs-com';
 import React, { useEffect,useState,useRef } from "react";
-import img from '../images/Contact-me.png'
+import img from '../images/Contact-me.png';
+import bt from '../images/send request def.png';
+import bt2 from '../images/send req.png';
+import bt3 from '../images/send req2.png'
 const Form=()=>{
     const [text,setText]=useState('');
     const [text2,setText2]=useState('');
@@ -12,7 +15,7 @@ const Form=()=>{
        setStyle('id')
      }
      if(text2==''){
-       setStyle2('id')
+       setStyle2('id2')
      }
    } 
    const sendEmail=(e)=>{
@@ -87,8 +90,13 @@ const Form=()=>{
           <div className='ondone'>
               <img src={img} />
               <h2>I’ll go through your requirements and get back you.</h2>
-              <p>Alternatively, you can reach out to me on   <span>+91-8017697352</span></p>
-              <button type="button"  data-bs-dismiss="modal">Back to seeing my work!</button>
+              <p>Alternatively, you can reach out to me on   <span className='no'>+91-8017697352</span></p>
+
+
+                 
+               <button type="button"  data-bs-dismiss="modal">Back to seeing my work!</button>
+                
+              
           </div>
       </div>
      

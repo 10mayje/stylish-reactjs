@@ -12,6 +12,7 @@ import Cont3 from './container3';
 import Countdown from './countdown';
 import Form from './form';
 import img1 from '../images/logo_mark.png';
+import imgbtn from "../images/Let's-talk.png";
 const Body=()=>{
     
     const [nav,setNav]=useState(0);
@@ -27,7 +28,7 @@ const Body=()=>{
     
     return(
     <div className="background">
-       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'10px',marginLeft:'0.5vw'}}>
+       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'15px',marginLeft:'0.5vw'}}>
             <img src={img1}/>
         </div> 
         <div className="container-one" > 
@@ -54,15 +55,19 @@ const Body=()=>{
                        <span className="t-text" data-aos="new" data-aos-delay="1200">can animate to make things more </span> 
                        <span className="t-text" data-aos="new" data-aos-delay="1400"> exciting!</span> 
                        <div className="bt-n" data-aos="new" data-aos-delay="1500">
-                      
-                       <button type="button" class="btn btn-primary btn-lg b1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   {/*
+                                  <button type="button" class=" b1" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Let's talk!
 </button>
-
+    
+                   
+                   */}    
+  <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img className='b1' src={imgbtn} />
+    </a> 
 
 
 <a href='#work'>
-<button type="button"  class="btn btn-secondary  b2">Explore my work</button></a>
+<button type="button"  class="  b2">Explore my work</button></a>
                        </div>
                        <div data-aos="new" data-aos-delay="1000">
                          

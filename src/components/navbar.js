@@ -1,16 +1,28 @@
 
-import React from "react";
-
+import React,{useState} from "react";
+import './style/extra.css';
 function Nav() {
+  
+  const [style,setStyle]=useState('menu-collapsed');
+  const menu=()=>{
+    //var element = document.getElementsByClassName("menu-collapsed");
+  //element.classList.toggle("menu-expanded");
+  if(style=='menu-collapsed'){
+    setStyle('menu-expanded');
+  }
+  else{
+    setStyle('menu-collapsed');
+  }
+  
+  
+  }
+
   return (
 <div >
 
 <div class="navbar navbar-expand-lg navbar-dark navb">
-  <div class="container-fluid">
-    <a class="navbar-brand" style={{width:40,height:40,zIndex:'9'}} ></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="container-fluid topbar">
+ 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ">
       
@@ -29,6 +41,23 @@ function Nav() {
     </div>
   </div>
 </div>
+
+
+<div class={style}>
+  <div className='bar2'>
+    <div onClick={menu} class="bar"></div>
+  </div>
+   
+   <nav>
+      <ul>
+         <li><a onClick={menu} href="#work">WORK</a></li>
+         <li><a onClick={menu} href="#About">ABOUT ME</a></li>
+         <li><a onClick={menu} href="#Contact">CONTACT</a></li>
+        
+      </ul>
+   </nav>
+</div>
+
 </div>
   );
 }
