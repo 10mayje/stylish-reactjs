@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from './components/navbar';
-import Main from './components/main';
+
 import Intrest from './components/interests';
 import "./components/style/style.css";
 import "./components/style/style2.css";

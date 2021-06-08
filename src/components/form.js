@@ -1,9 +1,7 @@
 import emailjs from 'emailjs-com';
-import React, { useEffect,useState,useRef } from "react";
+import React, { useState } from "react";
 import img from '../images/Contact-me.png';
-import bt from '../images/send request def.png';
-import bt2 from '../images/send req.png';
-import bt3 from '../images/send req2.png'
+
 const Form=()=>{
     const [text,setText]=useState('');
     const [text2,setText2]=useState('');
