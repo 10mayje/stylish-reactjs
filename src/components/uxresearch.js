@@ -63,7 +63,7 @@ const UX=()=>{
                        </div> 
                     </div>
 
-                    <div className="btext">
+                    <div className="btext" style={{display:'flex'}}>
                      <h2 className={style}>TRUST, SATISFACTION & LOYALTY ACROSS M-COMMERCE APPS</h2>   
                     </div>
             
@@ -89,7 +89,7 @@ const UX=()=>{
         <div className="box1" >
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://blog.prototypr.io/a-step-away-from-privacy-hoax-d6e29ced0488' target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
+                <div width="100%" data-aos="fade-up" data-aos-delay="700" >
                          <img  src={Img3}/>    
                         </div>
                     </a></Tilt>
@@ -107,15 +107,15 @@ const UX=()=>{
 
         </div>
         <div className="box1 b3" >
-            <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
+            <div>                   <Waypoint
+  onEnter={timer4} onLeave={end4}
+/><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://blog.prototypr.io/ecogrocer-app-an-ux-case-study-2e2a9dba5d8e' target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+                <div width="100%" data-aos="fade-up" data-aos-delay="500">
                          <img  src={Img4}/>    
                         </div>
                     </a></Tilt>
-                    <Waypoint
-  onEnter={timer4} onLeave={end4}
-/>
+ 
                     <div className={style4}><h2  className="number4">04</h2> 
                         </div>
                     </div>

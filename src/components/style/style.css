@@ -231,7 +231,7 @@ text-decoration-line: underline;
 }
 .b1{
   
-    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+    
      
     margin-right: 18px;
     font-family: Rubik;
@@ -239,7 +239,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 16px;
-border-image: linear-gradient(90deg, rgba(248, 238, 250, 0.7), rgb(250,224,66,0)) 1 ;
+
 
 cursor: pointer;
 
@@ -451,7 +451,8 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 21vh;
+
+top: 21.5vh;
 left: 32vw;
 z-index: 99999999999;
 
@@ -892,9 +893,9 @@ border-radius: 20px!important;
 }
 .modal-fullscreen{
     width: 80vw!important;
-    margin-top: 9vh;
+    margin-top: 7.5vh;
     margin-left: 10vw;
-    height: 88vh;
+    height: 91vh;
     background: #2D3136;
  
     box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15), 10px 10px 40px rgba(12, 13, 13, 0.7), inset -5px -5px 24px rgba(179, 178, 186, 0.05), inset 5px 5px 24px rgba(12, 13, 13, 0.25);
@@ -962,40 +963,70 @@ margin-top: 9px;
 color: #939AA9;
 
 }
-.inputtext{
-    background:linear-gradient(90deg,transparent,solid)  ;
-}
-.inputtext input{
-    background: transparent;
-  /*  border-radius:5px; 
-    border:1px solid transparent; 
-    background:linear-gradient(90deg,rgba(252, 253, 253, 0.7),rgb(250,224,66,0)) border-box; 
-    -webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;*/
-    border-radius:5px; /*1*/
-   border: 1px solid;
 
-/*border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%) 1;
-
-*/
-   width: 360px;
+.button {
+    background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
+    border-radius: 5px;
+    color: #122dff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .button input {
+    background: #2D3136;
+    border: transparent;
+    display: block;
+    width: 360px;
 height: 56px;
-border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%) 1;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 18px;
-/* or 150% */
-margin-top: 10px;
-padding-left: 20px;
-margin-bottom: 25px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+
 /* Text/Light */
 
 color: #FCFCFC;
-}
+    padding: 1em 3em;
+    border-radius: 6px;
+  }
+  .button2 {
+    background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
+    border-radius: 5px;
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 10px;
+    
+  }
+  .button2 textarea {
+    background: #2D3136;
+    border: transparent;
+    display: block;
+    height: 192px;
+         
+    width: 360px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
 
+
+/* Text/Light */
+
+color: #FCFCFC;
+    padding: 1em 3em;
+    border-radius: 6px;
+  }
+ 
 .inputtext input::placeholder{
     position: absolute;
     
@@ -1005,7 +1036,7 @@ color: #FCFCFC;
     font-size: 12px;
     line-height: 12px;
     color: #656971;
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 .borders{
@@ -1015,33 +1046,10 @@ color: #FCFCFC;
     width: 360px;
     height: 56px;
 }
-.inputtext textarea{
-    border-radius:5px; /*1*/
-    border: 1px solid;
 
-border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%) 1;
-
-
-    background: transparent;
-    
-
-  margin-top: 10px;
-    height: 192px;
-         
-    width: 360px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    padding-top: 21px;
-    padding-left: 20px;
-    color: #FCFCFC;
-
-}
 .inputtext textarea::placeholder{
     position: absolute;
-    
+margin-top: 10px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -1173,7 +1181,7 @@ color: #EDEFF3;
     position: absolute;
     background-color: #4E3333;
     height: 15px;
-    margin-top: 17px;
+    margin-top: 7px;
     padding-top: 5px;
     padding: 3px;
 

@@ -78,7 +78,7 @@ line-height: 12px;
 /* Text/Alternate-light-grey */
 
 color: #EDEFF3;
-
+background: transparent;
     
 }
 .b2{
@@ -731,6 +731,28 @@ color: #EDEFF3;
     margin: 0;
     height: 0px;
 }
+
+.m img{
+    
+    margin-left: 0px!important;
+    width: 200px!important;
+height: 56px!important;
+margin-top: 5px!important;
+}
+
+.mb img{
+    
+ 
+    width: 200px!important;
+height: 56px;
+margin-left:-13vw!important;
+margin-top: -5px!important;
+}
+.mb{
+    margin: 0!important;
+ 
+}
+
 .modal-body img{
     
     width: 97px;
@@ -802,7 +824,8 @@ height: 172px;
 border-radius: 4px;
 }
 .inputtext button{
-    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+    background:transparent;
+
 border-radius: 4px;
 font-family: Rubik;
 font-style: normal;

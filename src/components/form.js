@@ -57,22 +57,33 @@ const Form=()=>{
           <div className="inputtext">
              <form onSubmit={sendEmail} >
                  <label>What do you want me to call you?</label><br/>
-                   
-                      <input id={style} placeholder={style=='id'?'This is important to be filled up!':'Tell me your name'} type='text' name='name' value={text} onChange={(e)=>{
+
+                 <div  class="button" >
+                   <input id={style} placeholder={style=='id'?'This is important to be filled up!':'Tell me your name'} type='text' name='name' value={text} onChange={(e)=>{
                      setText(e.target.value);
                    
                 
                 }} required />
+                   </div>
+                      
                   
                     
                 
                 <br/>
                  <label>What do you want me to build/solve?</label><br/>
-                 <textarea id={style2} placeholder={style=='id'?'This is important to be filled up!':'Tell me what you want to solve'} name='message' onChange={(e)=>{
+
+
+
+                 <div  class="button2" >
+                     <textarea id={style2} placeholder={style=='id'?'This is important to be filled up!':'Tell me what you want to solve'} name='message' onChange={(e)=>{
                     setText2(e.target.value);
                   
                  }
-                   } required>{text2}</textarea><br/>
+                   } required>{text2}</textarea>
+
+                   </div>
+                      
+              
                  
                  {text==''||text2==''?<a style={{cursor: 'pointer'}} className='m' onClick={click}><img src={btnreq}/>    </a>:
                  <button type='submit' className='mb'  data-bs-toggle="modal" data-bs-target="#example"   ><img src={btnreq2}/></button>}
