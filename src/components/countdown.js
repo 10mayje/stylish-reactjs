@@ -17,25 +17,32 @@ const Countdown=()=>{
    const [t,setT]=useState(0);
    const [text3,setText3]=useState(0);
    const [style,setStyle]=useState('k');
-   
-  let interval=useRef();
+   const [counter, setCounter] = useState(0);
+  
   let j;
   let k;
   let i=0;
 
+const timer=()=>{
+  console.log('off')
+}
 
 
 
 
 
-
-  const timer=()=>{
-
-    interval=setInterval(()=>{
-      j=Math.floor(i/12);
-      k=Math.floor((i*5)/24);  
-     
-         if(j>=2){
+  useEffect(() => { 
+   
+    Aos.init({duration:800});
+    const timer =
+      counter < 60 && setInterval(() => {
+        
+        
+        setCounter(counter + 1);
+        i=counter;
+        j=Math.floor(i/12);
+        k=Math.floor((i*5)/24); 
+        if(j>=2){
           setText(1);
           setStyle('animated')
           setCount(2);
@@ -62,23 +69,15 @@ const Countdown=()=>{
          else{
             setCount3(i);
          }
-
-      i=i+1;
+         
       
-    },600);
-    
-  }
-
-
-    
-     useEffect(()=>{ 
       
-       
-       Aos.init({duration:800});
-       
-    
       
-     },[]); 
+      }, 300);
+    return () => clearInterval(timer);
+  }, [counter]);
+    
+ 
 return(
 
   <div>
@@ -179,18 +178,31 @@ return(
 
 
 
-
-
-
-
-
-
-
-
-
-
   </div>
 
 )
 }
-export default Countdown;
+
+const Countdown2=()=>{
+  const [c,setC]=useState(0);
+  const timer=()=>{
+    setC(1);
+  }
+
+
+  return(
+    <div>
+       <Waypoint
+  onEnter={timer} 
+  
+/>
+<Countdown/>  
+      
+    </div>
+
+  );
+
+}
+
+
+export default Countdown2;

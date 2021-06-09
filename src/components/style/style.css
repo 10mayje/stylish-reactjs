@@ -354,7 +354,7 @@ color: #939AA9;
    
 }
 .item-3 h1{
-    width: 600px;
+    width: 460px;
 height: 283px;
     opacity: 1;
 
@@ -372,8 +372,8 @@ letter-spacing: 0.0025em;
 
 .item-3 p{
     font-family: Rubik;
-    justify-content: right;
-    float: right;
+    
+   
     width: 95%;
 font-style: normal;
 font-weight: normal;
@@ -1432,6 +1432,7 @@ color: #B83939;
     .fo2{
         margin-left: 27vw!important;
     }
+  
     }
 
 
@@ -1441,8 +1442,17 @@ color: #B83939;
          .navbars{
              margin-right: 10vw;
          }
-        
-
-
+         .form{
+             margin-right: 10vw;
+         }
+         .modal-body{
+             margin-top: 10vh;
+         }
+         .inputtext button{
+            margin-top: 10vh;
+         }
+         .modal-content{
+             height: 70vh!important;
+         }
 
         }    
