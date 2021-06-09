@@ -90,7 +90,7 @@ const Form=()=>{
               
                  
                  {text==''||text2==''?<a style={{cursor: 'pointer'}} className='m' onClick={click}><img src={btnreq}/>    </a>:
-                 <button type='submit' onClick={short} className='mb'  data-bs-toggle="modal" data-bs-target="#example"   ><img src={btnreq2}/></button>}
+                 <button type='submit' onClick={short} className='mb'  data-bs-toggle="modal" data-bs-target="#example" data-bs-dismiss="modal"  ><img src={btnreq2}/></button>}
                  
                  {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
                  <button type='submit'  data-bs-toggle="modal" data-bs-target="#example"   >Send your requirement</button>}
@@ -103,10 +103,10 @@ const Form=()=>{
 
          <div className='style'>
 
-               <div class="modal fade  " id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{zIndex:'99999999999999'}}>
+               <div class="modal fade  " id="example" tabindex="-1" aria-labelledby="exampleModalLabel"  aria-hidden="true" style={{zIndex:'99999999999999'}}>
                  
 
-  <div class="modal-fullscreen modal-dialog "  >
+  <div class=" modal-dialog "  >
     <div class="modal-content " >
     
       

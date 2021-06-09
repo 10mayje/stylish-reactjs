@@ -144,6 +144,14 @@ body{
     height: 103px!important;
     box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
 }
+.navb2{
+    background-color:#26282B ;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    height: 103px!important;
+  
+}
 .navbar-nav{
     margin-left: 62.5vw;
 }
@@ -173,8 +181,8 @@ body{
 }
 .item-two{
     margin-top: 100px;
-    margin-left: 2vw;
-    width: 90vw;
+    margin-left: 4vw;
+    width: 99vw;
     height: 549px!important;
    
     overflow: hidden;
@@ -183,7 +191,7 @@ body{
 }
 .item-two img{
     margin-top: 10px;
-    width: 648px;
+    width: 709px;
 height: 549px!important;
     margin-left: -1vw;
     
@@ -478,13 +486,13 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 24px;
-opacity: 0.5;
+opacity: 1;
 /* identical to box height, or 100% */
 color: #6C778C;
 letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
-position:absolute;
+position:relative;
 
 top: 21.4vh;
 left: 24.5vw;
@@ -1198,18 +1206,20 @@ height: 383px!important;
  width: 258px!important;
  height: 56px!important;
 margin-left: -11.5vw;
-margin-top: 0vh;
+margin-top: -4vh;
 text-align: center;
 
 
 }
 .fbt a{
-    width: 278px!important;
-    height: 66px!important;
+    
+    width: 258px!important;
+    height: 56px!important;
+
 }
 .fbt img{
-    width:278px!important;
-    height: 66px!important;
+    width:258px!important;
+    height: 56px!important;
 }
 
 .ondone h2{
@@ -1282,3 +1292,6 @@ color: #B83939;
     background: transparent url(./Vector.png) center/1em auto no-repeat!important;
   
 }
+
+
+

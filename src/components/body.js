@@ -17,6 +17,7 @@ import './style/navigation.css';
 const Body=()=>{
     
     const [nav,setNav]=useState(0);
+    const [model,setModel]=useState('mo');
 
 
  
@@ -156,6 +157,7 @@ const Body=()=>{
     </div>
   </div>
 </div>
+
 
         
     </div>);

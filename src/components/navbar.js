@@ -17,10 +17,25 @@ function Nav() {
   
   }
 
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
+
+
+
+
+
   return (
 <div >
 
-<div class="navbar navbar-expand-lg navbar-dark navb">
+<div  className={colorChange ? 'navbar navbar-expand-lg navbar-dark navb' : 'navbar navbar-expand-lg navbar-dark navb2'}>
   <div class="container-fluid topbar">
  
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
