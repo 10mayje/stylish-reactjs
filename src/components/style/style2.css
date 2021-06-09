@@ -1,4 +1,4 @@
-@media screen and (max-width: 780px){
+@media screen and (max-width: 880px){
 
 
 
@@ -10,12 +10,14 @@
     display: none;
 }
     .backgound{
-      
+     
         margin-left: 7vw;
+        
       }
       .main{
           width: 100vw;
-          position:absolute;
+          position:absolute; 
+       
       }
     .navb{
         position: fixed;
@@ -214,12 +216,16 @@ color: #939AA9;
 }
 
 /*third box*/
-
-.count{
-    width: 100%!important;
+.count2{
+    display: block;
     text-align: center;
     justify-content: center;
     margin-top: 10vh;
+}
+.count{
+    display: none;
+    width: 100%!important;
+    
 
     
 }
@@ -239,7 +245,7 @@ color: #939AA9;
 }
 /* fourth box*/
 .box1{
-    width: 95vw;
+    width: 100vw;
   
     margin-left: 0vw;
 }
@@ -262,7 +268,7 @@ color: #939AA9;
     color: #EDEFF3;
     
 margin-top: 10px;
-width: 95%;
+width: 80%;
 
 
 }
@@ -271,33 +277,39 @@ width: 95%;
 line-height: 14px;
 }
 .number{
-    top: 12vh;
-    left: 37.9vw;
+    top: 36vh;
+    left: 74vw;
+    transform: rotate(0deg);
+    
 }
 .number2{
-    top: 69vh;
-    left: 37.9vw;
+    top: 93vh;
+    
+    left: 74vw;
+    transform: rotate(0deg);
 }
 .number3{
-    top:126vh;
-    left: 37.9vw;
+    top:149.5vh;
+    left: 74vw;
+    transform: rotate(0deg);
 }
 .number4{
-    top:183vh;
-    left: 37.9vw;
+    top:206.5vh;
+    left: 74vw;
+    transform: rotate(0deg);
 }
 .btext{
     height: 70px;
 }
 .box1 img{
 
-width: 95vw;
+width: 100%;
 height: 36vh;
  transition: all 0.3s ease 0s;
 overflow: hidden;
 }
 .box1 div{
-    width: 95%;
+    width: 100%;
     overflow: hidden;
 }
   
@@ -342,10 +354,14 @@ line-height: 24px;
 color: #EDEFF3;
 }
 .navigation{
-
+display: none;
 margin-top: 32px;
 
 }
+.example-two{
+    display: block;
+}
+
 .n{
 margin: 0;
 margin-right: 0;
@@ -849,9 +865,28 @@ display: block;
 color: #EDEFF3;
 }
 .ondone button{
-    margin-top: 58px;
-}
+    
+    position: absolute;
+ background: transparent;
+ border: transparent;
+ width: 182px!important;
+height: 46px!important;
 
+margin-left: -25vw;
+margin-top: 5vh;
+text-align: center;
+
+
+
+}
+.fbt a{
+    width: 182px!important;
+    height: 46px!important;
+}
+.fbt img{
+    width: 182px!important;
+    height: 46px!important;
+}
 
 
 

@@ -82,13 +82,16 @@ const Countdown=()=>{
       
      },[]); 
 return(
+
+  <div>
+
 <div class=" count">
+
+
   <div class="row ">
     <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
     <Waypoint
-  onEnter={timer}
-
-  
+  onEnter={timer} 
   
 />
 
@@ -121,6 +124,75 @@ return(
   </div>
  
 </div>
+
+
+
+
+<div class=" count2">
+
+
+  <div class="row ">
+    <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
+    <Waypoint
+  onEnter={timer} 
+  
+/>
+
+<h1>{text==0?'0'+count:'02'}</h1>
+      <p className={style}>years as a freelancer</p>
+    </div>
+    <div class="col j" data-aos="fade-up" data-aos-delay="500">
+    <h1>{text==0?'0'+count:'02'}</h1>
+       <p className={style}>Academic Research Projects</p>
+    </div>
+   
+  </div>
+ 
+  <div class="row " >
+ <div class="col j" data-aos="fade-up" data-aos-delay="500">
+    <h1>{text==0?'0'+count:'02'}</h1>
+      <p className={style}>Degrees</p>
+    </div>
+
+
+    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <h1>{text==0?'0'+count:'02'}</h1>
+     <p className={style}>Awards Won</p>
+    </div>
+
+  </div>
+
+
+  <div class="row " >
+   
+    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <h1>{text2==0?'0'+count2:'05'}</h1>
+     <p className={style}>years as of experience</p>
+    </div>
+    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <h1>{text3==0?(t==0?'0':'')+count3:'24'}</h1>
+     <p className={style}>years lived</p>
+    </div>
+  </div>
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
 )
 }
 export default Countdown;

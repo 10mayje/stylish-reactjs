@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
-@media screen and (max-width: 1080px){
 
-    .topbar{
-        display: none;
-    }
+
+
+@media screen and (max-width: 880px){
+
+    
  .b-a, .bar, .bar:before, .bar:after {
 	 transition: all 0.25s;
 	 content: "";
@@ -42,6 +43,7 @@
     margin-top: -10vh;
     height: 10vh;
     background-color: #24292C;
+    box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
 }
  .bar:before {
 	 top: -8px;

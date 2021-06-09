@@ -1,6 +1,9 @@
 import emailjs from 'emailjs-com';
 import React, { useState } from "react";
 import img from '../images/Contact-me.png';
+import btnreq from '../images/send-req-def.svg';
+import btnreq2 from '../images/send-req.svg';
+import btnreq3 from '../images/back-work.png';
 
 const Form=()=>{
     const [text,setText]=useState('');
@@ -25,7 +28,7 @@ const Form=()=>{
            setR(0)
        }
        else{
-                emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
+              emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
     .then(function(response) {
        alert('SUCCESS!', response.status, response.text);
        
@@ -33,12 +36,13 @@ const Form=()=>{
        alert('FAILED...', error);
        
     });
-    e.target.reset()
+    e.target.reset();
        }
   
     setText('');
     setText2('');
     setR(0);
+    
     
    }
   return(
@@ -53,12 +57,14 @@ const Form=()=>{
           <div className="inputtext">
              <form onSubmit={sendEmail} >
                  <label>What do you want me to call you?</label><br/>
-              
-                    <input id={style} placeholder={style=='id'?'This is important to be filled up!':'Tell me your name'} type='text' name='name' value={text} onChange={(e)=>{
+                   
+                      <input id={style} placeholder={style=='id'?'This is important to be filled up!':'Tell me your name'} type='text' name='name' value={text} onChange={(e)=>{
                      setText(e.target.value);
                    
                 
                 }} required />
+                  
+                    
                 
                 <br/>
                  <label>What do you want me to build/solve?</label><br/>
@@ -67,8 +73,13 @@ const Form=()=>{
                   
                  }
                    } required>{text2}</textarea><br/>
-                 {text==''||text2==''?<button type='button' onClick={click} style={{background: '#656971'}} >Send your requirement</button>:
+                 
+                 {text==''||text2==''?<a style={{cursor: 'pointer'}} className='m' onClick={click}><img src={btnreq}/>    </a>:
+                 <button type='submit' className='mb'  data-bs-toggle="modal" data-bs-target="#example"   ><img src={btnreq2}/></button>}
+                 
+                 {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
                  <button type='submit'  data-bs-toggle="modal" data-bs-target="#example"   >Send your requirement</button>}
+                  */}
              </form>
 
           </div>
@@ -86,14 +97,15 @@ const Form=()=>{
       </div>
       <div class="modal-body">
           <div className='ondone'>
-              <img src={img} />
+              <img className='img' src={img} />
               <h2>I’ll go through your requirements and get back you.</h2>
               <p>Alternatively, you can reach out to me on   <span className='no'>+91-8017697352</span></p>
 
-
-                 
-               <button type="button"  data-bs-dismiss="modal">Back to seeing my work!</button>
-                
+  
+          <button type="button" onclick="window.location.href='#work';" className='fbt' data-bs-dismiss="modal">
+                 <img  src={btnreq3}/>
+                 </button>
+              
               
           </div>
       </div>

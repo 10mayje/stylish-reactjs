@@ -12,7 +12,8 @@ import Cont3 from './container3';
 import Countdown from './countdown';
 import Form from './form';
 import img1 from '../images/logo_mark.png';
-import imgbtn from "../images/Let's-talk.png";
+import imgbtn from "../images/Let's-talk.svg";
+import './style/navigation.css';
 const Body=()=>{
     
     const [nav,setNav]=useState(0);
@@ -28,7 +29,7 @@ const Body=()=>{
     
     return(
     <div className="background">
-       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'15px',marginLeft:'0.5vw'}}>
+       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'10px',marginLeft:'0.5vw'}}>
             <img src={img1}/>
         </div> 
         <div className="container-one" > 
@@ -104,7 +105,25 @@ const Body=()=>{
                 <div className="n" ><button className={nav==1?"white":"black"} onClick={()=>setNav(1)}>PRODUCT DESIGN</button></div>
                 <div className="n"><button className={nav==2?"white":"black"}   onClick={()=>setNav(2)}>VISUAL DESIGN</button></div>
                   
-             </div>  <hr style={{color:"white",marginTop:"0vh"}}/>
+             </div> 
+
+
+             <div class="example-two">
+  
+  <header class="example-two-header">
+ 
+    <nav class="vertical-align-middle scroll">
+
+    <div className="n nav-item"><button className={nav==0?"white":"black"} onClick={()=>setNav(0)} >UX RESEARCH</button></div>
+                <div className="n nav-item" ><button className={nav==1?"white":"black"} onClick={()=>setNav(1)}>PRODUCT DESIGN</button></div>
+                <div className="n nav-item"><button className={nav==2?"white":"black"}   onClick={()=>setNav(2)}>VISUAL DESIGN</button></div>
+      
+    </nav>
+  </header>
+</div>
+             
+             
+              <hr style={{color:"white",marginTop:"0vh"}}/>
              <div className="frame" data-aos="fade-up" data-aos-delay="200">
                      {nav==0?<UX/>:<div style={{diaplay:'none'}}></div>} {nav==2?<VD/>:<div style={{diaplay:'none'}}></div>}
                      {nav==1?<PD/>:<div style={{diaplay:'none'}}></div>}

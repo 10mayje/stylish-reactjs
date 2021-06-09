@@ -26,14 +26,14 @@ function Nav() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ">
       
-        <li class="nav-item">
+        <li >
         <a className="nav-link active" href="#work">WORK</a>
         </li>
         <li>
         <a className="nav-link active" href="#About">ABOUT ME</a>
           
         </li>
-        <li class="nav-item">
+        <li>
           <a className="nav-link active" href="#Contact" >CONTACT</a>
         </li>
       </ul>

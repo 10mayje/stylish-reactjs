@@ -1,12 +1,12 @@
 import react,{useEffect} from 'react';
 
-import icon from '../images/twitter (1).png';
+import icon from '../images/Vector2.png';
 import button from '../images/Back-to-top.png'; 
 import icon2 from '../images/instagram 1.png';
 import icon3 from '../images/linkedin 1.png';
 import icon4 from '../images/dribbble-logo.png';
 import icon5 from '../images/Behance.png';
-import icon6 from '../images/medium 1.png';
+import icon6 from '../images/Vector.png';
 
 import "aos/dist/aos.css";
 import Aos from 'aos';
@@ -25,9 +25,9 @@ const Foot=()=>{
           <div className="fouter " id="Contact">
             <div className="fo1 ">
               <h2 >
-                <span data-aos="fade-right" data-aos-delay="220" data-aos-duration="150">Let’s build something together </span>
-                <span data-aos="fade-right" data-aos-delay="420" data-aos-duration="150">that actually solves a problem, </span>
-                <span data-aos="fade-right" data-aos-delay="620" data-aos-duration="150"> and creates an impact!</span>
+                <span data-aos="fade-right" data-aos-delay="220" data-aos-duration="550">Let’s build something together </span>
+                <span data-aos="fade-right" data-aos-delay="420" data-aos-duration="550">that actually solves a problem, </span>
+                <span data-aos="fade-right" data-aos-delay="620" data-aos-duration="550"> and creates an impact!</span>
      
                 </h2>
             
@@ -38,7 +38,8 @@ const Foot=()=>{
               <p data-aos="fade-left" data-aos-delay="220" data-aos-duration="500">I like to interact with people and have started </p>
               <p data-aos="fade-left" data-aos-delay="420" data-aos-duration="500">posting on my social media too!</p>
                <div className="icons" data-aos="fade-left" data-aos-delay="600" data-aos-duration="500">
-                 <a href='https://www.behance.net/Rounak0713'  target="_blank"><img  src={icon5} />
+                 <a href='https://www.behance.net/Rounak0713'  target="_blank">
+                   <img className='i1' src={icon5} />
                    </a>
                 <a href='https://www.linkedin.com/in/rounak-ghosh-53a21b136/'  target="_blank">
                   <img  src={icon3}/>

@@ -48,7 +48,7 @@ color: #656971;
 }
 .animated{
     display: block;
-    animation: fade ease-in-out 4s;
+    animation: fade ease-in-out 3s;
 }
 @keyframes fade {
     from{
@@ -140,6 +140,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 9999999;
+    box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
 }
 .navbar-nav{
     margin-left: 60vw;
@@ -239,7 +240,7 @@ font-size: 16px;
 line-height: 16px;
 border-image: linear-gradient(90deg, rgba(248, 238, 250, 0.7), rgb(250,224,66,0)) 1 ;
 
-
+cursor: pointer;
 
 
 
@@ -337,6 +338,9 @@ color: #FCFCFC!important;
     justify-content: center;
     margin-top: 20vh;
     
+}
+.count2{
+ display: none;
 }
 
 .j{
@@ -814,7 +818,27 @@ color: #7C7F86;
 }
 .icons a{
     margin-right: 4%;
+    width: 32px;
+    height: 32px;
 }
+
+/*
+.icons img:nth-child(2){
+    opacity: 0;
+    position: absolute;
+}
+.icons img:nth-child(1):hover{
+    opacity: 0;
+    
+}
+.icons img:nth-child(1){
+    opacity: 1;
+    position: absolute;
+}
+.icons img:nth-child(2):hover{
+    opacity: 1;
+}*/
+
 .icons img{
     
     width: 32px;
@@ -822,7 +846,7 @@ color: #7C7F86;
 
 }
 .icons img:hover{
-    color: rgba(108, 119, 140, 1);
+    opacity: 0.3;
 
 }
 .last{
@@ -930,12 +954,15 @@ font-weight: normal;
 font-size: 12px;
 line-height: 12px;
 /* identical to box height, or 100% */
-margin-top: 30px;
+margin-top: 9px;
 
 /* Text/Light-20 */
 
 color: #939AA9;
 
+}
+.inputtext{
+    background:linear-gradient(90deg,transparent,solid)  ;
 }
 .inputtext input{
     background: transparent;
@@ -946,15 +973,14 @@ color: #939AA9;
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;*/
     border-radius:5px; /*1*/
-    border: 1px solid;
+   border: 1px solid;
 
-border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%) 1;
+/*border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%) 1;
 
-
-    background: transparent;
+*/
    width: 360px;
 height: 56px;
-
+border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%) 1;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
@@ -963,19 +989,11 @@ line-height: 18px;
 /* or 150% */
 margin-top: 10px;
 padding-left: 20px;
-
+margin-bottom: 25px;
 /* Text/Light */
 
 color: #FCFCFC;
 }
-input[type=text]:hover{
-      
-     border: 1px solid;
-    
-border-image: linear-gradient(91.42deg, #8346C2 -1.9%, #243A9E 95.8%) 1;
-
-
-  }
 
 .inputtext input::placeholder{
     position: absolute;
@@ -988,6 +1006,13 @@ border-image: linear-gradient(91.42deg, #8346C2 -1.9%, #243A9E 95.8%) 1;
     color: #656971;
     padding-top: 20px;
 
+}
+.borders{
+    background-color:black ;
+    margin-top: 10px;
+    padding: 0;
+    width: 360px;
+    height: 56px;
 }
 .inputtext textarea{
     border-radius:5px; /*1*/
@@ -1029,67 +1054,80 @@ border-image: linear-gradient(91.42deg, #696F77 -1.9%, rgba(45, 49, 54, 0) 95.8%
     color: #656971;
 
 }
+.m img{
+    
+    margin-left: -25px;
+    width: 350px;
+height: 66px;
+margin-top: 50px;
+}
+.m{
+    width: 300px;
+    height: 56px;
+    margin-top: 50px;
+}
+.mb img{
+    
+ 
+    width: 400px;
+height: 66px;
+margin-left:-41px!important;
+margin-top: 25px!important;
+}
+.mb{
+    margin-top: 30px;
+    margin-left:-10px!important;
+}
+
 .inputtext button{
-    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
+    background: transparent;
 border-radius: 4px;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 16px;
-/* identical to box height, or 100% */
-margin-top: 40px;
 
 /* Text/Alternate-light-grey */
-border: 1px solid;
+border:transparent;
 
 
-
-color: #EDEFF3;
-border-image: linear-gradient(90deg, rgba(248, 238, 250, 0.7), rgb(250,224,66,0)) 1;
-width: 250px;
-height: 56px;
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
 }
 .ondone{
     text-align: center;
     margin-left: 22vw;
-    margin-top: -5vh;
+    margin-top: -6vh;
     
 }
-.ondone img{
+.img{
     width: 453px;
 height: 383px;
 }
 .ondone button{
-    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
-    border-image: linear-gradient(90deg, rgba(248, 238, 250, 0.7), rgb(250,224,66,0)) 1;
-    border-radius: 4px;
-    font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 16px;
-width: 258px;
-height: 56px;
-margin-top: 50px;
-/* identical to box height, or 100% */
+    
+    position: absolute;
+ background: transparent;
+ border: transparent;
+ width: 278px!important;
+ height: 66px!important;
+margin-left: -11.5vw;
+margin-top: 0vh;
+text-align: center;
 
 
-/* Text/Alternate-light-grey */
-
-color: #EDEFF3;
 
 }
+.fbt a{
+    width: 278px!important;
+    height: 66px!important;
+}
+.fbt img{
+    width:278px!important;
+    height: 66px!important;
+}
+
 .ondone h2{
     font-family: Rubik;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 24px;
+
 /* identical to box height, or 100% */
 
 
