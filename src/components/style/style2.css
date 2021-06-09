@@ -47,15 +47,18 @@
     
 .item-one{
     width: 75vw;
+    margin: 0;
 }
 .item-two{
     margin: 0;
     margin-top: 74px;
-    height: 35vh;
+    width: 288px;
+    height: 244px!important;
     
 }
 .item-two img{
-    width: 80vw;
+    width: 288px;
+height: 244px!important;
 }
 .bt-n{
     width: 100vw;
@@ -215,7 +218,7 @@ font-size: 14px;
 line-height: 21px;
 /* or 150% */
 
-
+margin-left: 0;
 /* Text/Light-20 */
 
 color: #939AA9;
@@ -226,7 +229,7 @@ color: #939AA9;
 .count2{
     display: block;
     text-align: center;
-    justify-content: center;
+    
     margin-top: 10vh;
 }
 .count{
@@ -239,16 +242,19 @@ color: #939AA9;
 
 .j{
     height: 30vh;
+    text-align: center;
 }
 .j h1{
 font-size: 32px;
 line-height: 32px;
+text-align: center;
 }
 .j p{
 
 font-size: 10px;
 line-height: 14px;
 color: #939AA9;
+text-align: center;
 }
 /* fourth box*/
 .box1{
@@ -279,30 +285,29 @@ width: 80%;
 
 
 }
+.box1 img{
+    margin: 0;
+    padding: 0;
+}
 .btext span{
     font-size: 14px;
 line-height: 14px;
 }
 .number{
-    top: 36vh;
-    left: 78.5vw;
+   margin: 0;
     transform: rotate(0deg);
     
 }
 .number2{
-    top: 93vh;
-    
-    left: 78.5vw;
+    margin: 0;
     transform: rotate(0deg);
 }
 .number3{
-    top:149.5vh;
-    left: 78.5vw;
+    margin: 0;
     transform: rotate(0deg);
 }
 .number4{
-    top:206.5vh;
-    left: 78.5vw;
+    margin: 0;
     transform: rotate(0deg);
 }
 .btext{
