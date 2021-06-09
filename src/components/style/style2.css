@@ -780,48 +780,106 @@ display: none;
 }
 
 
-.inputtext label{
-    font-family: Rubik;
+
+.button {
+    background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
+    border-radius: 5px;
+    color: #122dff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 10px;
+  }
+  .button input {
+    background: #2D3136;
+    border: transparent;
+    display: block;
+    width: 360px;
+height: 56px;
+font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 12px;
 /* identical to box height, or 100% */
-margin-top: 5px;
 
-/* Text/Light-20 */
 
-color: #939AA9;
+/* Text/Light */
 
-}
-.inputtext input{
-    background: transparent;
+color: #FCFCFC;
+    padding: 1em 3em;
+    border-radius: 6px;
+  }
+  .button2 {
+    background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
+    border-radius: 5px;
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 5px;
+    
+  }
+  .button2 textarea {
+    background: #2D3136;
+    border: transparent;
+    display: block;
+    height: 192px;
+         
     width: 360px;
-height: 46px;
-border-radius: 4px;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 18px;
-/* or 150% */
-margin-top: 8px;
-margin-bottom: 32px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+
 /* Text/Light */
 
 color: #FCFCFC;
+    padding: 2em 3em;
+    border-radius: 6px;
+  }
+ 
+.inputtext input::placeholder{
+    position: absolute;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #656971;
+    padding-top: 10px;
+
 }
-.inputtext textarea{
-    width: 256px;
-height: 172px;
+.borders{
+    background-color:black ;
+    margin-top: 10px;
+    padding: 0;
+    width: 360px;
+    height: 56px;
+}
+
+.inputtext textarea::placeholder{
+    position: absolute;
+margin-top: 0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
     
-    /* or 150% */
-    margin-top: 8px;
     
-    /* Text/Light */
+    /* Text/Dark-grey */
     
-    color: #FCFCFC;
-border-radius: 4px;
+    color: #656971;
+
 }
 .inputtext button{
     background:transparent;
