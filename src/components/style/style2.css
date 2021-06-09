@@ -9,14 +9,21 @@
 .topbar{
     display: none;
 }
+
+.body{
+    max-width: 100vw;
+    overflow-x: hidden
+}
     .backgound{
-     
+        width: 100%;
         margin-left: 7vw;
+        overflow-x: hidden
         
       }
       .main{
-          width: 100vw;
-          position:absolute; 
+          width: 100%;
+          position:relative; 
+          overflow-x: hidden
        
       }
     .navb{
@@ -25,13 +32,13 @@
         width: 100vw;
     }
     .navbar-nav{
-        margin-left: 4vw;
+        margin-left: 0vw;
     }
     .nav-link{
-        width: 20vw;
+        width: 0vw;
     }
     .navbar-brand{
-        margin-left:4vw;
+        margin-left:0vw;
     }
 
  .container-one{
@@ -278,24 +285,24 @@ line-height: 14px;
 }
 .number{
     top: 36vh;
-    left: 74vw;
+    left: 78.5vw;
     transform: rotate(0deg);
     
 }
 .number2{
     top: 93vh;
     
-    left: 74vw;
+    left: 78.5vw;
     transform: rotate(0deg);
 }
 .number3{
     top:149.5vh;
-    left: 74vw;
+    left: 78.5vw;
     transform: rotate(0deg);
 }
 .number4{
     top:206.5vh;
-    left: 74vw;
+    left: 78.5vw;
     transform: rotate(0deg);
 }
 .btext{
@@ -303,7 +310,7 @@ line-height: 14px;
 }
 .box1 img{
 
-width: 100%;
+width: 92%;
 height: 36vh;
  transition: all 0.3s ease 0s;
 overflow: hidden;
@@ -391,12 +398,12 @@ margin-right: 0;
 }
 .hoverbutton{
  
-    margin-left: 1vw;
+    margin-left: 5vw;
    margin-top:13vh ; 
 }
 .hoverbutton2{
     
-    margin-left: -25vw;
+    margin-left: -19vw;
    margin-top:13vh ; 
 }
 .bt-1{
@@ -486,13 +493,15 @@ height: 81px;
     height: 81px;
 }
 .four{
-    width: 98px;
+    width: 97px;
 height: 66px;
     margin-top: 30vh;
+   
 }
 .four img{
     width: 98px;
     height: 66px;
+     margin-left: -2vw;
 }
 .table2 {
 

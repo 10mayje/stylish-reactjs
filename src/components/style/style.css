@@ -105,7 +105,8 @@ color: #656971;
 
 body{
     position: static;
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     background-color: #24292C;
 }
 *{
@@ -127,12 +128,12 @@ body{
    background-color: #24292C;
   
     
-    width: 97.9vw;
+    width: vw;
 }
 
 .background{
   margin-left: 10vw;
-  margin-right: 10vw;
+ 
   
 }
 .navb{
@@ -293,11 +294,11 @@ color: #BFC6EB;
 .item-3{
     color: #EDEFF3;
     opacity: 1;
-    width: 50vw;
+    width: 45vw;
    
 }
 .item-3 h1{
-    width:40vw;
+    width:40;
     opacity: 1;
 
     color: #363A40;;
@@ -314,7 +315,7 @@ letter-spacing: 0.0025em;
 
 .item-3 p{
     font-family: Rubik;
-    
+    width: 95%;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -582,8 +583,8 @@ flex-grow: 0;
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 22vw;
-    margin-top:25vh;
+    left: 23vw;
+    margin-top:29vh;
 }
 .hoverbutton2{
     position: absolute;
