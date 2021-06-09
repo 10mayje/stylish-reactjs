@@ -61,23 +61,23 @@ const VD=()=>{
         Aos.init({duration:1000});
      
       },[]); 
-    return(<div className="containner"> <div className={style}  style={{display:"flex",flexDirection:'column'}}>
+    return(<div className="containner"> <div className={style} onMouseEnter={hover}   style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
                           <a className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"> <button className='bt-1'>View Volume 1</button>    </a> 
                      
                            <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <button className='bt-2'>View Volume 2</button>   </a>
                             
                     </div>
-        <div className='box1'   onMouseOver={hover} onMouseOut={hout} >
+        <div className='box1'   >
        
             <div>           <Waypoint
   onEnter={timer} onLeave={end}
   
 />
-                <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
+                <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
                     
-                        <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
-                         <img  className={style2} src={Img}/> 
+                        <div  data-aos="fade-up" data-aos-delay="1000" >
+                         <img onMouseEnter={hover} onMouseLeave={hout}  className={style2} src={Img}/> 
                          
                         </div>
                        
@@ -97,20 +97,20 @@ const VD=()=>{
 
             </div>
             
-        </div><div className={style3} style={{display:"flex",flexDirection:'column'}}>
+        </div><div className={style3} onMouseEnter={hover2} style={{display:"flex",flexDirection:'column'}}>
                           
                           <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <button className='bt-1'>View Volume 1</button>    </a> 
                      
                            <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"> <button className='bt-2'>View Volume 2</button>   </a>
                             
                     </div>
-        <div className="box1 b3"   onMouseOver={hover2} onMouseOut={hout2} >
+        <div className="box1 b3"   >
         
             <div>
-                <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
+                <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                   
                         <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
-                         <img className={style4} src={Img2}/> 
+                         <img onMouseEnter={hover2} onMouseLeave={hout2} className={style4} src={Img2}/> 
                            
                         </div>
                   
