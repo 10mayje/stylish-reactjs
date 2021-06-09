@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 import btnreq from '../images/send-req-def.svg';
 import btnreq2 from '../images/send-req.svg';
-import btnreq3 from '../images/back-work.png';
+import btnreq3 from '../images/back-work.svg';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import UX from './uxresearch';
@@ -15,7 +15,7 @@ import gif from '../images/Hero-animation.gif';
 import './style/style.css';
 import Cont3 from './container3';
 import Countdown from './countdown';
-import Form from './form';
+
 import img1 from '../images/logo_mark.png';
 import imgbtn from "../images/Let's-talk.svg";
 import './style/navigation.css';
@@ -31,6 +31,8 @@ const Body = () => {
   const [s,setS]=useState('a');
   const [last,setLast]=useState('a');
   const [style3, setStyle3] = useState('k');
+  const [input, setInput] = useState('button');
+  const [input2, setInput2] = useState('button2');
   const click = () => {
     if (text == '') {
       setStyle('id')
@@ -72,9 +74,31 @@ setS('b');
 
   }
 
-
+ const check =()=>{
+  if( text!==''){
+    setInput('buttoncolor');
+    }else{
+        setInput('button');
+    }
+ }
+ const check2 =()=>{
+  if( text2!==''){
+    setInput2('buttoncolor2');
+    }else{
+        setInput2('button2');
+    }
+ }
   useEffect(() => {
-
+    if( text!==''){
+      setInput('buttoncolor');
+      }else{
+          setInput('button');
+      }
+      if( text2!==''){
+        setInput2('buttoncolor2');
+        }else{
+            setInput2('button2');
+        }
     Aos.init({ duration: 800 });
 
 
@@ -219,10 +243,17 @@ setS('b');
                     <form onSubmit={sendEmail} >
                       <label className='calllabel'>What do you want me to call you?</label><br />
 
-                      <div class="button" >
-                        <input id={style} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me your name'} type='text' name='name' value={text} onChange={(e) => {
+                      <div class={input} >
+                        <input id={style} onMouseEnter={check} onMouseLeave={check} onFocus={check} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me your name'} type='text' name='name' value={text} onChange={(e) => {
+                          
+                          if(e.target.value!==''|| text!==''){
+                          setInput('buttoncolor');
+                          }else{
+                              setInput('button');
+                          }
+                          
                           setText(e.target.value);
-
+                         
 
                         }} required />
                       </div><br />
@@ -235,8 +266,14 @@ setS('b');
 
 
 
-                      <div class="button2" >
-                        <textarea id={style2} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me what you want to solve'} name='message' onChange={(e) => {
+                      <div className={input2} >
+                        <textarea id={style2} onMouseEnter={check2} onMouseLeave={check2} onFocus={check2} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me what you want to solve'} name='message' onChange={(e) => {
+                           if(e.target.value!==''|| text2!==''){
+                            setInput2('buttoncolor2');
+                            }else{
+                                setInput2('button2');
+                            }
+                          
                           setText2(e.target.value);
 
                         }
