@@ -59,7 +59,7 @@ const UX=()=>{
                     <Waypoint
   onEnter={timer} onLeave={end}
 />
-                   <div className={style} style={{width:'10%'}}><h2 className="number">01</h2> 
+                   <div className={style}><h2 className="number">01</h2> 
                        </div> 
                     </div>
 
@@ -69,38 +69,17 @@ const UX=()=>{
             
         </div>
         <div className="box1 b3" >
-            <div>
-            <div style={{display:'flex'}}>
-                        <div className={style2} style={{width:'10%'}}>
-                               <h2 className="number2">02</h2>
-                        </div> 
-
-
-
-                        <div >
-
-                             <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}><a href={file2} target="_blank">
-                                  <div width="100%" data-aos="fade-up" data-aos-delay="1000">
-                                         <img  src={Img2}/>    
-                                 </div>
-                             </a></Tilt>
-
-
-
+            <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}><a href={file2} target="_blank">
+            <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+                         <img  src={Img2}/>    
                         </div>
-
-
-                         
-            </div>
-
-
-            </div>
-                
-             
+                </a></Tilt>
                 <Waypoint
   onEnter={timer2} onLeave={end2}
 />
-             
+               <div className={style2}><h2 className="number2">02</h2>
+                   </div>  
+                </div>
 
                 <div className="btext">
                <h2 className={style2}>RETHINKING TRAINING EXPERIENCE IN LIBRARIES - SPRINTS AND FIELD RESEARCH</h2>     
@@ -108,27 +87,17 @@ const UX=()=>{
             
         </div>
         <div className="box1" >
-            <div>
-                <div style={{display:'flex'}}>
-                    <div >
-                        <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
+            <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://blog.prototypr.io/a-step-away-from-privacy-hoax-d6e29ced0488' target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="700" >
+                <div width="100%" data-aos="fade-up" data-aos-delay="500" >
                          <img  src={Img3}/>    
                         </div>
                     </a></Tilt>
-                    </div>
-   
-
-
-                     <div style={{width:'10%'}} className={style3}><h2 className="number3">03</h2> 
-                        </div>
-                </div>
-             
                     <Waypoint
   onEnter={timer3} onLeave={end3}
 />
-                   
+                    <div className={style3}><h2 className="number3">03</h2> 
+                        </div>
                     </div>
 
                     <div className="btext">
@@ -140,31 +109,17 @@ const UX=()=>{
         <div className="box1 b3" >
             <div>                   <Waypoint
   onEnter={timer4} onLeave={end4}
-/>
-<div style={{display:'flex'}}>
-               <div className={style4} style={{width:'10%'}}><h2   className="number4">04</h2> 
-                </div>
-
-
-
-               <div>
-                   <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
-                         <a href='https://blog.prototypr.io/ecogrocer-app-an-ux-case-study-2e2a9dba5d8e' target="_blank">
-                         <div width="100%" data-aos="fade-up" data-aos-delay="500">
+/><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
+                <a href='https://blog.prototypr.io/ecogrocer-app-an-ux-case-study-2e2a9dba5d8e' target="_blank">
+                <div width="100%" data-aos="fade-up" data-aos-delay="500">
                          <img  src={Img4}/>    
                         </div>
                     </a></Tilt>
-               </div>
-
-
  
+                    <div className={style4}><h2  className="number4">04</h2> 
+                        </div>
                     </div>
 
-</div>
-
-
- 
-                   
                     <div className="btext">
                     <h2 className={style4}>ECOGROCER MOBILE APP - A VIEW INTO USER RESEARCH</h2>      
                     </div>
