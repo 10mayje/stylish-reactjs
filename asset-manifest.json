@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/stylish-reactjs/static/css/main.cc836f0e.chunk.css",
-    "main.js": "/stylish-reactjs/static/js/main.42b85f22.chunk.js",
-    "main.js.map": "/stylish-reactjs/static/js/main.42b85f22.chunk.js.map",
+    "main.css": "/stylish-reactjs/static/css/main.e822980a.chunk.css",
+    "main.js": "/stylish-reactjs/static/js/main.59622630.chunk.js",
+    "main.js.map": "/stylish-reactjs/static/js/main.59622630.chunk.js.map",
     "runtime-main.js": "/stylish-reactjs/static/js/runtime-main.b535d143.js",
     "runtime-main.js.map": "/stylish-reactjs/static/js/runtime-main.b535d143.js.map",
     "static/css/2.ec02d681.chunk.css": "/stylish-reactjs/static/css/2.ec02d681.chunk.css",
-    "static/js/2.6f538522.chunk.js": "/stylish-reactjs/static/js/2.6f538522.chunk.js",
-    "static/js/2.6f538522.chunk.js.map": "/stylish-reactjs/static/js/2.6f538522.chunk.js.map",
+    "static/js/2.020f164d.chunk.js": "/stylish-reactjs/static/js/2.020f164d.chunk.js",
+    "static/js/2.020f164d.chunk.js.map": "/stylish-reactjs/static/js/2.020f164d.chunk.js.map",
     "static/js/3.15933004.chunk.js": "/stylish-reactjs/static/js/3.15933004.chunk.js",
     "static/js/3.15933004.chunk.js.map": "/stylish-reactjs/static/js/3.15933004.chunk.js.map",
     "index.html": "/stylish-reactjs/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/stylish-reactjs/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.cc836f0e.chunk.css.map": "/stylish-reactjs/static/css/main.cc836f0e.chunk.css.map",
-    "static/js/2.6f538522.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.6f538522.chunk.js.LICENSE.txt",
+    "static/css/main.e822980a.chunk.css.map": "/stylish-reactjs/static/css/main.e822980a.chunk.css.map",
+    "static/js/2.020f164d.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.020f164d.chunk.js.LICENSE.txt",
     "static/media/Aarohan-web-design.531e82c2.png": "/stylish-reactjs/static/media/Aarohan-web-design.531e82c2.png",
     "static/media/Behance.7472db89.svg": "/stylish-reactjs/static/media/Behance.7472db89.svg",
     "static/media/CASE STUDY-UX in Libraries.ace340b3.pdf": "/stylish-reactjs/static/media/CASE STUDY-UX in Libraries.ace340b3.pdf",
@@ -50,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.b535d143.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.6f538522.chunk.js",
-    "static/css/main.cc836f0e.chunk.css",
-    "static/js/main.42b85f22.chunk.js"
+    "static/js/2.020f164d.chunk.js",
+    "static/css/main.e822980a.chunk.css",
+    "static/js/main.59622630.chunk.js"
   ]
 }
