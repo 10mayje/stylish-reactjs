@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/stylish-reactjs/static/css/main.c78837cf.chunk.css",
-    "main.js": "/stylish-reactjs/static/js/main.03df6fe4.chunk.js",
-    "main.js.map": "/stylish-reactjs/static/js/main.03df6fe4.chunk.js.map",
+    "main.css": "/stylish-reactjs/static/css/main.d9988e8b.chunk.css",
+    "main.js": "/stylish-reactjs/static/js/main.74c92bcf.chunk.js",
+    "main.js.map": "/stylish-reactjs/static/js/main.74c92bcf.chunk.js.map",
     "runtime-main.js": "/stylish-reactjs/static/js/runtime-main.b535d143.js",
     "runtime-main.js.map": "/stylish-reactjs/static/js/runtime-main.b535d143.js.map",
     "static/css/2.ec02d681.chunk.css": "/stylish-reactjs/static/css/2.ec02d681.chunk.css",
-    "static/js/2.c9206795.chunk.js": "/stylish-reactjs/static/js/2.c9206795.chunk.js",
-    "static/js/2.c9206795.chunk.js.map": "/stylish-reactjs/static/js/2.c9206795.chunk.js.map",
+    "static/js/2.26f83d24.chunk.js": "/stylish-reactjs/static/js/2.26f83d24.chunk.js",
+    "static/js/2.26f83d24.chunk.js.map": "/stylish-reactjs/static/js/2.26f83d24.chunk.js.map",
     "static/js/3.15933004.chunk.js": "/stylish-reactjs/static/js/3.15933004.chunk.js",
     "static/js/3.15933004.chunk.js.map": "/stylish-reactjs/static/js/3.15933004.chunk.js.map",
     "index.html": "/stylish-reactjs/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/stylish-reactjs/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.c78837cf.chunk.css.map": "/stylish-reactjs/static/css/main.c78837cf.chunk.css.map",
-    "static/js/2.c9206795.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.c9206795.chunk.js.LICENSE.txt",
+    "static/css/main.d9988e8b.chunk.css.map": "/stylish-reactjs/static/css/main.d9988e8b.chunk.css.map",
+    "static/js/2.26f83d24.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.26f83d24.chunk.js.LICENSE.txt",
     "static/media/Aarohan-web-design.531e82c2.png": "/stylish-reactjs/static/media/Aarohan-web-design.531e82c2.png",
+    "static/media/Behance.7472db89.svg": "/stylish-reactjs/static/media/Behance.7472db89.svg",
     "static/media/CASE STUDY-UX in Libraries.ace340b3.pdf": "/stylish-reactjs/static/media/CASE STUDY-UX in Libraries.ace340b3.pdf",
     "static/media/Case-study-PayU.6740e263.pdf": "/stylish-reactjs/static/media/Case-study-PayU.6740e263.pdf",
-    "static/media/Contact-me.7da6b73d.png": "/stylish-reactjs/static/media/Contact-me.7da6b73d.png",
+    "static/media/Contact-me.46dc0abd.png": "/stylish-reactjs/static/media/Contact-me.46dc0abd.png",
     "static/media/Cross-cultural research - Rounak Ghosh.58cf04a1.pdf": "/stylish-reactjs/static/media/Cross-cultural research - Rounak Ghosh.58cf04a1.pdf",
     "static/media/Ecogrocer-app.51ead225.png": "/stylish-reactjs/static/media/Ecogrocer-app.51ead225.png",
     "static/media/Etark-app.cf1991a2.png": "/stylish-reactjs/static/media/Etark-app.cf1991a2.png",
@@ -38,14 +39,19 @@
     "static/media/Trust,satisfaction.d60a035d.png": "/stylish-reactjs/static/media/Trust,satisfaction.d60a035d.png",
     "static/media/Visual-design.d3f4b434.png": "/stylish-reactjs/static/media/Visual-design.d3f4b434.png",
     "static/media/back-work.7be165e0.png": "/stylish-reactjs/static/media/back-work.7be165e0.png",
+    "static/media/dribbble-logo.c77f21d5.svg": "/stylish-reactjs/static/media/dribbble-logo.c77f21d5.svg",
+    "static/media/instagram 1.14ebf3a9.svg": "/stylish-reactjs/static/media/instagram 1.14ebf3a9.svg",
+    "static/media/linkedin 1.06d6693a.svg": "/stylish-reactjs/static/media/linkedin 1.06d6693a.svg",
+    "static/media/medium 1.862058c2.svg": "/stylish-reactjs/static/media/medium 1.862058c2.svg",
     "static/media/send-req-def.0f24880a.svg": "/stylish-reactjs/static/media/send-req-def.0f24880a.svg",
-    "static/media/send-req.bda7e60c.svg": "/stylish-reactjs/static/media/send-req.bda7e60c.svg"
+    "static/media/send-req.bda7e60c.svg": "/stylish-reactjs/static/media/send-req.bda7e60c.svg",
+    "static/media/twitter (1) 1.db69208a.svg": "/stylish-reactjs/static/media/twitter (1) 1.db69208a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b535d143.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.c9206795.chunk.js",
-    "static/css/main.c78837cf.chunk.css",
-    "static/js/main.03df6fe4.chunk.js"
+    "static/js/2.26f83d24.chunk.js",
+    "static/css/main.d9988e8b.chunk.css",
+    "static/js/main.74c92bcf.chunk.js"
   ]
 }
