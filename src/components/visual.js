@@ -61,16 +61,19 @@ const VD=()=>{
         Aos.init({duration:1000});
      
       },[]); 
-    return(<div className="containner">
-        <div className='box1'   onMouseOver={hover} onMouseOut={hout} onTouchEnd={hout}>
-        <div className={style}  style={{display:"flex",flexDirection:'column'}}>
+    return(<div className="containner"> <div className={style}  style={{display:"flex",flexDirection:'column'}}>
                           
                           <a className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"> <button className='bt-1'>View Volume 1</button>    </a> 
                      
                            <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <button className='bt-2'>View Volume 2</button>   </a>
                             
                     </div>
-            <div>
+        <div className='box1'   onMouseOver={hover} onMouseOut={hout} >
+       
+            <div>           <Waypoint
+  onEnter={timer} onLeave={end}
+  
+/>
                 <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
                     
                         <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
@@ -81,28 +84,28 @@ const VD=()=>{
                    
                 
                 </Tilt> 
-                <Waypoint
-  onEnter={timer} onLeave={end}
-  
-/>
-              <div className={style5}>
-                    <h2  className="number">01</h2> 
-              </div>
+     
+              
                
             </div>
             <div className="btext">
-              <h2 className={style5}>VISUAL DESIGN PROJECTS <span> HEAD, WDCT </span> </h2>  
+              <h2 className={style5}>VISUAL DESIGN PROJECTS <span> HEAD, WDCT </span> </h2> 
+
+              <div className={style5}>
+                    <h2  className="number">01</h2> 
+              </div>
+
             </div>
             
-        </div>
-        <div className="box1 b3"   onMouseOver={hover2} onMouseOut={hout2} onTouchEnd={hout2}>
-        <div className={style3} style={{display:"flex",flexDirection:'column'}}>
+        </div><div className={style3} style={{display:"flex",flexDirection:'column'}}>
                           
                           <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <button className='bt-1'>View Volume 1</button>    </a> 
                      
                            <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"> <button className='bt-2'>View Volume 2</button>   </a>
                             
                     </div>
+        <div className="box1 b3"   onMouseOver={hover2} onMouseOut={hout2} >
+        
             <div>
                 <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                   

@@ -1,5 +1,4 @@
-
-    .bio {
+  .bio {
         text-align: center;
         max-width: 100%;
         margin: 0 auto;
@@ -128,11 +127,12 @@ body{
    background-color: #24292C;
   
     
-    width: vw;
+    width: 100vw;
 }
 
 .background{
   margin-left: 10vw;
+  margin-right: 10vw;
  
   
 }
@@ -141,19 +141,24 @@ body{
     position: fixed;
     width: 100%;
     z-index: 9999999;
+    height: 103px!important;
     box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
 }
 .navbar-nav{
-    margin-left: 60vw;
+    margin-left: 62.5vw;
 }
 
 .nav-link{
-    width: 10vw;
+    width: 'auto';
+    margin-right: 96px;
     font-size: 13px;
 }
 .navbar-brand{
     margin-left:10vw;
    
+}
+.nav-link a:hover{
+  transform: scale(1.02)!important;
 }
 
 /* first box*/
@@ -170,14 +175,16 @@ body{
     margin-top: 100px;
     margin-left: 2vw;
     width: 90vw;
-    
-height: 80vh;
+    height: 549px!important;
+   
     overflow: hidden;
     
     
 }
 .item-two img{
-    width: 100%;
+    margin-top: 10px;
+    width: 648px;
+height: 549px!important;
     margin-left: -1vw;
     
   
@@ -254,6 +261,13 @@ height: 56px;
 
 color: #EDEFF3;
 }
+.b1:hover{
+    transform: scale(1.02);
+}
+.b2:hover{
+    transform: scale(1.05);
+    color: #FCFCFC;
+}
 .b2{
     background: transparent;
     border: transparent;
@@ -278,12 +292,27 @@ color: #BFC6EB;
 /* secound box*/
 .container-two{
     color:#939AA9;
+    width: 648px;
     
-    opacity: 0.6;
-    width: 50%;
+   
     margin-top: 89px;
    
     
+}
+.container-two h2{
+    width: 648px;
+height: 132px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+/* or 137% */
+
+
+/* Text/Light-20 */
+
+color: #939AA9;
 }
 
 .container-three{
@@ -294,7 +323,8 @@ color: #BFC6EB;
 .item-3{
     color: #EDEFF3;
     opacity: 1;
-    width: 45vw;
+   
+    
    
 }
 .item-3 h1{
@@ -302,14 +332,14 @@ color: #BFC6EB;
     opacity: 1;
 
     color: #363A40;;
-    margin-top: 290px;
+    margin-top: 260px;
     font-family: Rubik;
 font-style: normal;
 font-weight: bold;
 font-size: 56px;
 line-height: 60px;
 /* or 121% */
-
+width: 456px;
 letter-spacing: 0.0025em;
 }
 
@@ -321,7 +351,8 @@ font-weight: normal;
 font-size: 24px;
 line-height: 34px;
 margin-top: 112px;
-
+width: 552px;
+margin-left: 13vw;
 color: #939AA9;
 }
 .belowtext{
@@ -338,6 +369,7 @@ color: #FCFCFC!important;
     text-align: center;
     justify-content: center;
     margin-top: 20vh;
+    margin-left: 0vw;
     
 }
 .count2{
@@ -378,9 +410,10 @@ color: #939AA9;
 
 
 .box1{
-    margin-bottom: 10vh;
+    margin-bottom: 176px;
     margin-left: 5vw;
-    width: 50vw;
+    width: 648px;
+height: 575px;
     
 }
 .p{
@@ -391,7 +424,7 @@ color: #939AA9;
     opacity: 0.5;
 }
 .b3{
-    margin-left: 30vw;
+    margin-left: 29vw;
 }
 .box1 h2{
     font-family: Rubik;
@@ -423,8 +456,8 @@ color: #6C778C;
 }
 .box1 img{
 
-width: 50vw;
-height: 575px;
+    width: 648px;
+    height: 575px;
 
  transition: all 0.3s ease 0s;
 overflow: hidden;
@@ -433,7 +466,8 @@ overflow: hidden;
     transform: scale(1.15);
 }
 .box1 div{
-    width: 50vw;
+    width: 648px;
+    height: 575px;
     overflow: hidden;
     
     
@@ -452,8 +486,8 @@ transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
 
-top: 21.5vh;
-left: 32vw;
+top: 21.4vh;
+left: 24.5vw;
 z-index: 99999999999;
 
 }
@@ -469,8 +503,8 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 118.9vh;
-left: 2.7vw;
+top: 121.0vh;
+left: 2.4vw;
 z-index: 99999999999;
 opacity: 0.5;
 
@@ -487,11 +521,11 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 216.3vh;
-left: 32vw;
+top: 220.5vh;
+
 z-index: 99999999999;
 opacity: 0.5;
-
+left: 23.5vw;
 
 }
 .number4{
@@ -506,9 +540,9 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 313.7vh;
+top: 320vh;
 
-left: 2.7vw;
+left: 2.4vw;
 z-index: 99999999999;
 opacity: 0.5;
 
@@ -584,14 +618,14 @@ flex-grow: 0;
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 23vw;
+    left: 20.5vw;
     margin-top:29vh;
 }
 .hoverbutton2{
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 50vw;
+    left: 45vw;
     margin-top:29vh;
 }
 .bt-1{
@@ -603,6 +637,8 @@ font-weight: normal;
 font-size: 16px;
 line-height: 16px;
 color: #EDEFF3;
+background: transparent;
+box-shadow: transparent;
 background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
 box-shadow: -5px -5px 30px rgba(255, 255, 255, 0.25), 10px 10px 40px #0C0D0E;
 border-radius: 4px;
@@ -614,6 +650,7 @@ height: 56px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
+    border: transparent;
     font-size: 16px;
     line-height: 16px;
     color: #EDEFF3;
@@ -640,34 +677,34 @@ height: 56px;
 }
 .one{
 
-width: 20vw;
-height: 30vh;
-margin-left: 10vw;
+    width: 264px;
+    height: 176px;
+margin-left: 14vw;
 margin-top: 60vh;
 overflow: hidden;
 
 }
 .two{
 
-    width: 10vw;
-height: 31vh;
+    width: 138px;
+    height: 206px;
 margin-left: 4vw;
 margin-top: 40vh;
 overflow: hidden;
 }
 .three{
   
-    width: 11vw;
-height: 32vh;
+    width: 168px;
+    height: 233px;
 margin-left: 5vw;
 margin-top: 30vh;
 overflow: hidden;
 }
 .four{
 
-    width: 23vw;
-height: 35vh;
-margin-left: 6vw;
+    width: 360px;
+    height: 240px;
+margin-left: 2vw;
 margin-top: 55vh;
 overflow: hidden;
 }
@@ -675,7 +712,7 @@ overflow: hidden;
 
     text-align: center;
     width: 52vw;
-    margin-left: 25vw;
+    margin-left: 22vw;
     opacity: 0.8;
 }
 .table2 h1{
@@ -714,40 +751,43 @@ color: #939AA9;
 
 .table3{
     display: flex;
+    margin-left: 4vw;
 }
 .five{
-    height: 45vh;
-    width: 23vw;
+    width: 357px;
+height: 297px;
+
 margin-left: 11vw;
 margin-top:10vh; 
 overflow: hidden;
 }
 .five img{
-    height: 45vh;
-width: 23vw;
+    width: 357px;
+    height: 297px;
+    
 }
 .six{
-    width: 24vw;
-    height: 60vh;
+    width: 360px;
+height: 424px;
     overflow: hidden;
 margin-left: 7vw;
 margin-top: 30vh;
 }
 .six img{
-      width: 24vw;
-height: 60vh;
+    width: 360px;
+height: 424px;
 }
 .seven{
-    width: 17vw;
-height: 30vh;
+    width: 264px;
+    height: 198px;
 margin-left: 2vw;
 margin-top:5vh;
 overflow: hidden;
 
 }
 .seven img{
-    width: 17vw;
-    height: 30vh;
+    width: 264px;
+    height: 198px;
 }
 
 /* footer */
@@ -784,6 +824,9 @@ line-height: 16px;
 margin-top: 32px;
 color: #656971;
 }
+.idea{
+    margin-bottom: 6px;
+}
 .span{
     font-family: Rubik;
 font-style: normal;
@@ -791,7 +834,7 @@ font-weight: normal;
 font-size: 20px;
 line-height: 20px;
 text-decoration-line: underline;
-margin-top: 5px;
+margin-top: 4px;
 color: #EDEFF3;
 
 }
@@ -819,11 +862,16 @@ color: #7C7F86;
    
 }
 .icons a{
-    margin-right: 4%;
+    margin-right: 40px;
     width: 32px;
     height: 32px;
+  
 }
-
+.icons a:nth-child(1){
+    margin-top:-7px ;
+    width: 40px;
+    height: 40px;
+}
 /*
 .icons img:nth-child(2){
     opacity: 0;
@@ -841,19 +889,14 @@ color: #7C7F86;
     opacity: 1;
 }*/
 
-.icons img{
-    
-    width: 32px;
-    height: 32px;
 
-}
 .icons img:hover{
     opacity: 0.3;
 
 }
 .last{
     text-align: center;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .copy{
     font-family: Rubik;
@@ -862,8 +905,8 @@ font-weight: normal;
 font-size: 16px;
 line-height: 16px;
 /* identical to box height, or 100% */
-
-
+margin-left: -1vw;
+text-align: center;
 /* Text/Dark-20 */
 
 color: #363A40;
@@ -893,16 +936,21 @@ border-radius: 20px!important;
 }
 .modal-fullscreen{
     width: 80vw!important;
-    margin-top: 7.5vh;
+    margin-top: 15vh;
     margin-left: 10vw;
-    height: 91vh;
+    height: 83vh;
     background: #2D3136;
  
     box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15), 10px 10px 40px rgba(12, 13, 13, 0.7), inset -5px -5px 24px rgba(179, 178, 186, 0.05), inset 5px 5px 24px rgba(12, 13, 13, 0.25);
     border-radius: 20px!important;
    
 }
-
+.cross{
+    position: absolute;
+    margin-left: 77.4vw;
+    margin-top: 16px;
+    z-index: 99999999999999;
+}
 .modal-header{
     border: transparent;
 }
@@ -912,10 +960,10 @@ border-radius: 20px!important;
 
 .modal-body img{
     
-    width: 453px;
-    height: 383px;
-margin-left: 60px;
-margin-top: 5vh;
+    width: 483px;
+height: 398px;
+margin-left: 70px;
+margin-top: 10vh;
 padding: 0!important;
 
 }
@@ -925,7 +973,8 @@ padding: 0!important;
 }
 .from{
     width: 30vw;
-    margin-left: 3vw;
+    margin-left: 6vw;
+    margin-top: 10px;
 }
 .texttop h1{
     font-family: Rubik;
@@ -967,7 +1016,7 @@ color: #939AA9;
 .button {
     background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
     border-radius: 5px;
-    color: #122dff;
+   
     display: inline-block;
     font-size: 20px;
     padding: 1px;
@@ -994,6 +1043,16 @@ color: #FCFCFC;
     padding: 1em 3em;
     border-radius: 6px;
   }
+.button:hover{
+   
+
+background-color: linear-gradient(91.42deg, #8346C2 -1.9%, #243A9E 95.8%);
+
+
+}
+
+
+
   .button2 {
     background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
     border-radius: 5px;
@@ -1063,29 +1122,40 @@ margin-top: 0px;
     color: #656971;
 
 }
+.solvelabel{
+    margin-top: 36px!important;
+}
+.m img:hover{
+    transform: scale(1.02);
+}
+.mb img:hover{
+    transform: scale(1.02);
+}
 .m img{
     
-    margin-left: -25px;
-    width: 350px;
-height: 66px;
-margin-top: 50px;
+    margin-left: 0px;
+    width: 250px;
+    height: 56px;
+margin-top: 40px;
 }
 .m{
-    width: 300px;
-    height: 56px;
-    margin-top: 50px;
+    width: 250px;
+height: 56px;
+    margin-top: 40px;
 }
 .mb img{
     
  
-    width: 400px;
-height: 66px;
-margin-left:-41px!important;
-margin-top: 25px!important;
+    width: 250px;
+height: 56px;
+margin-left:0px!important;
+margin-top: 40px!important;
 }
 .mb{
-    margin-top: 30px;
-    margin-left:-10px!important;
+    width: 250px;
+height: 56px;
+    margin-top: 0px;
+    margin-left:0px!important;
 }
 
 .inputtext button{
@@ -1097,27 +1167,39 @@ border:transparent;
 
 
 }
+.modelanimation{
+    display: block;
+    animation: srick linear 4s;
+}
+@keyframes srick {
+    from{
+        width: 100% !important; ;
+    }
+    to{
+        width: 50% !important;;
+    }
+    
+}
 .ondone{
     text-align: center;
-    margin-left: 22vw;
-    margin-top: -6vh;
+    margin-left: 20vw;
+    margin-top: -10vh;
     
 }
 .img{
-    width: 453px;
-height: 383px;
+    width: 453px!important;
+height: 383px!important;
 }
 .ondone button{
     
     position: absolute;
  background: transparent;
  border: transparent;
- width: 278px!important;
- height: 66px!important;
+ width: 258px!important;
+ height: 56px!important;
 margin-left: -11.5vw;
 margin-top: 0vh;
 text-align: center;
-
 
 
 }
@@ -1136,7 +1218,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 24px;
-
+margin-left: 2vw;
 /* identical to box height, or 100% */
 
 

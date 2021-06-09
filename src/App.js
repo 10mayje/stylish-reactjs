@@ -14,7 +14,7 @@ function App() {
     <hr className='an-text' style={{color:"white"}} />
                     <div className="bio"><h1 className="anmate-text text-moving" ><span>Currently, </span>I’m crafting five new products at Stylework. Stay tuned for the updates!  </h1>
                       </div>
-    <hr style={{color:"white",marginTop:"1vh"}} />
+    <hr style={{color:"white"}} />
     <Intrest/>
     
     <Foot/>

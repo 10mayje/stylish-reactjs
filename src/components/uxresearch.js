@@ -87,17 +87,27 @@ const UX=()=>{
             
         </div>
         <div className="box1" >
-            <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
+            <div>
+                <div style={{display:'flex'}}>
+                    <div >
+                        <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://blog.prototypr.io/a-step-away-from-privacy-hoax-d6e29ced0488' target="_blank">
                 <div width="100%" data-aos="fade-up" data-aos-delay="700" >
                          <img  src={Img3}/>    
                         </div>
                     </a></Tilt>
+                    </div>
+   
+
+
+                     <div style={{width:'1%'}} className={style3}><h2 className="number3">03</h2> 
+                        </div>
+                </div>
+             
                     <Waypoint
   onEnter={timer3} onLeave={end3}
 />
-                    <div className={style3}><h2 className="number3">03</h2> 
-                        </div>
+                   
                     </div>
 
                     <div className="btext">

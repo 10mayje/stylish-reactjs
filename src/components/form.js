@@ -11,6 +11,7 @@ const Form=()=>{
     const [r,setR]=useState(0);
     const [style,setStyle]=useState('k');
     const [style2,setStyle2]=useState('k');
+    const [style3,setStyle3]=useState('k');
    const click=()=>{
      if(text==''){
        setStyle('id')
@@ -19,6 +20,9 @@ const Form=()=>{
        setStyle2('id2')
      }
    } 
+   const short=()=>{
+       setStyle3('modelanimation');
+   }
    const sendEmail=(e)=>{
        e.preventDefault();
        
@@ -28,7 +32,7 @@ const Form=()=>{
            setR(0)
        }
        else{
-              emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
+            /*  emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
     .then(function(response) {
        alert('SUCCESS!', response.status, response.text);
        
@@ -36,7 +40,7 @@ const Form=()=>{
        alert('FAILED...', error);
        
     });
-    e.target.reset();
+    e.target.reset();*/
        }
   
     setText('');
@@ -56,7 +60,7 @@ const Form=()=>{
           </div>
           <div className="inputtext">
              <form onSubmit={sendEmail} >
-                 <label>What do you want me to call you?</label><br/>
+                 <label className='calllabel'>What do you want me to call you?</label>
 
                  <div  class="button" >
                    <input id={style} placeholder={style=='id'?'This is important to be filled up!':'Tell me your name'} type='text' name='name' value={text} onChange={(e)=>{
@@ -69,8 +73,8 @@ const Form=()=>{
                   
                     
                 
-                <br/>
-                 <label>What do you want me to build/solve?</label><br/>
+                
+                 <label className='solvelabel'>What do you want me to build/solve?</label>
 
 
 
@@ -86,7 +90,7 @@ const Form=()=>{
               
                  
                  {text==''||text2==''?<a style={{cursor: 'pointer'}} className='m' onClick={click}><img src={btnreq}/>    </a>:
-                 <button type='submit' className='mb'  data-bs-toggle="modal" data-bs-target="#example"   ><img src={btnreq2}/></button>}
+                 <button type='submit' onClick={short} className='mb'  data-bs-toggle="modal" data-bs-target="#example"   ><img src={btnreq2}/></button>}
                  
                  {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
                  <button type='submit'  data-bs-toggle="modal" data-bs-target="#example"   >Send your requirement</button>}
@@ -100,12 +104,14 @@ const Form=()=>{
          <div className='style'>
 
                <div class="modal fade  " id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{zIndex:'99999999999999'}}>
-  <div class="modal-fullscreen modal-dialog"  >
+                 
+
+  <div class="modal-fullscreen modal-dialog "  >
     <div class="modal-content " >
-      <div class="modal-header">
+    
       
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+        <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close"></button>
+   
       <div class="modal-body">
           <div className='ondone'>
               <img className='img' src={img} />
@@ -122,7 +128,11 @@ const Form=()=>{
       </div>
      
     </div>
-  </div>
+
+
+
+                 </div>
+
 </div>
          </div>
         

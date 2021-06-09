@@ -29,7 +29,7 @@ const Body=()=>{
     
     return(
     <div className="background">
-       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'10px',marginLeft:'0.5vw'}}>
+       <div  style={{position:'fixed',zIndex:'99999999',marginTop:'36px',marginLeft:'0.5vw'}}>
             <img src={img1}/>
         </div> 
         <div className="container-one" > 
@@ -141,10 +141,10 @@ const Body=()=>{
 <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{zIndex:'99999999999999'}}>
   <div class="modal-fullscreen modal-dialog" >
     <div class="modal-content " >
-      <div class="modal-header">
       
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+      
+        <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close"></button>
+      
       <div class="modal-body">
            <div className='im'><img src={img}/><div className='top'><h6 style={{fontsize: '10px'}}>Don’t worry, I’m here to help you!</h6></div></div>
            <div>

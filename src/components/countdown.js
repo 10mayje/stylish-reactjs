@@ -65,7 +65,7 @@ const Countdown=()=>{
 
       i=i+1;
       
-    },300);
+    },400);
     
   }
 
@@ -75,9 +75,7 @@ const Countdown=()=>{
       
        
        Aos.init({duration:800});
-       return()=>{
-         clearInterval(interval.current);
-       }
+       
     
       
      },[]); 
@@ -90,11 +88,11 @@ return(
 
   <div class="row ">
     <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
-    <Waypoint
+ 
+ <Waypoint
   onEnter={timer} 
   
 />
-
 <h1>{text==0?'0'+count:'02'}</h1>
       <p className={style}>years as a freelancer</p>
     </div>
@@ -129,14 +127,14 @@ return(
 
 
 <div class=" count2">
-
-
-  <div class="row ">
-    <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
     <Waypoint
   onEnter={timer} 
   
 />
+
+  <div class="row ">
+    <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
+  
 
 <h1>{text==0?'0'+count:'02'}</h1>
       <p className={style}>years as a freelancer</p>

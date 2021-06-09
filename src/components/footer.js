@@ -1,12 +1,12 @@
 import react,{useEffect} from 'react';
 
-import icon from '../images/Vector2.png';
+import icon from '../images/twitter (1) 1.svg';
 import button from '../images/Back-to-top.png'; 
-import icon2 from '../images/instagram 1.png';
-import icon3 from '../images/linkedin 1.png';
-import icon4 from '../images/dribbble-logo.png';
-import icon5 from '../images/Behance.png';
-import icon6 from '../images/Vector.png';
+import icon2 from '../images/instagram 1.svg';
+import icon3 from '../images/linkedin 1.svg';
+import icon4 from '../images/dribbble-logo.svg';
+import icon5 from '../images/Behance.svg';
+import icon6 from '../images/medium 1.svg';
 
 import "aos/dist/aos.css";
 import Aos from 'aos';
@@ -39,7 +39,7 @@ const Foot=()=>{
               <p data-aos="fade-left" data-aos-delay="420" data-aos-duration="500">posting on my social media too!</p>
                <div className="icons" data-aos="fade-left" data-aos-delay="600" data-aos-duration="500">
                  <a href='https://www.behance.net/Rounak0713'  target="_blank">
-                   <img className='i1' src={icon5} />
+                   <img  src={icon5} />
                    </a>
                 <a href='https://www.linkedin.com/in/rounak-ghosh-53a21b136/'  target="_blank">
                   <img  src={icon3}/>
@@ -66,7 +66,7 @@ const Foot=()=>{
           </div>
           <div className='fouter'>
               <div className='fo1'>
-              <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">Have an idea?</p>
+              <p className='idea' data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">Have an idea?</p>
               <a style={{textDecorationLine:'none'}} href="mailto:ronuxdnr@gmail.com"><span className="span" data-aos="fade-right" data-aos-delay="400" data-aos-duration="500">ronuxdnr@gmail.com</span></a>
               </div>
                
