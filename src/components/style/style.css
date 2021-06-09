@@ -434,20 +434,20 @@ height: 575px;
 .b3{
     margin-left: 29vw;
 }
-.box1 h2{
-    font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 24px;
-margin-top: 20px;
-width: 50vw;
-color: #EDEFF3;
 
-}
 .btext{
     height: 84px;
     overflow: hidden;
+}
+.btext h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 50vw;
+    color: #EDEFF3;
 }
 .btext span{
     font-family: Rubik;
@@ -493,9 +493,8 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-
-top: 21.4vh;
-left: 24.5vw;
+margin-left: 43vw;
+margin-top: -3vh;
 z-index: 99999999999;
 
 }
@@ -511,8 +510,8 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 121.0vh;
-left: 2.4vw;
+margin-left: -3vw;
+margin-top: -3.5vh;
 z-index: 99999999999;
 opacity: 0.5;
 
@@ -529,11 +528,12 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 220.5vh;
+margin-left: 43vw;
+margin-top: -3.5vh;
 
 z-index: 99999999999;
 opacity: 0.5;
-left: 23.5vw;
+
 
 }
 .number4{
@@ -548,9 +548,8 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-top: 320vh;
-
-left: 2.4vw;
+margin-left: -3vw;
+margin-top: -3.4vh;
 z-index: 99999999999;
 opacity: 0.5;
 
