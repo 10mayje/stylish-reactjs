@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/stylish-reactjs/static/css/main.3c9c6f84.chunk.css",
-    "main.js": "/stylish-reactjs/static/js/main.c669311e.chunk.js",
-    "main.js.map": "/stylish-reactjs/static/js/main.c669311e.chunk.js.map",
+    "main.css": "/stylish-reactjs/static/css/main.bdd52e1d.chunk.css",
+    "main.js": "/stylish-reactjs/static/js/main.547d8e32.chunk.js",
+    "main.js.map": "/stylish-reactjs/static/js/main.547d8e32.chunk.js.map",
     "runtime-main.js": "/stylish-reactjs/static/js/runtime-main.b535d143.js",
     "runtime-main.js.map": "/stylish-reactjs/static/js/runtime-main.b535d143.js.map",
     "static/css/2.ec02d681.chunk.css": "/stylish-reactjs/static/css/2.ec02d681.chunk.css",
-    "static/js/2.956220e1.chunk.js": "/stylish-reactjs/static/js/2.956220e1.chunk.js",
-    "static/js/2.956220e1.chunk.js.map": "/stylish-reactjs/static/js/2.956220e1.chunk.js.map",
+    "static/js/2.6f538522.chunk.js": "/stylish-reactjs/static/js/2.6f538522.chunk.js",
+    "static/js/2.6f538522.chunk.js.map": "/stylish-reactjs/static/js/2.6f538522.chunk.js.map",
     "static/js/3.15933004.chunk.js": "/stylish-reactjs/static/js/3.15933004.chunk.js",
     "static/js/3.15933004.chunk.js.map": "/stylish-reactjs/static/js/3.15933004.chunk.js.map",
     "index.html": "/stylish-reactjs/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/stylish-reactjs/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.3c9c6f84.chunk.css.map": "/stylish-reactjs/static/css/main.3c9c6f84.chunk.css.map",
-    "static/js/2.956220e1.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.956220e1.chunk.js.LICENSE.txt",
+    "static/css/main.bdd52e1d.chunk.css.map": "/stylish-reactjs/static/css/main.bdd52e1d.chunk.css.map",
+    "static/js/2.6f538522.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.6f538522.chunk.js.LICENSE.txt",
     "static/media/Aarohan-web-design.531e82c2.png": "/stylish-reactjs/static/media/Aarohan-web-design.531e82c2.png",
     "static/media/Behance.7472db89.svg": "/stylish-reactjs/static/media/Behance.7472db89.svg",
     "static/media/CASE STUDY-UX in Libraries.ace340b3.pdf": "/stylish-reactjs/static/media/CASE STUDY-UX in Libraries.ace340b3.pdf",
@@ -38,7 +38,7 @@
     "static/media/The_Peaky_Blinders.ff95f09d.png": "/stylish-reactjs/static/media/The_Peaky_Blinders.ff95f09d.png",
     "static/media/Trust,satisfaction.d60a035d.png": "/stylish-reactjs/static/media/Trust,satisfaction.d60a035d.png",
     "static/media/Visual-design.d3f4b434.png": "/stylish-reactjs/static/media/Visual-design.d3f4b434.png",
-    "static/media/back-work.7be165e0.png": "/stylish-reactjs/static/media/back-work.7be165e0.png",
+    "static/media/back-work.8c94bf3f.svg": "/stylish-reactjs/static/media/back-work.8c94bf3f.svg",
     "static/media/dribbble-logo.c77f21d5.svg": "/stylish-reactjs/static/media/dribbble-logo.c77f21d5.svg",
     "static/media/instagram 1.14ebf3a9.svg": "/stylish-reactjs/static/media/instagram 1.14ebf3a9.svg",
     "static/media/linkedin 1.06d6693a.svg": "/stylish-reactjs/static/media/linkedin 1.06d6693a.svg",
@@ -50,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.b535d143.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.956220e1.chunk.js",
-    "static/css/main.3c9c6f84.chunk.css",
-    "static/js/main.c669311e.chunk.js"
+    "static/js/2.6f538522.chunk.js",
+    "static/css/main.bdd52e1d.chunk.css",
+    "static/js/main.547d8e32.chunk.js"
   ]
 }
