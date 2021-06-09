@@ -84,16 +84,16 @@ const VD=()=>{
                    
                 
                 </Tilt> 
-     
+     <div className={style5}>
+                    <h2  className="number">01</h2> 
+              </div>
               
                
             </div>
             <div className="btext">
               <h2 className={style5}>VISUAL DESIGN PROJECTS <span> HEAD, WDCT </span> </h2> 
 
-              <div className={style5}>
-                    <h2  className="number">01</h2> 
-              </div>
+              
 
             </div>
             

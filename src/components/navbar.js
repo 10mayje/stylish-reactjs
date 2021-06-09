@@ -34,33 +34,32 @@ function Nav() {
 
   return (
 <div >
-
-<div  className={colorChange ? 'navbar navbar-expand-lg navbar-dark navb' : 'navbar navbar-expand-lg navbar-dark navb2'}>
+<div className='sut'>
+  <div  className={colorChange ? 'navb' : ' navb2'}>
   <div class="container-fluid topbar">
  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ">
+
+      <div className="navbars">
       
-        <li >
-        <a className="nav-link active" href="#work">WORK</a>
-        </li>
-        <li>
-        <a className="nav-link active" href="#About">ABOUT ME</a>
+        
+        <a className="tap" href="#work">WORK</a>
+        
+        <a className="tap" href="#About">ABOUT ME</a>
           
-        </li>
-        <li>
-          <a className="nav-link active" href="#Contact" >CONTACT</a>
-        </li>
-      </ul>
-     
-    </div>
+        
+          <a className="tap" href="#Contact" >CONTACT</a>
+       
+      </div>
+  
   </div>
+</div>
 </div>
 
 
+
 <div class={style}>
-  <div className='bar2'>
-    <div onClick={menu} class="bar"></div>
+  <div  className={colorChange ? 'bar3' : 'bar4'}>
+    <div onClick={menu}  className= 'bar'></div>
   </div>
    
    <nav>

@@ -114,7 +114,12 @@ body{
     max-width: 100%;
 }
 
-
+.topicon{
+    position:fixed;
+    z-Index:99999999;
+    margin-top:34px;
+    margin-left:0.5vw;
+}
 .menu-collapsed{
     display: none;
 }
@@ -152,23 +157,36 @@ body{
     height: 103px!important;
   
 }
-.navbar-nav{
-    margin-left: 62.5vw;
+.navbars{
+    display: flex;
+    float:right;
+    margin-right: 10vw;
+    margin-top: 36px;
+    text-decoration: none;
 }
+.navbars li{
+    text-decoration: none;
+    
+}
+.tap{
+    text-decoration: none;
+    width: auto;
+height: 14px;
 
-.nav-link{
-    width: 'auto';
-    margin-right: 96px;
-    font-size: 13px;
-}
-.navbar-brand{
-    margin-left:10vw;
-   
-}
-.nav-link a:hover{
-  transform: scale(1.02)!important;
-}
+margin-left: 96px;
 
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+
+/* Text/Alternate-light-grey */
+
+color: #EDEFF3;
+}
 /* first box*/
 .container-one{
     display:flex;
@@ -935,6 +953,8 @@ box-shadow: 5px 5px 24px 0px rgba(12, 13, 13, 0.25) inset;
 box-shadow: -5px -5px 24px 0px rgba(179, 178, 186, 0.05) inset;
 border-radius: 20px!important;
 
+box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15), 10px 10px 40px rgba(12, 13, 13, 0.7), inset -5px -5px 24px rgba(179, 178, 186, 0.05), inset 5px 5px 24px rgba(12, 13, 13, 0.25);
+border-radius: 20px!important;
 
 }
 .model{
@@ -946,16 +966,28 @@ border-radius: 20px!important;
     margin-top: 15vh;
     margin-left: 10vw;
     height: 83vh;
-    background: #2D3136;
+    background: transparent;
  
-    box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15), 10px 10px 40px rgba(12, 13, 13, 0.7), inset -5px -5px 24px rgba(179, 178, 186, 0.05), inset 5px 5px 24px rgba(12, 13, 13, 0.25);
-    border-radius: 20px!important;
    
+}
+.contax {
+    width: 70vw!important;
+  
+}
+.contax .modal-content {
+    width: 70vw!important;
+    margin-left: 5vw!important;
+}
+.cross2{
+    position: absolute;
+    margin-left: 66vw;
+    margin-top: 32px;
+    z-index: 99999999999999;
 }
 .cross{
     position: absolute;
-    margin-left: 77.4vw;
-    margin-top: 16px;
+    margin-left: 76vw;
+    margin-top: 32px;
     z-index: 99999999999999;
 }
 .modal-header{
@@ -1189,9 +1221,15 @@ border:transparent;
 }
 .ondone{
     text-align: center;
-    margin-left: 20vw;
-    margin-top: -10vh;
+    margin-left: 14vw;
+    margin-top: -5vh;
     
+}
+.a{
+    display: block;
+}
+.b{
+    display: none;
 }
 .img{
     width: 453px!important;
@@ -1294,3 +1332,9 @@ color: #B83939;
 
 
 
+.modal-backdrop {
+    position: fixed;
+   
+    z-index: 9999999;
+    
+}

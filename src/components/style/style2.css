@@ -1,7 +1,12 @@
 @media screen and (max-width: 880px){
 
 
-
+    .topicon{
+        position:fixed;
+        z-Index:99999999;
+        margin-top:16px;
+        margin-left:0.5vw;
+    }
     
 .menu-collapsed{
     display: block;
@@ -259,8 +264,9 @@ text-align: center;
 /* fourth box*/
 .box1{
     width: 100vw;
-  
+    margin-bottom: 0;
     margin-left: 0vw;
+    height: 66vh;
 }
 
 .b3{
@@ -272,56 +278,63 @@ text-align: center;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 21px;
     /* identical to box height, or 100% */
-    
-    
+    margin-top: 1vh;
+    width: 80%;
     /* Text/Alternate-light-grey */
     
     color: #EDEFF3;
     
-margin-top: 10px;
-width: 80%;
+
 
 
 }
-.box1 img{
-    margin: 0;
-    padding: 0;
-}
+
 .btext span{
     font-size: 14px;
 line-height: 14px;
 }
 .number{
    margin: 0;
+   margin-left: 75vw;
+   margin-top: 1vh;
     transform: rotate(0deg);
     
 }
 .number2{
     margin: 0;
+    margin-left: 75vw;
+    margin-top: 1vh;
     transform: rotate(0deg);
 }
 .number3{
     margin: 0;
+    margin-left: 75vw;
+    margin-top: 1vh;
     transform: rotate(0deg);
 }
 .number4{
     margin: 0;
+    margin-left: 75vw;
+    margin-top: 1vh;
     transform: rotate(0deg);
 }
 .btext{
-    height: 70px;
+    height: 70px!important;
+    margin: 0;
 }
 .box1 img{
 
-width: 92%;
-height: 36vh;
+    width: 333px;
+    height: 258px;
+
  transition: all 0.3s ease 0s;
 overflow: hidden;
 }
 .box1 div{
-    width: 100%;
+    width: 333px;
+height: 258px;
     overflow: hidden;
 }
   
@@ -470,6 +483,13 @@ line-height: 14px;
 color: #656971;
 }
 /* intersest*/
+.table1{
+    margin-left: -3vw;
+}
+.table3{
+    margin-left: 0.5vw;
+    margin-top: -2vh;
+}
 .one{
     width: 84px;
 height: 56px;
@@ -512,7 +532,7 @@ height: 66px;
 
     text-align: center;
     width: 80%;
-    margin-left: 15vw;
+    margin-left: 10vw;
     opacity: 0.8;
 }
 .table2 h1{
@@ -524,7 +544,7 @@ height: 66px;
     line-height: 20px;
     /* identical to box height, or 100% */
     
-    
+    margin-left: 4vw;
     /* Text/Light */
     
     color: #FCFCFC;
@@ -538,7 +558,7 @@ height: 66px;
     font-size: 12px;
     line-height: 18px;
     /* or 150% */
-    
+    margin-left: 4vw;
     text-align: center;
     
     /* Text/Light-20 */
@@ -664,15 +684,68 @@ color: #7C7F86;
 
 
 .icons{
-    margin-left: 10vw;
+    margin-left: 13vw;
+    height: 20px!important;
+}
+.icons img{
+    width: 20px!important;
+}
+.icons a{
+    width: 30px;
+     position:absolute ;
+} 
+.icons img:nth-child(1){
+    height: 40px;
+    
+}   
+.icons a:nth-child(1){
+    height: 35px;
+    margin-top: 0;
+   margin-left: 0px;
+}
+.icons a:nth-child(2){
+    
+    margin-top: 0;
+   margin-left: 40px;
 }
 
+.icons a:nth-child(3){
+   
+    margin-top: 0;
+   margin-left: 80px;
+}
+.icons a:nth-child(4){
+   
+    margin-top: 0;
+   margin-left: 120px;
+}
+.icons a:nth-child(5){
+   
+    margin-top: 0;
+   margin-left: 160px;
+}
+.icons a:nth-child(6){
+   
+    margin-top: 0;
+   margin-left: 200px;
+}
+.last{
+    text-align: center;
+    padding-bottom: 0vh;
+}
+.copy{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+margin-left: -4vw;
+text-align: center;
+/* Text/Dark-20 */
 
-
-
-
-
-
+color: #363A40;
+}
 
 .anmate-text{
     font-family: Rubik;
@@ -696,7 +769,6 @@ line-height: 16px;
     padding: 0;
 }
 .modal-fullscreen{
-    box-shadow: -5px -5px 30px rgba(212, 211, 226, 0.15), 5px 5px 30px rgba(12, 13, 13, 0.7), inset -2px -2px 12px rgba(179, 178, 186, 0.05), inset 2px 2px 12px rgba(12, 13, 13, 0.25);
     width: 85vw!important;
     
     margin-top: 9vh;
@@ -789,7 +861,7 @@ display: none;
 .button {
     background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
     border-radius: 5px;
-    color: #122dff;
+    
     display: inline-block;
     font-size: 20px;
     padding: 1px;
@@ -907,6 +979,26 @@ height: 46px;
 
 }
 
+.contax {
+    width: 90vw!important;
+    background: transparent!important;
+    box-shadow: transparent;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    height: 85vh;
+  
+}
+.contax .modal-content {
+    width: 90vw!important;
+    margin-left: 0vw!important;
+    box-shadow: transparent;
+}
+.cross2{
+    position: absolute;
+    margin-left: 79vw;
+    margin-top: 15px;
+    z-index: 99999999999999;
+}
 
 .ondone{
     width: 80vw;
@@ -914,8 +1006,10 @@ height: 46px;
 }
 
 .ondone img{
-    width: 246px;
-height: 208px;
+    width: 246px!important;
+height: 208px!important;
+margin-top: 40px;
+margin-left: 15px;
 }
 
 .ondone h2{
@@ -967,8 +1061,8 @@ color: #EDEFF3;
  width: 182px!important;
 height: 46px!important;
 
-margin-left: -25vw;
-margin-top: 5vh;
+margin-left: -26vw;
+margin-top: 4vh;
 text-align: center;
 
 
