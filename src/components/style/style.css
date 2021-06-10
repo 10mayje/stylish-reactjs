@@ -675,7 +675,12 @@ flex-grow: 0;
     padding-right: 30%;
   
 }
-
+.bt-1:hover{
+  transform: scale(1.05) !important;
+}
+.bt-2:hover{
+    transform: scale(1.05) !important;
+}
 
 .bt-1{
     width: 20vw!important;
@@ -685,12 +690,7 @@ background: transparent;
 box-shadow: transparent;
 
 }
-.bt-1:hover{
-    transform: scale(1.02);
-}
-.bt-2:hover{
-    transform: scale(1.02);
-}
+
 .bt-2{
     margin-top: -5.5vh;
     width: 20vw!important;
