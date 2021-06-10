@@ -39,15 +39,19 @@ color: #656971;
 }
 .animated3{
     display: block;
-    animation: fade ease-in-out 2s;
+    animation: fade linear 0.5s;
+}
+.animated9{
+    display: block;
+    animation: fade linear 2s;
 }
 .animated4{
     display: block;
-    animation: fade2 ease-in-out 2s;
+    animation: fade2 linear 0.5s;
 }
 .animated{
     display: block;
-    animation: fade ease-in-out 3s;
+    animation: fade linear 0.5s;
 }
 @keyframes fade {
     from{
@@ -60,7 +64,7 @@ color: #656971;
 }
 .animated2{
     display: block;
-    animation: fade2 ease-in-out 4s;
+    animation: fade2 linear 1s;
 }
 @keyframes fade2 {
     from{
@@ -465,7 +469,7 @@ height: 575px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 30px;
     margin-top: 20px;
     width: 50vw;
     color: #EDEFF3;
@@ -532,7 +536,7 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-margin-left: -3vw;
+margin-left: -2.5vw;
 margin-top: -3.5vh;
 z-index: 99999999999;
 opacity: 0.5;
@@ -574,7 +578,7 @@ letter-spacing: 0.05em;
 transform: rotate(-90deg);
 /* Text/Dark-grey */
 position:absolute;
-margin-left: -3vw;
+margin-left: -2.5vw;
 margin-top: -3.4vh;
 z-index: 99999999999;
 opacity: 0.5;
@@ -651,14 +655,14 @@ flex-grow: 0;
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 20.5vw;
-    margin-top:29vh;
+    left: 19vw;
+    margin-top:27vh;
 }
 .hoverbutton2{
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 45vw;
+    left: 44vw;
     margin-top:29vh;
 }
 .bt-1{
@@ -1011,7 +1015,7 @@ justify-content: center;
 .cross{
     position: absolute;
     margin-left: 75vw;
-    margin-top: 2vh;
+    margin-top: 2.9vh;
     z-index: 99999999999999;
 }
 .modal-header{
@@ -1040,6 +1044,7 @@ justify-content: center;
 align-items: center;
 justify-self: center;
 justify-content: center;
+margin-top: -5vh;
 
 }
 .from{
@@ -1322,6 +1327,7 @@ border:transparent;
     
    
     text-align: center;
+    margin-top: -4vh;
 padding: 0!important;
 vertical-align: middle;
 align-items: center;

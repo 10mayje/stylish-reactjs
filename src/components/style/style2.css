@@ -3,7 +3,7 @@
 
     .topicon{
         position:fixed;
-        z-Index:99999999;
+        z-Index:9999999;
         margin-top:16px;
         margin-left:0.5vw;
     }
@@ -297,7 +297,7 @@ line-height: 14px;
 }
 .number{
    margin: 0;
-   margin-left: 75vw;
+   margin-left: 75vw!important;
    margin-top: 1vh;
     transform: rotate(0deg);
     
@@ -310,7 +310,7 @@ line-height: 14px;
 }
 .number3{
     margin: 0;
-    margin-left: 75vw;
+    margin-left: 75vw!important;
     margin-top: 1vh;
     transform: rotate(0deg);
 }
@@ -610,6 +610,10 @@ overflow: hidden;
     padding: 0;
     margin-top: 88px;
     margin-left: -19px;
+    vertical-align: middle;
+align-items: center;
+justify-self: center;
+justify-content: center;
  
 }
 .fo1{
@@ -617,12 +621,21 @@ overflow: hidden;
     margin: 0;
     margin-bottom: 5vh;
     text-align: center;
+    vertical-align: middle;
+
+justify-self: center;
+justify-content: center;
 }
 .fo2{
     width: 100%;
     margin-top: 5vh;
     margin: 0;
+    margin-left: 0vw!important;
     text-align: center;
+    vertical-align: middle;
+
+justify-self: center;
+justify-content: center;
 }
 
 .fo1 h2{
@@ -695,13 +708,16 @@ color: #7C7F86;
      position:absolute ;
 } 
 .icons img:nth-child(1){
-    height: 40px;
+    height: 33px!important;
+    width: 20px!important;
+
     
 }   
 .icons a:nth-child(1){
-    height: 35px;
-    margin-top: 0;
-   margin-left: 0px;
+    height: 35px!important;
+    
+    margin-top: -2px!important;
+   margin-left: -3px!important;
 }
 .icons a:nth-child(2){
     
@@ -763,6 +779,11 @@ line-height: 16px;
     border-radius: 20px;
     height: 70vh;
     box-shadow: none; 
+    vertical-align:middle;
+align-items: right;
+justify-self: right;
+
+
 
 }
 .model{
@@ -770,16 +791,17 @@ line-height: 16px;
 }
 .modal-fullscreen{
     width: 85vw!important;
-    
+   
     margin-top: 9vh;
-    margin-left: 10vw;
+    margin-left: 8vw;
     height: 89vh;
     position: fixed;
     
    
 }
 .im{
-    width: 90vw;
+    width: 70vw;
+    margin-top: 1vh;
     
 }
 .top{
@@ -788,7 +810,7 @@ line-height: 16px;
 width: 150px;
 height: 42px;
 margin-left: 9px;
-margin-top: 2vh;
+margin-top: 3vh;
 font-family: Rubik;
 font-style: normal;
 font-weight: 500;
@@ -809,12 +831,17 @@ color: #EDEFF3;
     height: 0px;
 }
 
+.m {
+    
+    margin: 0!important;
+}
+
 .m img{
     
-    margin-left: 0px!important;
     width: 200px!important;
-height: 56px!important;
-margin-top: 5px!important;
+    height: 56px;
+    margin-left:-13vw!important;
+    margin-top: -5px!important;
 }
 
 .mb img{
@@ -853,10 +880,17 @@ display: none;
    
 }
 .inputtext{
-    margin-top: 35px;
+    margin-top: 3vh;
 }
 
+.buttoncolor{
+    margin-bottom: 10px;
+}
+.buttoncolor input {
+  
+    padding: 1em 2em;
 
+  }
 
 .button {
     background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
@@ -866,7 +900,7 @@ display: none;
     font-size: 20px;
     padding: 1px;
     text-decoration: none;
-    margin-top: 3px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   .button input {
@@ -880,14 +914,14 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 12px;
-/* identical to box height, or 100% */
 
-
-/* Text/Light */
 
 color: #FCFCFC;
-    padding: 1em 3em;
+    padding: 1em 2em;
     border-radius: 6px;
+  }
+  .buttoncolor2 textarea{
+    padding: 2em 2em;
   }
   .button2 {
     background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
@@ -897,7 +931,7 @@ color: #FCFCFC;
     font-size: 20px;
     padding: 1px;
     text-decoration: none;
-    margin-top: 5px;
+    margin-top: 10px;
     
   }
   .button2 textarea {
@@ -918,7 +952,7 @@ line-height: 12px;
 /* Text/Light */
 
 color: #FCFCFC;
-    padding: 2em 3em;
+    padding: 2em 2em;
     border-radius: 6px;
   }
  
@@ -995,20 +1029,26 @@ height: 46px;
 }
 .cross2{
     position: absolute;
-    margin-left: 79vw;
+    margin-left: 76vw;
     margin-top: 15px;
     z-index: 99999999999999;
 }
-
+.cross{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 2.3vh;
+    z-index: 99999999999999;
+}
 .ondone{
     width: 80vw;
     margin: 0;
+    margin-top: -10vh;
 }
 
 .ondone img{
     width: 246px!important;
 height: 208px!important;
-margin-top: 40px;
+margin-top: 0vh;
 margin-left: 15px;
 }
 
@@ -1061,7 +1101,7 @@ color: #EDEFF3;
  width: 182px!important;
 height: 46px!important;
 
-margin-left: -26vw;
+margin-left: -27vw;
 margin-top: 4vh;
 text-align: center;
 

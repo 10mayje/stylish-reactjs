@@ -44,7 +44,7 @@ const timer=()=>{
         k=Math.floor((i*5)/24); 
         if(j>=2){
           setText(1);
-          setStyle('animated')
+          setStyle('animated9')
           setCount(2);
         }
          else{ 

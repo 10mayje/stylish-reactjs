@@ -77,7 +77,7 @@ const VD=()=>{
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
                     
                         <div  data-aos="fade-up" data-aos-delay="1000" >
-                         <img onMouseEnter={hover} onMouseLeave={hout}  className={style2} src={Img}/> 
+                         <img onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchEnd={hout}  className={style2} src={Img}/> 
                          
                         </div>
                        
