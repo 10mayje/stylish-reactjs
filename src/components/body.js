@@ -107,7 +107,9 @@ setS('b');
   return (
     <div className="background">
       <div className="topicon" >
-        <img src={img1} />
+<a href="#" style={{cursor:'pointer'}}>
+  <img src={img1} />
+  </a>
       </div>
       <div className="container-one" >
         <div className="item-one "  >
