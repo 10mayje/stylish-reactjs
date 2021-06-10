@@ -660,7 +660,7 @@ flex-grow: 0;
     z-index: 999999999;
     display: flex;
     left: 16vw;
-    margin-top:24vh;
+    margin-top:22vh;
     text-align: center;
 vertical-align: middle;
 align-items: center;
@@ -708,6 +708,7 @@ height: auto;
 box-shadow: transparent; border-radius: 4px;
 
 }
+
 
 .black{
     color:#656971;

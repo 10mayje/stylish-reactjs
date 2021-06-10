@@ -416,27 +416,25 @@ margin-right: 0;
 }
 .hoverbutton{
  
-    margin-left: 7vw;
-   margin-top:13vh ; 
+    margin-left: 6.5vw;
+   margin-top:11vh ; 
 }
 .hoverbutton2{
     
-    margin-left: -15vw;
-   margin-top:13vh ; 
+    margin-left: -16.5vw;
+   margin-top:11vh ; 
 }
 .bt-1{
-    width: 96px;
-height: 36px;
-
+ 
+width: 40vw!important;
 font-size: 12px;
 line-height: 12px;
 
 }
 .bt-2{
-    margin-top: 12px;
-    width: 96px;
-height: 36px;
-   
+    
+
+    width: 40vw!important;
     font-size: 12px;
     line-height: 12px;
   
