@@ -47,12 +47,12 @@
     position: fixed;
     margin-top: -10vh;
     height: 10vh;
-    background-color: #24292C;
+    background-color: #24292A;
     box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
 }
 
 .bar3{
-    background-color:#26282B ;
+    background-color:#24292A ;
     position: fixed;
     width: 100%;
     z-index: 9999999999;
@@ -61,7 +61,7 @@
     box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
 }
 .bar4{
-    background-color:#26282B ;
+    background-color:#24292A;
     position: fixed;
     width: 100%;
     z-index: 999999999;
@@ -95,7 +95,7 @@
 	 border-radius: 0px;
 	 top: 0;
 	 left: 0;
-	 background-color: #24292C;
+	 background-color: #24292A;
 }
  .menu-expanded ul {
 	 transition: all 0s;
