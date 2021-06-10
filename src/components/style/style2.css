@@ -792,10 +792,10 @@ justify-self: right;
 .modal-fullscreen{
     width: 85vw!important;
    
-    margin-top: 9vh;
+    margin-top: 8.5vh;
     margin-left: 8vw;
     height: 89vh;
-    position: fixed;
+   
     
    
 }
@@ -868,11 +868,12 @@ padding: 0!important;
 }
 .modal-body{
     flex-direction: column;
-    margin-top: -10px;
+    margin-top: -5vh;
 
 }
 .from{
     width: 70vw;
+    margin-top: 0vh;
     margin-left: 3vw;
 }
 .texttop{
@@ -880,11 +881,11 @@ display: none;
    
 }
 .inputtext{
-    margin-top: 3vh;
+    margin-top: 0vh;
 }
 
 .buttoncolor{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .buttoncolor input {
   
@@ -901,7 +902,7 @@ display: none;
     padding: 1px;
     text-decoration: none;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .button input {
     background: #2D3136;
@@ -922,6 +923,7 @@ color: #FCFCFC;
   }
   .buttoncolor2 textarea{
     padding: 2em 2em;
+    height: 162px;
   }
   .button2 {
     background: linear-gradient(91.42deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%) ;
@@ -938,7 +940,7 @@ color: #FCFCFC;
     background: #2D3136;
     border: transparent;
     display: block;
-    height: 192px;
+    height: 162px;
          
     width: 360px;
 font-family: Rubik;

@@ -1489,7 +1489,8 @@ color: #B83939;
              margin-right: 10vw;
          }
          .modal-body{
-             margin-top: 10vh;
+             margin-top: -1vh;
+             margin-left: 4vw;
          }
          .inputtext button{
             margin-top: 10vh;
@@ -1502,9 +1503,10 @@ color: #B83939;
         }
        .ondone img{
           margin-top: -15vh;
+          margin-bottom: 2vh;
        }
        .ondone button{
-           margin-top:10vh;
+           margin-top:13vh;
            margin-left: -7vw;
        }
         }    
