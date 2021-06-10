@@ -56,15 +56,15 @@ const Body = () => {
       setR(0)
     }
     else {
-      /*  emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
+        emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
 .then(function(response) {
- alert('SUCCESS!', response.status, response.text);
+ console.log('SUCCESS!', response.status, response.text);
  
 }, function(error) {
- alert('FAILED...', error);
+ console.log('FAILED...', error);
  
 });
-e.target.reset();*/
+e.target.reset();
     }
 
     setText('');

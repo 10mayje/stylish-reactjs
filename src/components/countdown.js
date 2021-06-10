@@ -25,6 +25,8 @@ const Countdown=()=>{
 
 const timer=()=>{
   console.log('off')
+  setCounter(0);
+  setT(0);
 }
 
 
@@ -115,7 +117,7 @@ return(
      <p className={style}>years as of experience</p>
     </div>
     <div class="col j" data-aos="fade-up" data-aos-delay="600">
-    <h1>{text3==0?(t==0?'0':'')+count3:'24'}</h1>
+    <h1>{text3==0?(count3<10?'0':'')+count3:'24'}</h1>
      <p className={style}>years lived</p>
     </div>
   </div>
@@ -167,7 +169,7 @@ return(
      <p className={style}>years as of experience</p>
     </div>
     <div class="col j" data-aos="fade-up" data-aos-delay="600">
-    <h1>{text3==0?(t==0?'0':'')+count3:'24'}</h1>
+    <h1>{text3==0?(count3<10?'0':'')+count3:'24'}</h1>
      <p className={style}>years lived</p>
     </div>
   </div>
