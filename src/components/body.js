@@ -283,7 +283,7 @@ setS('b');
 
 
 
-                      {text == '' || text2 == '' ? <a style={{ cursor: 'pointer' }} className='m' onClick={click}><img src={btnreq} />    </a> :
+                      {text == '' || text2 == '' ? <button type='button'  className='m' onClick={click}><img src={btnreq} />    </button> :
                         <button type='submit' onClick={short} className='mb' data-bs-toggle="modal" data-bs-target="#example" ><img src={btnreq2} /></button>}
 
                       {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:

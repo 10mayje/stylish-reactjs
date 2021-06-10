@@ -1004,14 +1004,14 @@ justify-content: center;
 }
 .cross2{
     position: absolute;
-    margin-left: 56vw;
-    margin-top: 32px;
+    margin-left: 55vw;
+    margin-top: 4vh;
     z-index: 99999999999999;
 }
 .cross{
     position: absolute;
     margin-left: 75vw;
-    margin-top: 20px;
+    margin-top: 2vh;
     z-index: 99999999999999;
 }
 .modal-header{
@@ -1025,8 +1025,8 @@ justify-content: center;
     
     width: 483px;
 height: 398px;
-margin-left: 70px;
-margin-top: 10vh;
+
+text-align: center;
 padding: 0!important;
 vertical-align: middle;
 align-items: center;
@@ -1045,7 +1045,7 @@ justify-content: center;
 .from{
     width: 30vw;
     margin-left: 6vw;
-    margin-top: 27px;
+    margin-top: 20px;
 }
 .texttop h1{
     font-family: Rubik;
@@ -1274,12 +1274,12 @@ margin-top: 0px;
     margin-left: 0px;
     width: 250px;
     height: 56px;
-margin-top: 40px;
+margin-top: 3vh!important;
 }
 .m{
     width: 250px;
 height: 56px;
-    margin-top: 40px;
+    margin-top: 3vh!important;
 }
 .mb img{
     
@@ -1287,12 +1287,12 @@ height: 56px;
     width: 250px;
 height: 56px;
 margin-left:0px!important;
-margin-top: 40px!important;
+margin-top: 3vh!important;
 }
 .mb{
     width: 250px;
 height: 56px;
-    margin-top: 0px;
+    margin-top: 3vh!important;
     margin-left:0px!important;
 }
 
@@ -1319,9 +1319,15 @@ border:transparent;
     
 }
 .ondone{
+    
+   
     text-align: center;
-    margin-left: 7vw;
-    margin-top: -6vh;
+padding: 0!important;
+vertical-align: middle;
+align-items: center;
+justify-self: center;
+justify-content: center;
+
     
 }
 .a{
@@ -1331,7 +1337,14 @@ border:transparent;
     display: none;
 }
 .img{
- 
+    margin-top: -5vh;
+    text-align: center;
+    padding: 0!important;
+    vertical-align: middle;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    
     width: 443px!important;
 height: 395px!important;
 }
@@ -1342,9 +1355,13 @@ height: 395px!important;
  border: transparent;
  width: 248px!important;
  height: 56px!important;
-margin-left: -10vw;
-margin-top: -6vh;
+margin-top: 2vh;
 text-align: center;
+vertical-align: middle;
+align-items: center;
+justify-self: center;
+justify-content: center;
+margin-left: -9vw;
 
 
 }
@@ -1365,7 +1382,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 24px;
-margin-left: 2vw;
+
 /* identical to box height, or 100% */
 
 
@@ -1471,6 +1488,17 @@ color: #B83939;
          .inputtext button{
             margin-top: 10vh;
          }
-        
-
+        .mb{
+            margin-top: 4.5vh!important;
+        }
+        .m{
+            margin-top: 4vh!important;
+        }
+       .ondone img{
+          margin-top: -15vh;
+       }
+       .ondone button{
+           margin-top:10vh;
+           margin-left: -7vw;
+       }
         }    
