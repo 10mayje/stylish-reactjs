@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stylish-reactjs/static/css/main.5121ef9f.chunk.css",
-    "main.js": "/stylish-reactjs/static/js/main.efc6c069.chunk.js",
-    "main.js.map": "/stylish-reactjs/static/js/main.efc6c069.chunk.js.map",
+    "main.css": "/stylish-reactjs/static/css/main.ba5d31e9.chunk.css",
+    "main.js": "/stylish-reactjs/static/js/main.7e713573.chunk.js",
+    "main.js.map": "/stylish-reactjs/static/js/main.7e713573.chunk.js.map",
     "runtime-main.js": "/stylish-reactjs/static/js/runtime-main.b535d143.js",
     "runtime-main.js.map": "/stylish-reactjs/static/js/runtime-main.b535d143.js.map",
     "static/css/2.ec02d681.chunk.css": "/stylish-reactjs/static/css/2.ec02d681.chunk.css",
@@ -12,10 +12,10 @@
     "static/js/3.15933004.chunk.js.map": "/stylish-reactjs/static/js/3.15933004.chunk.js.map",
     "index.html": "/stylish-reactjs/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/stylish-reactjs/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.5121ef9f.chunk.css.map": "/stylish-reactjs/static/css/main.5121ef9f.chunk.css.map",
+    "static/css/main.ba5d31e9.chunk.css.map": "/stylish-reactjs/static/css/main.ba5d31e9.chunk.css.map",
     "static/js/2.35b765ca.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.35b765ca.chunk.js.LICENSE.txt",
     "static/media/Aarohan-web-design.531e82c2.png": "/stylish-reactjs/static/media/Aarohan-web-design.531e82c2.png",
-    "static/media/Behance.7472db89.svg": "/stylish-reactjs/static/media/Behance.7472db89.svg",
+    "static/media/Behance.635a7b1b.svg": "/stylish-reactjs/static/media/Behance.635a7b1b.svg",
     "static/media/CASE STUDY-UX in Libraries.ace340b3.pdf": "/stylish-reactjs/static/media/CASE STUDY-UX in Libraries.ace340b3.pdf",
     "static/media/Case-study-PayU.6740e263.pdf": "/stylish-reactjs/static/media/Case-study-PayU.6740e263.pdf",
     "static/media/Contact-me.46dc0abd.png": "/stylish-reactjs/static/media/Contact-me.46dc0abd.png",
@@ -28,7 +28,7 @@
     "static/media/IMG_1877-2.3b474b11.png": "/stylish-reactjs/static/media/IMG_1877-2.3b474b11.png",
     "static/media/IMG_4024.fde4a1a7.png": "/stylish-reactjs/static/media/IMG_4024.fde4a1a7.png",
     "static/media/KBA_0563.3748f4d2.png": "/stylish-reactjs/static/media/KBA_0563.3748f4d2.png",
-    "static/media/Let's-talk.9696b427.svg": "/stylish-reactjs/static/media/Let's-talk.9696b427.svg",
+    "static/media/Let's-talk.29388b8a.svg": "/stylish-reactjs/static/media/Let's-talk.29388b8a.svg",
     "static/media/Privacy-trust.74181218.png": "/stylish-reactjs/static/media/Privacy-trust.74181218.png",
     "static/media/Privacy-trust2.631372af.png": "/stylish-reactjs/static/media/Privacy-trust2.631372af.png",
     "static/media/Project.49863435.png": "/stylish-reactjs/static/media/Project.49863435.png",
@@ -38,22 +38,22 @@
     "static/media/The_Peaky_Blinders.ff95f09d.png": "/stylish-reactjs/static/media/The_Peaky_Blinders.ff95f09d.png",
     "static/media/Trust,satisfaction.d60a035d.png": "/stylish-reactjs/static/media/Trust,satisfaction.d60a035d.png",
     "static/media/Visual-design.d3f4b434.png": "/stylish-reactjs/static/media/Visual-design.d3f4b434.png",
-    "static/media/back-work.8c94bf3f.svg": "/stylish-reactjs/static/media/back-work.8c94bf3f.svg",
-    "static/media/dribbble-logo.c77f21d5.svg": "/stylish-reactjs/static/media/dribbble-logo.c77f21d5.svg",
-    "static/media/instagram 1.14ebf3a9.svg": "/stylish-reactjs/static/media/instagram 1.14ebf3a9.svg",
-    "static/media/linkedin 1.06d6693a.svg": "/stylish-reactjs/static/media/linkedin 1.06d6693a.svg",
-    "static/media/medium 1.862058c2.svg": "/stylish-reactjs/static/media/medium 1.862058c2.svg",
-    "static/media/send-req-def.0f24880a.svg": "/stylish-reactjs/static/media/send-req-def.0f24880a.svg",
-    "static/media/send-req.bda7e60c.svg": "/stylish-reactjs/static/media/send-req.bda7e60c.svg",
-    "static/media/twitter (1) 1.db69208a.svg": "/stylish-reactjs/static/media/twitter (1) 1.db69208a.svg",
-    "static/media/vol-1.a9af5564.svg": "/stylish-reactjs/static/media/vol-1.a9af5564.svg",
-    "static/media/vol-2.155b9ba8.svg": "/stylish-reactjs/static/media/vol-2.155b9ba8.svg"
+    "static/media/back-work.5e17bae3.svg": "/stylish-reactjs/static/media/back-work.5e17bae3.svg",
+    "static/media/dribbble-logo.f4be95fc.svg": "/stylish-reactjs/static/media/dribbble-logo.f4be95fc.svg",
+    "static/media/instagram 1.73ed70d6.svg": "/stylish-reactjs/static/media/instagram 1.73ed70d6.svg",
+    "static/media/linkedin 1.c11c169e.svg": "/stylish-reactjs/static/media/linkedin 1.c11c169e.svg",
+    "static/media/medium 1.df06a0e2.svg": "/stylish-reactjs/static/media/medium 1.df06a0e2.svg",
+    "static/media/send-req-def.fcf01a77.svg": "/stylish-reactjs/static/media/send-req-def.fcf01a77.svg",
+    "static/media/send-req.a87879ce.svg": "/stylish-reactjs/static/media/send-req.a87879ce.svg",
+    "static/media/twitter (1) 1.b451036d.svg": "/stylish-reactjs/static/media/twitter (1) 1.b451036d.svg",
+    "static/media/vol-1.41161627.svg": "/stylish-reactjs/static/media/vol-1.41161627.svg",
+    "static/media/vol-2.493cbae7.svg": "/stylish-reactjs/static/media/vol-2.493cbae7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b535d143.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.35b765ca.chunk.js",
-    "static/css/main.5121ef9f.chunk.css",
-    "static/js/main.efc6c069.chunk.js"
+    "static/css/main.ba5d31e9.chunk.css",
+    "static/js/main.7e713573.chunk.js"
   ]
 }
