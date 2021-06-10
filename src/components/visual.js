@@ -63,13 +63,7 @@ const VD=()=>{
         Aos.init({duration:1000});
      
       },[]); 
-    return(<div className="containner"> <div className={style} onMouseEnter={hover}   style={{display:"flex",flexDirection:'column',position:'absolute'}}>
-                          
-                          <a className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img className='bt-1' src={btn1} />    </a> 
-                     
-                           <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <img className='bt-2' src={btn2} />  </a>
-                            
-                    </div>
+    return(<div className="containner"> 
         <div className='box1'   >
        
             <div>           <Waypoint
@@ -86,6 +80,14 @@ const VD=()=>{
                    
                 
                 </Tilt> 
+
+                <div className={style} onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hout}    style={{display:"flex",flexDirection:'column',position:'absolute'}}>
+                          
+                          <a  className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img className='bt-1' src={btn1} />    </a> 
+                     
+                           <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <img className='bt-2' src={btn2} />  </a>
+                            
+                    </div>
      <div className={style5}>
                     <h2  className="number">01</h2> 
               </div>
@@ -99,13 +101,8 @@ const VD=()=>{
 
             </div>
             
-        </div><div className={style3} onMouseEnter={hover2} style={{display:"flex",flexDirection:'column'}}>
-                          
-                          <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <img className='bt-1' src={btn1} />    </a> 
-                     
-                           <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"><img className='bt-2' src={btn2} />   </a>
-                            
-                    </div>
+        </div>
+
         <div className="box1 b3"   >
         
             <div>
@@ -118,6 +115,13 @@ const VD=()=>{
                   
                     
                 </Tilt>
+                <div className={style3} onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hout2}style={{display:"flex",flexDirection:'column'}}>
+                          
+                          <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <img className='bt-1' src={btn1} />    </a> 
+                     
+                           <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"><img className='bt-2' src={btn2} />   </a>
+                            
+                    </div>
                 <Waypoint
   onEnter={timer2} onLeave={end2}
   
