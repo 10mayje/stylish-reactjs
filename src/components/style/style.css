@@ -146,15 +146,15 @@ body{
   
 }
 .navb{
-    background-color:#26282B ;
+    background-color:#26282C ;
     position: fixed;
     width: 100%;
     z-index: 9999999;
     height: 103px!important;
-    box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
+    box-shadow: 0px 0px 30px rgba(25, 28, 30, 0.5);
 }
 .navb2{
-    background-color:#26282B ;
+    background-color:#26282C ;
     position: fixed;
     width: 100%;
     z-index: 9999999;
@@ -491,7 +491,11 @@ color: #6C778C;
 
     width: 648px;
     height: 575px;
-
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
  transition: all 0.3s ease 0s;
 overflow: hidden;
 }
@@ -655,19 +659,24 @@ flex-grow: 0;
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 19vw;
-    margin-top:27vh;
+    left: 16vw;
+    margin-top:24vh;
+    text-align: center;
+vertical-align: middle;
+align-items: center;
+justify-self: center;
+justify-content: center;
 }
 .hoverbutton2{
     position: absolute;
     z-index: 999999999;
     display: flex;
-    left: 44vw;
-    margin-top:29vh;
+    left: 41vw;
+    margin-top:23vh;
 }
 .bt-1{
-    width: 196px;
-height: 56px;
+    width: 20vw;
+height: auto;border-radius: 4px;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
@@ -676,14 +685,18 @@ line-height: 16px;
 color: #EDEFF3;
 background: transparent;
 box-shadow: transparent;
-background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
-box-shadow: -5px -5px 30px rgba(255, 255, 255, 0.25), 10px 10px 40px #0C0D0E;
-border-radius: 4px;
+
+}
+.bt-1:hover{
+    transform: scale(1.02);
+}
+.bt-2:hover{
+    transform: scale(1.02);
 }
 .bt-2{
-    margin-top: 32px;
-    width: 196px;
-height: 56px;
+    margin-top: -4.5vh;
+    width: 20vw!important;
+height: auto;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -691,9 +704,9 @@ height: 56px;
     font-size: 16px;
     line-height: 16px;
     color: #EDEFF3;
-    background: linear-gradient(97.15deg, #793599 -11.99%, #133A9E 109.23%);
-    box-shadow: -5px -5px 30px rgba(255, 255, 255, 0.25), 10px 10px 40px #0C0D0E;
-    border-radius: 4px;
+    background: transparent;
+box-shadow: transparent; border-radius: 4px;
+
 }
 
 .black{
@@ -1501,6 +1514,20 @@ color: #B83939;
         .m{
             margin-top: 4vh!important;
         }
+        .table2{
+            margin-left: 24vw;
+        }
+        .table1{
+            margin-left: 9vw;
+        }
+        .table3{
+            margin-left: 9vw;
+        }
+        .ondone{
+            margin-left: -2.5vw;
+            margin-top: 4vh;
+            width: 60vw;
+        }
        .ondone img{
           margin-top: -15vh;
           margin-bottom: 2vh;
@@ -1509,4 +1536,12 @@ color: #B83939;
            margin-top:13vh;
            margin-left: -7vw;
        }
+       .hoverbutton{
+           top:-10vh;
+          margin-left: -2.5vw;
+       }
+       .hoverbutton2{
+        top:59vh;
+          margin-left: -2vw;
+    }
         }    

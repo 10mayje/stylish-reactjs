@@ -2,6 +2,8 @@ import {useEffect,useState} from 'react';
 import Img from '../images/Visual-design.png';
 import Img2 from '../images/Social-media.png';
 import Img3 from '../images/Aarohan-web-design.png';
+import btn1 from '../images/vol-1.svg';
+import btn2 from '../images/vol-2.svg';
 import { Waypoint } from 'react-waypoint';
 import Tilt from 'react-vanilla-tilt';
 import "aos/dist/aos.css";
@@ -63,9 +65,9 @@ const VD=()=>{
       },[]); 
     return(<div className="containner"> <div className={style} onMouseEnter={hover}   style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
-                          <a className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"> <button className='bt-1'>View Volume 1</button>    </a> 
+                          <a className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img className='bt-1' src={btn1} />    </a> 
                      
-                           <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <button className='bt-2'>View Volume 2</button>   </a>
+                           <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <img className='bt-2' src={btn2} />  </a>
                             
                     </div>
         <div className='box1'   >
@@ -99,9 +101,9 @@ const VD=()=>{
             
         </div><div className={style3} onMouseEnter={hover2} style={{display:"flex",flexDirection:'column'}}>
                           
-                          <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <button className='bt-1'>View Volume 1</button>    </a> 
+                          <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <img className='bt-1' src={btn1} />    </a> 
                      
-                           <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"> <button className='bt-2'>View Volume 2</button>   </a>
+                           <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"><img className='bt-2' src={btn2} />   </a>
                             
                     </div>
         <div className="box1 b3"   >
