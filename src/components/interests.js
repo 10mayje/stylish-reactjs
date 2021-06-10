@@ -4,7 +4,7 @@ import img2 from '../images/IMG_4024.svg';
 import img3 from '../images/IMG_1877-2.svg';
 import img4 from '../images/IMG_1388.svg';
 import img5 from '../images/Screenshot.svg';
-import img6 from '../images/KBA_0563.svg';
+import img6 from '../images/KBA_0563.png';
 import img7 from '../images/The_Peaky_Blinders.svg';
 import "aos/dist/aos.css";
 import Aos from 'aos';
