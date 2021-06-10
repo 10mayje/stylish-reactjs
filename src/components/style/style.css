@@ -133,7 +133,7 @@ body{
 
 
 .main{
-   background-color: #24292C;
+   background-color: #26282C;
   
     
     width: 100vw;
@@ -717,126 +717,135 @@ box-shadow: transparent;
 }
 .one{
 
-    width: 264px;
-    height: 176px;
-margin-left: 14vw;
-margin-top: 60vh;
-overflow: hidden;
-
-}
-.two{
-
-    width: 138px;
-    height: 206px;
-margin-left: 4vw;
-margin-top: 40vh;
-overflow: hidden;
-}
-.three{
-  
-    width: 168px;
-    height: 233px;
-margin-left: 5vw;
-margin-top: 30vh;
-overflow: hidden;
-}
-.four{
-
-    width: 360px;
-    height: 240px;
-margin-left: 2vw;
-margin-top: 55vh;
-overflow: hidden;
-}
-.table2 {
-    margin-top: 2vh;
-    margin-bottom: -2vh;
-    text-align: center;
-    width: 52vw;
-    margin-left: 22vw;
-    opacity: 0.8;
-}
-.table2 h1{
-    font-family: Rubik;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
-line-height: 56px;
-/* identical to box height, or 100% */
-
-
-/* Text/Light */
-
-color: #FCFCFC;
-}
-.table2 p{
-    font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 32px;
-/* or 133% */
-
-text-align: center;
-
-/* Text/Light-20 */
-
-color: #939AA9;
-}
-
-.table1 img{
-    width: 100%;
-    height: 100%;
-}
-
-
-.table3{
-    display: flex;
-    margin-left: 4vw;
-}
-.five{
-    width: 357px;
-height: 297px;
-
-margin-left: 11vw;
-margin-top:10vh; 
-overflow: hidden;
-}
-.five img{
-    width: 357px;
-    height: 297px;
     
-}
-.six{
-    width: 360px;
-height: 424px;
+    
+    margin-left: 14vw;
+    margin-top: 57vh;
     overflow: hidden;
-margin-left: 7vw;
-margin-top: 30vh;
-}
-.six img{
-    width: 360px;
-height: 424px;
-}
-.seven{
-    width: 264px;
-    height: 198px;
-margin-left: 2vw;
-margin-top:5vh;
-overflow: hidden;
-
-}
-.seven img{
-    width: 264px;
-    height: 198px;
-}
-
-/* footer */
-.bottom{
-    margin-left: 10vw;
-   
-}
-
+    
+    }
+    .one img{
+        width: 17.1vw!important;
+    }
+    .two{
+    
+    height: 27.1vh;    
+    margin-left: 4vw;
+    margin-top: 40vh;
+    overflow: hidden;
+    }
+    .one img{
+        width: 9vw;
+        
+    }
+    .three{
+      
+       
+        
+    margin-left: 5vw;
+    margin-top: 27vh;
+    overflow: hidden;
+    }
+    .three img{
+         width: 11vw;
+    }
+    .four{
+    
+       
+     
+    margin-left: 2vw;
+    margin-top: 55vh;
+    overflow: hidden;
+    }
+    .four{
+         width: 23.5vw;
+    }
+    .table2 {
+        margin-top: 2vh;
+        margin-bottom: -2vh;
+        text-align: center;
+        width: 52vw;
+        margin-left: 22vw;
+        opacity: 0.8;
+    }
+    .table2 h1{
+        font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    /* identical to box height, or 100% */
+    
+    
+    /* Text/Light */
+    
+    color: #FCFCFC;
+    }
+    .table2 p{
+        font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    text-align: center;
+    
+    /* Text/Light-20 */
+    
+    color: #939AA9;
+    }
+    
+    
+    
+    .table3{
+        display: flex;
+        margin-left: 4vw;
+    }
+    .five{
+        width: 23.5vw;
+    
+    
+    margin-left: 11vw;
+    margin-top:10vh; 
+    overflow: hidden;
+    }
+    .five img{
+        width: 23.5vw;
+        
+        
+    }
+    .six{
+        width: 23vw;
+    
+        overflow: hidden;
+    margin-left: 7vw;
+    margin-top: 30vh;
+    }
+    .six img{
+        width: 23vw;
+    
+    }
+    .seven{
+        width: 19vw;
+        
+    margin-left: 2vw;
+    margin-top:5vh;
+    overflow: hidden;
+    
+    }
+    .seven img{
+        width: 17vw;
+        
+    }
+    
+    /* footer */
+    .bottom{
+        margin-left: 10vw;
+       
+    }
+    
+    
 
 
 .fouter{
@@ -1135,7 +1144,7 @@ line-height: 12px;
 /* Text/Light */
 
 color: #FCFCFC;
-    padding: 1em 3em;
+    padding: 1em 2em;
     border-radius: 6px;
   }
 input:focus{
@@ -1165,7 +1174,7 @@ line-height: 12px;
 /* Text/Light */
 
 color: #FCFCFC;
-    padding: 1em 3em;
+    padding: 1em 2em;
     border-radius: 6px;
   }
 
@@ -1205,10 +1214,10 @@ font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 12px;
+line-height: 18px;
 
 color: #FCFCFC;
-    padding: 2em 3em;
+    padding: 2em 2em;
     border-radius: 6px;
   }
  
@@ -1225,10 +1234,10 @@ font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 12px;
+line-height: 18px;
 
 color: #FCFCFC;
-    padding: 2em 3em;
+    padding: 2em 2em;
     border-radius: 6px;
   }
  
@@ -1239,9 +1248,9 @@ color: #FCFCFC;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 18px;
     color: #656971;
-    padding-top: 10px;
+    padding-top: 7px;
 
 }
 .borders{
@@ -1259,7 +1268,7 @@ margin-top: 0px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 18px;
     /* identical to box height, or 100% */
     
     
@@ -1508,10 +1517,10 @@ color: #B83939;
             margin-left: 24vw;
         }
         .table1{
-            margin-left: 9vw;
+            margin-left: 4vw;
         }
         .table3{
-            margin-left: 9vw;
+            margin-left: 4vw;
         }
         .ondone{
             margin-left: -2.5vw;
@@ -1531,7 +1540,7 @@ color: #B83939;
        margin-top: 25%;
    }
    .bt-2{
-       margin-top: -70%;
+       margin-top: -50%;
    }
 
 

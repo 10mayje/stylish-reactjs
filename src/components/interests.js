@@ -1,11 +1,11 @@
 import react,{useEffect} from 'react';
-import img from '../images/IMG_1548.png';
-import img2 from '../images/IMG_4024.png';
-import img3 from '../images/IMG_1877-2.png';
-import img4 from '../images/IMG_1388.png';
-import img5 from '../images/Screenshot.png';
-import img6 from '../images/KBA_0563.png';
-import img7 from '../images/The_Peaky_Blinders.png';
+import img from '../images/IMG_1548.svg';
+import img2 from '../images/IMG_4024.svg';
+import img3 from '../images/IMG_1877-2.svg';
+import img4 from '../images/IMG_1388.svg';
+import img5 from '../images/Screenshot.svg';
+import img6 from '../images/KBA_0563.svg';
+import img7 from '../images/The_Peaky_Blinders.svg';
 import "aos/dist/aos.css";
 import Aos from 'aos';
 
