@@ -9,6 +9,7 @@ import Tilt from 'react-vanilla-tilt';
 import "aos/dist/aos.css";
 import Aos from 'aos';
 const VD=()=>{
+    const isMobile = window.innerWidth <= 500;
     const [style, setStyle] = useState('invisible');
     const [style2, setStyle2] = useState('p');
     const [style3, setStyle3] = useState('invisible');
@@ -41,22 +42,60 @@ const VD=()=>{
         setStyle7('animated2');
      }
     const hover=()=>{
+        if(!isMobile){
            setStyle('hoverbutton');
-           setStyle2('z');
+           setStyle2('z');}
     }
     const hout=()=>{
-        setStyle('invisible');
-        setStyle2('p');
+
+        if(!isMobile){
+
+         setStyle('invisible');
+        setStyle2('p');   
+        }
+        
     }
     const hover2=()=>{
-        setStyle3('hoverbutton2');
+        if(!isMobile){
+setStyle3('hoverbutton2');
         setStyle4('z');
+
+        }
+
+        
  }
  const hout2=()=>{
-     setStyle3('invisible');
+    if(!isMobile){
+         setStyle3('invisible');
      setStyle4('p');
+    }
+    
  }
-
+const check=()=>{
+    if(isMobile){
+       
+        if(style=='hoverbutton'){
+            setStyle('invisible');
+        setStyle2('p');
+        }else{
+          setStyle('hoverbutton');
+        setStyle2('z');  
+        }
+        
+    }
+}
+const check2=()=>{
+    if(isMobile){
+        if(style=='hoverbutton2'){
+            setStyle3('invisible');
+            setStyle4('p');
+        }else{
+            setStyle3('hoverbutton2');
+            setStyle4('z');  
+        }
+        
+    }
+}
 
     useEffect(()=>{ 
       
@@ -73,7 +112,8 @@ const VD=()=>{
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
                     
                         <div className="hover"  data-aos="fade-up" data-aos-delay="1000" >
-                         <img onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover} onTouchEnd={hout}  className={style2} src={Img}/> 
+                         <img onClick={check}
+                            onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover} onTouchEnd={hout}  className={style2} src={Img}/> 
                          
                         </div>
                        
@@ -82,9 +122,9 @@ const VD=()=>{
                 </Tilt> 
 
                 
-  <div className={style} onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover}    style={{display:"flex",flexDirection:'column',position:'absolute'}}>
+  <div className={style} onClick={check} onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover}    style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
-                          <a  className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img onClick={window.open("https://www.behance.net/gallery/51355885/Aarohan-2017-Posters", "_blank")} className='bt-1' src={btn1} />    </a> 
+                          <a  className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img  className='bt-1' src={btn1} />    </a> 
                      
                            <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <img className='bt-2' src={btn2} />  </a>
                             
@@ -119,13 +159,13 @@ const VD=()=>{
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                   
                         <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
-                         <img onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2} onTouchEnd={hout2}  className={style4} src={Img2}/> 
+                         <img  onClick={check2} onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2} onTouchEnd={hout2}  className={style4} src={Img2}/> 
                            
                         </div>
                   
                     
                 </Tilt>
-                <div className={style3} onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2}style={{display:"flex",flexDirection:'column',position:'absolute'}}>
+                <div className={style3} onClick={check2}  onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2}style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
                           <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <img className='bt-1' src={btn1} />    </a> 
                      

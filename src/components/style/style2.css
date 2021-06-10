@@ -417,64 +417,66 @@ margin-right: 0;
 
 
 .hoverbutton{
-    position: absolute;
+
     z-index: 999999999;
-    left: 25%;
+    left: 22%;
     margin-top: -70%;
     width: 60vw;
-    height: 100vh;
+    height: 50vh;
     padding-right: 0%;
  
 }
-.hoverbutton a{
-    position: absolute;
-    height: 10vh;
-    
-}
+
 .hoverbutton a:nth-child(1){
     
     
-    height: 12vh;
+    padding-right: 30%;
+    margin-top: 10vh;
+    padding-bottom: 0vh;
+    height: 15vh!important;
     vertical-align: middle;
 }
 .hoverbutton a:nth-child(2){
-    position: absolute;
-    height: 12vh;
-    top: 12vh;
-    padding-top: -3vh;
+    height: 15vh!important;
+    vertical-align: middle;
+    margin-top: 0vh;
+    padding-right: 30%;
 }
 .hoverbutton2{
-    position: absolute;
-    z-index: 999999999;
-    left: 25%;
+    
+    z-index: 999;
+    left: 22%;
     margin-top: -70%;
-    width: 50vw;
-    height: 100vh;
+    width: 60vw;
+    height: 50vh;
     padding-right: 0%;
   
 }
-.hoverbutton2 a{
-    position: absolute;
-    height: 10vh;
-    
-}
+
 .hoverbutton2 a:nth-child(1){
     
-    
-    height: 12vh;
+    width: 90vw;
+    padding-right: 30%;
+    margin-top: 10vh;
+    padding-top: -15vh;
+    padding-bottom: 0vh;
+    height: 15vh!important;
     vertical-align: middle;
 }
 .hoverbutton2 a:nth-child(2){
-    position: absolute;
-    height: 12vh;
-    top: 12vh;
-    padding-top: -3vh;
+    height: 15vh!important;
+    vertical-align: middle;
+    margin-top: 0vh;
+    padding-right: 30%;
 }
 
 .bt-1{
-    width: 40vw!important;
-    height: 40vh!important;
-    margin-top: -12vh;
+
+
+   margin-top: -16vh;
+    width: 50vw!important;
+    height: 30vh!important;
+    
     
 
 }
@@ -485,9 +487,11 @@ margin-right: 0;
     transform: scale(1.02);
 }
 .bt-2{
-    margin-top: -70%;
-    width: 40vw!important;
-    height: 40vh!important;
+  
+    margin-top: -17vh;
+    z-index: 999;
+    width: 50vw!important;
+    height: 17vh!important;
 
 }
 
@@ -1191,4 +1195,10 @@ text-align: center;
 
 
 
+}
+
+
+
+@media screen and (max-width: 400px){
+  
 }
