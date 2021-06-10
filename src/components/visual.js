@@ -2,8 +2,8 @@ import {useEffect,useState} from 'react';
 import Img from '../images/Visual-design.png';
 import Img2 from '../images/Social-media.png';
 import Img3 from '../images/Aarohan-web-design.png';
-import btn1 from '../images/vol-1.svg';
-import btn2 from '../images/vol-2.svg';
+import btn1 from '../images/Vol-01.svg';
+import btn2 from '../images/Vol-02.svg';
 import { Waypoint } from 'react-waypoint';
 import Tilt from 'react-vanilla-tilt';
 import "aos/dist/aos.css";
@@ -73,7 +73,7 @@ const VD=()=>{
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
                     
                         <div className="hover"  data-aos="fade-up" data-aos-delay="1000" >
-                         <img onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hout} onTouchEnd={hout}  className={style2} src={Img}/> 
+                         <img onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover} onTouchEnd={hout}  className={style2} src={Img}/> 
                          
                         </div>
                        
@@ -81,13 +81,20 @@ const VD=()=>{
                 
                 </Tilt> 
 
-                <div className={style} onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hout}    style={{display:"flex",flexDirection:'column',position:'absolute'}}>
+                
+  <div className={style} onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover}    style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
-                          <a  className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img className='bt-1' src={btn1} />    </a> 
+                          <a  className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img onClick={window.open("https://www.behance.net/gallery/51355885/Aarohan-2017-Posters", "_blank")} className='bt-1' src={btn1} />    </a> 
                      
                            <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <img className='bt-2' src={btn2} />  </a>
                             
-                    </div>
+                    
+                
+          
+
+
+                </div>
+                  
      <div className={style5}>
                     <h2  className="number">01</h2> 
               </div>
@@ -105,27 +112,27 @@ const VD=()=>{
 
         <div className="box1 b3"   >
         
-            <div>
+            <div>              <Waypoint
+  onEnter={timer2} onLeave={end2}
+  
+/>  
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                   
                         <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
-                         <img onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hout2} onTouchEnd={hout2}  className={style4} src={Img2}/> 
+                         <img onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2} onTouchEnd={hout2}  className={style4} src={Img2}/> 
                            
                         </div>
                   
                     
                 </Tilt>
-                <div className={style3} onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hout2}style={{display:"flex",flexDirection:'column'}}>
+                <div className={style3} onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2}style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
                           <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <img className='bt-1' src={btn1} />    </a> 
                      
                            <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"><img className='bt-2' src={btn2} />   </a>
                             
                     </div>
-                <Waypoint
-  onEnter={timer2} onLeave={end2}
-  
-/>            <div className={style6}>
+            <div className={style6}>
                             <h2 className="number2">02</h2> 
                 </div>
         

@@ -419,29 +419,63 @@ margin-right: 0;
 .hoverbutton{
     position: absolute;
     z-index: 999999999;
-    left: 30%;
-    margin-top: -83%;
-    width: 50vw;
+    left: 25%;
+    margin-top: -70%;
+    width: 60vw;
     height: 100vh;
     padding-right: 0%;
  
 }
+.hoverbutton a{
+    position: absolute;
+    height: 10vh;
+    
+}
+.hoverbutton a:nth-child(1){
+    
+    
+    height: 12vh;
+    vertical-align: middle;
+}
+.hoverbutton a:nth-child(2){
+    position: absolute;
+    height: 12vh;
+    top: 12vh;
+    padding-top: -3vh;
+}
 .hoverbutton2{
     position: absolute;
     z-index: 999999999;
-    left: 33%;
-    margin-top: -84%;
+    left: 25%;
+    margin-top: -70%;
     width: 50vw;
     height: 100vh;
     padding-right: 0%;
   
 }
-
+.hoverbutton2 a{
+    position: absolute;
+    height: 10vh;
+    
+}
+.hoverbutton2 a:nth-child(1){
+    
+    
+    height: 12vh;
+    vertical-align: middle;
+}
+.hoverbutton2 a:nth-child(2){
+    position: absolute;
+    height: 12vh;
+    top: 12vh;
+    padding-top: -3vh;
+}
 
 .bt-1{
-    width: 30vw!important;
-    height: 30vh!important;
- 
+    width: 40vw!important;
+    height: 40vh!important;
+    margin-top: -12vh;
+    
 
 }
 .bt-1:hover{
@@ -451,9 +485,9 @@ margin-right: 0;
     transform: scale(1.02);
 }
 .bt-2{
-    margin-top: -53%;
-    width: 30vw!important;
-    height: 30vh!important;
+    margin-top: -70%;
+    width: 40vw!important;
+    height: 40vh!important;
 
 }
 

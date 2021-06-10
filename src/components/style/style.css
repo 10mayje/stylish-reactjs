@@ -1223,7 +1223,7 @@ font-size: 12px;
 line-height: 18px;
 
 color: #FCFCFC;
-    padding: 2em 2em;
+    padding: 1.7em 2em;
     border-radius: 6px;
   }
  
@@ -1243,7 +1243,7 @@ font-size: 12px;
 line-height: 18px;
 
 color: #FCFCFC;
-    padding: 2em 2em;
+    padding: 1.7em 2em;
     border-radius: 6px;
   }
  
@@ -1388,6 +1388,9 @@ justify-content: center;
 margin-left: -9vw;
 
 
+}
+.ondone button:hover{
+    transform: scale(1.05);
 }
 .fbt a{
     
@@ -1544,11 +1547,23 @@ color: #B83939;
   
    .bt-1{
        margin-top: 25%;
-       margin-bottom: -28%;
+       margin-bottom: -15%;
+       width: 45vw!important;
    }
-  
-
-
+  .bt-2{
+    width: 45vw!important;
+  }
+.hoverbutton{
+    width: 40vw!important;
+    left: 19%;
+    margin-top: -34%;
+    
+}
+.hoverbutton2{
+    width: 40vw!important;
+    left:50%;
+    margin-top: -34%;
+}
 
 
 
