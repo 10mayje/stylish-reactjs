@@ -2,7 +2,7 @@
 .example-two{
     display: none;
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 600px){
     .example-two{
         display: block;
     } 
