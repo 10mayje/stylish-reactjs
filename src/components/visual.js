@@ -130,9 +130,11 @@ const check2=()=>{
                 
   <div className={style} onClick={check} onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover}    style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
-                          <a  className={style8} href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><img  className='bt-1' src={btn1} />    </a> 
+                         <div className='hoverbtn'><a href='https://www.behance.net/gallery/51355885/Aarohan-2017-Posters' target="_blank"><button>View Volume 01</button></a>  </div>
+                         
+                         <div className='hoverbtn'><a href=' https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"><button>View Volume 02</button></a></div>
                      
-                           <a className={style8} href='https://www.behance.net/gallery/63676451/AAROHAN-2018-POSTERS' target="_blank"> <img className='bt-2' src={btn2} />  </a>
+                    
                             
                     
                 
@@ -173,9 +175,11 @@ const check2=()=>{
                 </Tilt>
                 <div className={style3} onClick={check2}  onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2}style={{display:"flex",flexDirection:'column',position:'absolute'}}>
                           
-                          <a className={style9} href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"> <img className='bt-1' src={btn1} />    </a> 
-                     
-                           <a className={style9} href='https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"><img className='bt-2' src={btn2} />   </a>
+                          
+                            
+                         <div className='hoverbtn'><a href='https://www.behance.net/gallery/56745539/Social-media-posts-vol-1' target="_blank"><button>View Volume 01</button></a>  </div>
+                         
+                         <div className='hoverbtn'><a href=' https://www.behance.net/gallery/63686341/Social-media-posts-Vol-2' target="_blank"><button>View Volume 02</button></a></div>
                             
                     </div>
             <div className={style6}>

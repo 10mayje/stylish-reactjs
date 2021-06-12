@@ -604,8 +604,8 @@ margin-left: 43vw;
 .hoverbutton {
   position: absolute;
   z-index: 999999999;
-  top: 25%;
-  left: 25%;
+  top: 33%;
+  left: 33%;
   /*
   left: 20%;
   margin-top: -33%;
@@ -616,8 +616,8 @@ margin-left: 43vw;
 .hoverbutton2 {
   position: absolute;
   z-index: 999999999;
-  top: 25%;
-  left: 25%;
+  top: 33%;
+  left: 33%;
 
   /*
   left: 52%;
@@ -625,7 +625,7 @@ margin-left: 43vw;
   width: 20vw;
   height: 50vh;
   padding-right: 30%;*/
-}
+} /*
 .bt-1:hover {
   transform: scale(1.05) !important;
 }
@@ -645,6 +645,39 @@ margin-left: 43vw;
   margin-top: -5.5vh;
   width: 20vw !important;
   height: 20vh !important;
+}*/
+.hoverbtn {
+  width: 13.5vw !important;
+  height: 7.95vh !important;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  padding: 1px;
+
+  display: inline-block;
+  background: linear-gradient(90deg, #f0f1f3 -1.9%, rgba(45, 49, 54, 0) 95.8%);
+}
+.hoverbtn button {
+  text-decoration: none;
+  background: linear-gradient(97.15deg, #793599 -11.99%, #133a9e 109.23%);
+  box-shadow: transparent;
+  border-radius: 5px;
+  width: 13.5vw !important;
+  height: 7.7vh !important;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #edeff3;
+  border: transparent;
+}
+.hoverbtn a {
+  text-decoration: transparent;
+  width: 13.5vw !important;
+  height: 7.7vh !important;
+  /* identical to box height, or 100% */
+
+  /* Text/Alternate-light-grey */
 }
 
 .black {

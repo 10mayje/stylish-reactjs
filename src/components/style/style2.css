@@ -372,19 +372,39 @@
     display: none;
   }
   .hoverbutton {
-    margin-top: -15%;
+    margin-top: -10vh;
   }
   .hoverbutton2 {
-    margin-top: -15%;
+    margin-top: -10vh;
+  }
+  .hoverbtn {
+    width: 30.5vw !important;
+    height: 6.3vh !important;
+    padding-top: 0.8px;
+    margin-bottom: 3vh;
+  }
+  .hoverbtn:nth-child(1) {
+    padding-top: 0.5px !important;
+    height: 6.2vh !important;
+  }
+  .hoverbtn button {
+    width: 30.5vw !important;
+    height: 6vh !important;
+    font-size: 11px;
+  }
+  .hoverbtn a {
+    width: 30.5vw !important;
+    height: 6vh !important;
   }
 
+  /*
   .bt-1,
   .bt-2 {
     width: 40vw !important;
     height: 12vh !important;
   }
 
-  /*
+  
   .hoverbutton {
     z-index: 999999999;
     left: 22%;
