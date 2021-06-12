@@ -396,7 +396,9 @@
     width: 30.5vw !important;
     height: 6vh !important;
   }
-
+  .hoverbtn button:hover {
+    font-size: 12px;
+  }
   /*
   .bt-1,
   .bt-2 {

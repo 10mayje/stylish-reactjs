@@ -646,6 +646,10 @@ margin-left: 43vw;
   width: 20vw !important;
   height: 20vh !important;
 }*/
+.hoverbtn button:hover {
+  font-size: 17px;
+}
+
 .hoverbtn {
   width: 13.5vw !important;
   height: 7.95vh !important;
