@@ -372,13 +372,13 @@
     display: none;
   }
   .hoverbutton {
-    margin-top: -10vh;
+    top: 10vh;
   }
   .hoverbutton2 {
-    margin-top: -10vh;
+    top: 10vh;
   }
   .hoverbtn {
-    width: 30.5vw !important;
+    width: 28.5vw !important;
     height: 6.3vh !important;
     padding-top: 0.8px;
     margin-bottom: 3vh;
@@ -388,12 +388,12 @@
     height: 6.2vh !important;
   }
   .hoverbtn button {
-    width: 30.5vw !important;
+    width: 28.5vw !important;
     height: 6vh !important;
     font-size: 11px;
   }
   .hoverbtn a {
-    width: 30.5vw !important;
+    width: 28.5vw !important;
     height: 6vh !important;
   }
   .hoverbtn button:hover {
