@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stylish-reactjs/static/css/main.fa0e10da.chunk.css",
+    "main.css": "/stylish-reactjs/static/css/main.b7ae1bb7.chunk.css",
     "main.js": "/stylish-reactjs/static/js/main.cf680a9d.chunk.js",
     "main.js.map": "/stylish-reactjs/static/js/main.cf680a9d.chunk.js.map",
     "runtime-main.js": "/stylish-reactjs/static/js/runtime-main.b535d143.js",
@@ -12,7 +12,7 @@
     "static/js/3.15933004.chunk.js.map": "/stylish-reactjs/static/js/3.15933004.chunk.js.map",
     "index.html": "/stylish-reactjs/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/stylish-reactjs/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.fa0e10da.chunk.css.map": "/stylish-reactjs/static/css/main.fa0e10da.chunk.css.map",
+    "static/css/main.b7ae1bb7.chunk.css.map": "/stylish-reactjs/static/css/main.b7ae1bb7.chunk.css.map",
     "static/js/2.35b765ca.chunk.js.LICENSE.txt": "/stylish-reactjs/static/js/2.35b765ca.chunk.js.LICENSE.txt",
     "static/media/Aarohan-web-design.531e82c2.png": "/stylish-reactjs/static/media/Aarohan-web-design.531e82c2.png",
     "static/media/Behance.635a7b1b.svg": "/stylish-reactjs/static/media/Behance.635a7b1b.svg",
@@ -53,7 +53,7 @@
     "static/js/runtime-main.b535d143.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.35b765ca.chunk.js",
-    "static/css/main.fa0e10da.chunk.css",
+    "static/css/main.b7ae1bb7.chunk.css",
     "static/js/main.cf680a9d.chunk.js"
   ]
 }
