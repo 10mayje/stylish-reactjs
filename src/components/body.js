@@ -28,8 +28,8 @@ const Body = () => {
   const [r, setR] = useState(0);
   const [style, setStyle] = useState('k');
   const [style2, setStyle2] = useState('k');
-  const [s,setS]=useState('a');
-  const [last,setLast]=useState('a');
+  const [s, setS] = useState('a');
+  const [last, setLast] = useState('a');
   const [style3, setStyle3] = useState('k');
   const [input, setInput] = useState('button');
   const [input2, setInput2] = useState('button2');
@@ -41,7 +41,7 @@ const Body = () => {
       setStyle2('id2')
     }
   }
-  const close=()=>{
+  const close = () => {
     setS('a');
   }
   const short = () => {
@@ -50,55 +50,55 @@ const Body = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-     
+
 
     if (text == null && text2 == null) {
       setR(0)
     }
     else {
-        emailjs.sendForm('service_mty4gyp','template_mqdw5en',e.target ,'user_TLmvK5IREb4yuPyoXDbAQ')
-.then(function(response) {
- console.log('SUCCESS!', response.status, response.text);
- 
-}, function(error) {
- console.log('FAILED...', error);
- 
-});
-e.target.reset();
+      emailjs.sendForm('service_mty4gyp', 'template_mqdw5en', e.target, 'user_TLmvK5IREb4yuPyoXDbAQ')
+        .then(function (response) {
+          console.log('SUCCESS!', response.status, response.text);
+
+        }, function (error) {
+          console.log('FAILED...', error);
+
+        });
+      e.target.reset();
     }
 
     setText('');
     setText2('');
     setR(0);
-setS('b');
+    setS('b');
 
   }
 
- const check =()=>{
-  if( text!==''){
-    setInput('buttoncolor');
-    }else{
-        setInput('button');
-    }
- }
- const check2 =()=>{
-  if( text2!==''){
-    setInput2('buttoncolor2');
-    }else{
-        setInput2('button2');
-    }
- }
-  useEffect(() => {
-    if( text!==''){
+  const check = () => {
+    if (text !== '') {
       setInput('buttoncolor');
-      }else{
-          setInput('button');
-      }
-      if( text2!==''){
-        setInput2('buttoncolor2');
-        }else{
-            setInput2('button2');
-        }
+    } else {
+      setInput('button');
+    }
+  }
+  const check2 = () => {
+    if (text2 !== '') {
+      setInput2('buttoncolor2');
+    } else {
+      setInput2('button2');
+    }
+  }
+  useEffect(() => {
+    if (text !== '') {
+      setInput('buttoncolor');
+    } else {
+      setInput('button');
+    }
+    if (text2 !== '') {
+      setInput2('buttoncolor2');
+    } else {
+      setInput2('button2');
+    }
     Aos.init({ duration: 800 });
 
 
@@ -107,9 +107,9 @@ setS('b');
   return (
     <div className="background">
       <div className="topicon" >
-<a href="#" style={{cursor:'pointer'}}>
-  <img src={img1} />
-  </a>
+        <a href="#" style={{ cursor: 'pointer' }}>
+          <img src={img1} />
+        </a>
       </div>
       <div className="container-one" >
         <div className="item-one "  >
@@ -218,137 +218,140 @@ setS('b');
 
       {/*-- Modal --*/}
 
-     < div className={s}>
+      < div className={s}>
 
 
-      
-     <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{ zIndex: '99999999999999' }}>
-        <div class="modal-fullscreen modal-dialog" >
-          <div class="modal-content " >
+
+        <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{ zIndex: '99999999999999' }}>
+          <div class="modal-fullscreen modal-dialog" >
+            <div class="modal-content " >
 
 
-            <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close"></button>
 
-            <div class="modal-body">
-              <div className='im'><img src={img} /><div className='top'><h6 style={{ fontsize: '10px' }}>Don’t worry, I’m here to help you!</h6></div></div>
-              <div>
+              <div class="modal-body">
+                <div className='im'><img src={img} /><div className='top'><h6 style={{ fontsize: '10px' }}>Don’t worry, I’m here to help you!</h6></div></div>
+                <div>
 
-                <div className="from">
-                  <div className="texttop">
-                    <h1>Don’t worry, I’m here to help you!</h1>
-                    <p>My diverse range of expertise is here to assist
-                    you with solving your problems through UX Research,
-                    Interface and interaction design, motion design or
+                  <div className="from">
+                    <div className="texttop">
+                      <h1>Don’t worry, I’m here to help you!</h1>
+                      <p>My diverse range of expertise is here to assist
+                      you with solving your problems through UX Research,
+                      Interface and interaction design, motion design or
                    even end-to-end product design projects!</p>
-                  </div>
-                  <div className="inputtext">
-                    <form onSubmit={sendEmail} >
-                      <label className='calllabel'>What do you want me to call you?</label><br />
+                    </div>
+                    <div className="inputtext">
+                      <form onSubmit={sendEmail} >
+                        <label className='calllabel'>What do you want me to call you?</label><br />
 
-                      <div class={input} >
-                        <input id={style} onMouseEnter={check} onMouseLeave={check} onFocus={check} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me your name'} type='text' name='name' value={text} onChange={(e) => {
-                          
-                          if(e.target.value!==''|| text!==''){
-                          setInput('buttoncolor');
-                          }else{
-                              setInput('button');
-                          }
-                          
-                          setText(e.target.value);
-                         
+                        <div class={input} >
+                          <input id={style} onMouseEnter={check} onMouseLeave={check} onFocus={check}
 
-                        }} required />
-                      </div><br />
+                            placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me your name'} type='text'
+                            name='name' value={text} onChange={(e) => {
 
+                              if (e.target.value !== '' || text !== '') {
+                                setInput('buttoncolor');
+                              } else {
+                                setInput('button');
+                              }
+
+                              setText(e.target.value);
 
 
-
-
-                      <label className='solvelabel'>What do you want me to build/solve?</label><br />
+                            }} required />
+                        </div><br />
 
 
 
-                      <div className={input2} >
-                        <textarea id={style2} onMouseEnter={check2} onMouseLeave={check2} onFocus={check2} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me what you want to solve'} name='message' onChange={(e) => {
-                           if(e.target.value!==''|| text2!==''){
-                            setInput2('buttoncolor2');
-                            }else{
-                                setInput2('button2');
+
+
+                        <label className='solvelabel'>What do you want me to build/solve?</label><br />
+
+
+
+                        <div className={input2} >
+                          <textarea id={style2} onMouseEnter={check2} onMouseLeave={check2} onFocus={check2} placeholder={style == 'id' ? 'This is important to be filled up!' : 'Tell me what you want to solve'} name='message' onChange={(e) => {
+                            if (e.target.value !== '' || text2 !== '') {
+                              setInput2('buttoncolor2');
+                            } else {
+                              setInput2('button2');
                             }
-                          
-                          setText2(e.target.value);
 
-                        }
-                        } required>{text2}</textarea>
+                            setText2(e.target.value);
 
-                      </div>
+                          }
+                          } required>{text2}</textarea>
+
+                        </div>
 
 
 
-                      {text == '' || text2 == '' ? <button type='button'  className='m' onClick={click}><img src={btnreq} />    </button> :
-                        <button type='submit' onClick={short} className='mb' data-bs-toggle="modal" data-bs-target="#example" ><img src={btnreq2} /></button>}
+                        {text == '' || text2 == '' ? <button type='button' className='m' onClick={click}><img src={btnreq} />    </button> :
+                          <button type='submit' onClick={short} className='mb' data-bs-toggle="modal" data-bs-target="#example" ><img src={btnreq2} /></button>}
 
-                      {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
+                        {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
                  <button type='submit'  data-bs-toggle="modal" data-bs-target="#example"   >Send your requirement</button>}
                   */}
-                    </form>
+                      </form>
+
+                    </div>
+
+
+
+
 
                   </div>
-
-
-
-              
-
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
+
+
       </div>
 
 
-     </div>
 
-
-  
 
 
 
       <div className={last} >
 
-<div class="modal fade  " id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{ zIndex: '99999999999999' }}>
+        <div class="modal fade  " id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{ zIndex: '99999999999999' }}>
 
 
-  <div class="modal-fullscreen contax  modal-dialog"  >
-    <div class="modal-content " >
+          <div class="modal-fullscreen contax  modal-dialog"  >
+            <div class="modal-content " >
 
 
-      <button type="button" class="btn-close cross2" onClick={()=>window.location.reload()}  data-bs-dismiss="modal" data-dismiss='model' aria-label="Close"></button>
+              <button type="button" class="btn-close cross2" onClick={() => window.location.reload()} data-bs-dismiss="modal" data-dismiss='model' aria-label="Close"></button>
 
-      <div class="modal-body">
-        <div className='ondone'>
-          <img className='img' src={img} />
-          <h2>I’ll go through your requirements and get back you.</h2>
-          <p>Alternatively, you can reach out to me on   <span className='no'>+91-8017697352</span></p>
+              <div class="modal-body">
+                <div className='ondone'>
+                  <img className='img' src={img} />
+                  <h2>I’ll go through your requirements and get back you.</h2>
+                  <p>Alternatively, you can reach out to me on   <span className='no'>+91-8017697352</span></p>
 
 
-          <button type="button" onClick={()=>window.location.reload()} className='fbt' data-bs-dismiss="modal">
-            <img src={btnreq3} />
-          </button>
+                  <button type="button" onClick={() => window.location.reload()} className='fbt' data-bs-dismiss="modal">
+                    <img src={btnreq3} />
+                  </button>
 
+
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
 
         </div>
       </div>
-
-    </div>
-
-
-
-  </div>
-
-</div>
-</div>
 
 
 

@@ -39,22 +39,22 @@ const Foot=()=>{
               <p data-aos="fade-left" data-aos-delay="420" data-aos-duration="500">posting on my social media too!</p>
                <div className="icons" data-aos="fade-left" data-aos-delay="600" data-aos-duration="500">
                  <a href='https://www.behance.net/Rounak0713'  target="_blank">
-                   <img  src={icon5} />
+                 <i class="fab fa-behance"></i>
                    </a>
                 <a href='https://www.linkedin.com/in/rounak-ghosh-53a21b136/'  target="_blank">
-                  <img  src={icon3}/>
+                <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a href='https://medium.com/@rg.uidesign'  target="_blank">
-                  <img  src={icon6}/>
+                <i class="fab fa-medium-m"></i>
                 </a>
                 <a href='https://dribbble.com/drifted_galaxy'  target="_blank">
-                   <img  src={icon4}/>
+                <i class="fab fa-dribbble"></i>
                 </a>
                 <a href='https://www.instagram.com/ronuiux/'  target="_blank">
-                   <img  src={icon2}/>
+                <i class="fab fa-instagram"></i>
                 </a>
                <a href='https://twitter.com/Ronuxdesign'  target="_blank">
-                 <img   src={icon}/> 
+               <i class="fab fa-twitter"></i>
                </a>
                 
                 

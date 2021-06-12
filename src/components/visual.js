@@ -26,6 +26,7 @@ const VD=()=>{
      const end=()=>{
         setStyle5('animated2');
         setStyle8('animated4');
+     
      }
      const timer2=()=>{
         setStyle6('animated');
@@ -34,6 +35,7 @@ const VD=()=>{
      const end2=()=>{
         setStyle6('animated2');
         setStyle9('animated4');
+        
      }
      const timer3=()=>{
         setStyle7('animated');
@@ -84,9 +86,13 @@ const check=()=>{
         
     }
 }
+
+
+
+
 const check2=()=>{
     if(isMobile){
-        if(style=='hoverbutton2'){
+        if(style3=='hoverbutton2'){
             setStyle3('invisible');
             setStyle4('p');
         }else{
@@ -102,7 +108,7 @@ const check2=()=>{
         Aos.init({duration:1000});
      
       },[]); 
-    return(<div className="containner"> 
+    return(<div className="containner" > 
         <div className='box1'   >
        
             <div>           <Waypoint
