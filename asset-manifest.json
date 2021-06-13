@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stylish-reactjs/static/css/main.67682201.chunk.css",
-    "main.js": "/stylish-reactjs/static/js/main.c0036fc8.chunk.js",
-    "main.js.map": "/stylish-reactjs/static/js/main.c0036fc8.chunk.js.map",
+    "main.js": "/stylish-reactjs/static/js/main.80908c6c.chunk.js",
+    "main.js.map": "/stylish-reactjs/static/js/main.80908c6c.chunk.js.map",
     "runtime-main.js": "/stylish-reactjs/static/js/runtime-main.b535d143.js",
     "runtime-main.js.map": "/stylish-reactjs/static/js/runtime-main.b535d143.js.map",
     "static/css/2.ec02d681.chunk.css": "/stylish-reactjs/static/css/2.ec02d681.chunk.css",
@@ -54,6 +54,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.020f164d.chunk.js",
     "static/css/main.67682201.chunk.css",
-    "static/js/main.c0036fc8.chunk.js"
+    "static/js/main.80908c6c.chunk.js"
   ]
 }
