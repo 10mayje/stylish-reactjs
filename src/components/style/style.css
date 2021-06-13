@@ -834,11 +834,11 @@ margin-left: 43vw;
   margin-top: 3.2vh;
 }
 .icons a {
-  margin-right: 3vw;
+  margin-right: 1.7rem;
 }
 .icons i {
   color: #edeff3;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .icons i:hover {
   color: #7c7f86;
@@ -1138,7 +1138,7 @@ textarea:focus {
 
   font-size: 1rem;
   line-height: 1rem;
-  border: transparent;
+  border: none;
   color: #27292d;
 }
 .submitbutton2 button:hover,

@@ -346,18 +346,18 @@
     top: 10vh;
   }
   .hoverbtn {
-    width: 28.5vw !important;
-    height: 6.3vh !important;
-    padding-top: 0.8px;
+    width: 37.5vw !important;
+    height: 5.6vh !important;
+    padding: 1px 0 1px 1px;
     margin-bottom: 3vh;
   }
   .hoverbtn:nth-child(1) {
-    padding-top: 0.5px !important;
-    height: 6.2vh !important;
+    padding: 1px 0 1px 1px !important;
+    height: 5.6vh !important;
   }
   .hoverbtn button {
-    width: 28.5vw !important;
-    height: 6vh !important;
+    width: 100% !important;
+    height: 100% !important;
     font-size: 11px;
   }
   .hoverbtn a {
@@ -367,78 +367,6 @@
   .hoverbtn button:hover {
     font-size: 12px;
   }
-  /*
-  .bt-1,
-  .bt-2 {
-    width: 40vw !important;
-    height: 12vh !important;
-  }
-
-  
-  .hoverbutton {
-    z-index: 999999999;
-    left: 22%;
-    margin-top: -70%;
-    width: 60vw;
-    height: 50vh;
-    padding-right: 0%;
-  }
-
-  .hoverbutton a:nth-child(1) {
-    padding-right: 30%;
-    margin-top: 10vh;
-    padding-bottom: 0vh;
-    height: 15vh !important;
-    vertical-align: middle;
-  }
-  .hoverbutton a:nth-child(2) {
-    height: 15vh !important;
-    vertical-align: middle;
-    margin-top: 0vh;
-    padding-right: 30%;
-  }
-  .hoverbutton2 {
-    z-index: 999;
-    left: 22%;
-    margin-top: -70%;
-    width: 60vw;
-    height: 50vh;
-    padding-right: 0%;
-  }
-
-  .hoverbutton2 a:nth-child(1) {
-    width: 90vw;
-    padding-right: 30%;
-    margin-top: 10vh;
-    padding-top: -15vh;
-    padding-bottom: 0vh;
-    height: 15vh !important;
-    vertical-align: middle;
-  }
-  .hoverbutton2 a:nth-child(2) {
-    height: 15vh !important;
-    vertical-align: middle;
-    margin-top: 0vh;
-    padding-right: 30%;
-  }
-
-  .bt-1 {
-    margin-top: -16vh;
-    width: 50vw !important;
-    height: 30vh !important;
-  }
-  .bt-1:hover {
-    transform: scale(1.02);
-  }
-  .bt-2:hover {
-    transform: scale(1.02);
-  }
-  .bt-2 {
-    margin-top: -17vh;
-    z-index: 999;
-    width: 50vw !important;
-    height: 17vh !important;
-  }*/
 
   .system {
     width: 90vw;
@@ -652,56 +580,7 @@
     text-align: center;
     margin-left: 0vw;
   }
-  /*
-.icons{
-    margin-left: 13vw;
-    height: 20px!important;
-}
-.icons img{
-    width: 20px!important;
-}
-.icons a{
-    width: 30px;
-     position:absolute ;
-} 
-.icons img:nth-child(1){
-    height: 33px!important;
-    width: 20px!important;
 
-    
-}   
-.icons a:nth-child(1){
-    height: 35px!important;
-    
-    margin-top: -2px!important;
-   margin-left: -3px!important;
-}
-.icons a:nth-child(2){
-    
-    margin-top: 0;
-   margin-left: 40px;
-}
-
-.icons a:nth-child(3){
-   
-    margin-top: 0;
-   margin-left: 80px;
-}
-.icons a:nth-child(4){
-   
-    margin-top: 0;
-   margin-left: 120px;
-}
-.icons a:nth-child(5){
-   
-    margin-top: 0;
-   margin-left: 160px;
-}
-.icons a:nth-child(6){
-   
-    margin-top: 0;
-   margin-left: 200px;
-}*/
   .last {
     text-align: center;
     padding-bottom: 0vh;
@@ -808,7 +687,7 @@
       rgba(45, 49, 54, 0) 95.8%
     );
     border-radius: 5px;
-    width: 70vw;
+    width: 68vw;
     display: inline-block;
     font-size: 1.25rem;
     padding: 1px;
@@ -816,14 +695,12 @@
   }
   .button input {
     background: #2d3136;
-    border: transparent;
+    border: none;
     display: block;
     width: 70vw;
     height: 6.2vh;
-
     font-size: 0.75rem;
     line-height: 0.75rem;
-
     color: #fcfcfc;
     padding-left: 1em;
     border-radius: 5px;
@@ -840,7 +717,7 @@
       rgba(45, 49, 54, 0) 95.8%
     );
     border-radius: 5px;
-    width: 70vw;
+    width: 68vw;
     display: inline-block;
     font-size: 1.25rem;
     padding: 1px;
@@ -888,15 +765,16 @@
   .submitbutton2 {
     width: 46.5vw;
     height: 5.3vh;
-    padding: 0.5px;
+    padding: 1px 0 1px 1px;
+    border-radius: 4px;
   }
 
   .submitbutton button,
   .submitbutton2 button:hover,
   .submitbutton button:hover,
   .submitbutton2 button {
-    width: 46vw;
-    height: 5vh;
+    width: 100%;
+    height: 100%;
     font-size: 0.75rem;
   }
   .ondone .submitbutton2 {
@@ -957,5 +835,10 @@
     display: block;
 
     color: #edeff3;
+  }
+  .hoverbutton,
+  .hoverbutton2 {
+    left: 21.25vw;
+    top: 12vh;
   }
 }
