@@ -55,7 +55,7 @@ const Body = () => {
     if (text == null && text2 == null) {
       setR(0)
     }
-    else {
+    else {/*
       emailjs.sendForm('service_mty4gyp', 'template_mqdw5en', e.target, 'user_TLmvK5IREb4yuPyoXDbAQ')
         .then(function (response) {
           console.log('SUCCESS!', response.status, response.text);
@@ -64,7 +64,7 @@ const Body = () => {
           console.log('FAILED...', error);
 
         });
-      e.target.reset();
+      e.target.reset();*/
     }
 
     setText('');
@@ -142,8 +142,8 @@ const Body = () => {
     
                    
                    */}
-            <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img className='b1' src={imgbtn} />
-            </a>
+            <div className='talkbutton'><button data-bs-toggle="modal" data-bs-target="#exampleModal">Let’s talk!</button>
+            </div>
 
 
             <a href='#work'>
@@ -230,7 +230,7 @@ const Body = () => {
               <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close"></button>
 
               <div class="modal-body">
-                <div className='im'><img src={img} /><div className='top'><h6 style={{ fontsize: '10px' }}>Don’t worry, I’m here to help you!</h6></div></div>
+                <div className='im'><img className='submitimg' src={img} /><div className='top'><h6 >Don’t worry, I’m here to help you!</h6></div></div>
                 <div>
 
                   <div className="from">
@@ -288,8 +288,17 @@ const Body = () => {
 
 
 
-                        {text == '' || text2 == '' ? <button type='button' className='m' onClick={click}><img src={btnreq} />    </button> :
-                          <button type='submit' onClick={short} className='mb' data-bs-toggle="modal" data-bs-target="#example" ><img src={btnreq2} /></button>}
+                        {text == '' || text2 == '' ? <div className='submitbutton' >
+                          
+                          <button type='button' onClick={click}>Send your requirement   </button>
+                          </div> :
+
+                          <div className='submitbutton2'>
+                           <button type='submit' onClick={short}  data-bs-toggle="modal" data-bs-target="#example" >Send your requirement</button>
+                          </div>
+                        
+                          
+                          }
 
                         {/*{text==''||text2==''?<button type='button'  style={{background: '#656971'}} >Send your requirement</button>:
                  <button type='submit'  data-bs-toggle="modal" data-bs-target="#example"   >Send your requirement</button>}
@@ -335,11 +344,14 @@ const Body = () => {
                   <h2>I’ll go through your requirements and get back you.</h2>
                   <p>Alternatively, you can reach out to me on   <span className='no'>+91-8017697352</span></p>
 
-
-                  <button type="button" onClick={() => window.location.reload()} className='fbt' data-bs-dismiss="modal">
+                 {/*
+                  <button  onClick={() => window.location.reload()} className='fbt' data-bs-dismiss="modal">
                     <img src={btnreq3} />
-                  </button>
-
+                 </button>*/}
+                  <div className='submitbutton2'   >
+                          
+                          <button type='button'onClick={() => window.location.reload()} data-bs-dismiss="modal" >Back to seeing my work!  </button>
+                          </div>
 
                 </div>
               </div>

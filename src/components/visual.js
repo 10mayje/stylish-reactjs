@@ -11,9 +11,9 @@ import Aos from 'aos';
 const VD=()=>{
     const isMobile = window.innerWidth <= 500;
     const [style, setStyle] = useState('invisible');
-    const [style2, setStyle2] = useState('p');
+    const [style2, setStyle2] = useState('opacityhigh');
     const [style3, setStyle3] = useState('invisible');
-    const [style4, setStyle4] = useState('p');
+    const [style4, setStyle4] = useState('opacityhigh');
     const [style5,setStyle5]=useState('k');
     const [style6,setStyle6]=useState('k');
     const [style7,setStyle7]=useState('k');
@@ -46,21 +46,21 @@ const VD=()=>{
     const hover=()=>{
         if(!isMobile){
            setStyle('hoverbutton');
-           setStyle2('z');}
+           setStyle2('opacitylow');}
     }
     const hout=()=>{
 
         if(!isMobile){
 
          setStyle('invisible');
-        setStyle2('p');   
+        setStyle2('opacityhigh');   
         }
         
     }
     const hover2=()=>{
         if(!isMobile){
 setStyle3('hoverbutton2');
-        setStyle4('z');
+        setStyle4('opacityhigh');
 
         }
 
@@ -69,7 +69,7 @@ setStyle3('hoverbutton2');
  const hout2=()=>{
     if(!isMobile){
          setStyle3('invisible');
-     setStyle4('p');
+     setStyle4('opacityhigh');
     }
     
  }
@@ -78,10 +78,10 @@ const check=()=>{
        
         if(style=='hoverbutton'){
             setStyle('invisible');
-        setStyle2('p');
+        setStyle2('opacityhigh');
         }else{
           setStyle('hoverbutton');
-        setStyle2('z');  
+        setStyle2('opacitylow');  
         }
         
     }
@@ -94,10 +94,10 @@ const check2=()=>{
     if(isMobile){
         if(style3=='hoverbutton2'){
             setStyle3('invisible');
-            setStyle4('p');
+            setStyle4('opacityhigh');
         }else{
             setStyle3('hoverbutton2');
-            setStyle4('z');  
+            setStyle4('opacitylow');  
         }
         
     }

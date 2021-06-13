@@ -18,7 +18,7 @@ const Intrest=()=>{
 
 
     return(
-        <div>
+        <div className='interests'>
               <div className="table1">
                   <div className="one"><img data-aos="fade-up" data-aos-delay="200"  src={img}/></div>
                   <div className="two"><img data-aos="fade-up" data-aos-delay="400" src={img2}/></div>

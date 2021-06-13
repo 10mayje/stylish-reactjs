@@ -2,7 +2,7 @@
   .topicon {
     position: fixed;
     z-index: 9999999;
-    margin-top: 16px;
+    margin-top: 2.5vh;
     margin-left: 0.5vw;
   }
 
@@ -19,7 +19,8 @@
   }
   .backgound {
     width: 100%;
-    margin-left: 7vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     overflow-x: hidden;
   }
   .main {
@@ -47,49 +48,58 @@
   }
 
   .item-one {
-    width: 75vw;
+    width: 100%;
     margin: 0;
   }
   .item-two {
     margin: 0;
     margin-top: 74px;
-    width: 288px;
-    height: 244px !important;
+    width: 100%;
+    height: 38vh;
   }
   .item-two img {
-    width: 288px;
-    height: 244px !important;
+    width: 100%;
+    height: auto;
   }
   .bt-n {
     width: 100vw;
-    margin-left: 0;
-    position: absolute;
+    margin-top: 12.5vh;
   }
-  .b1 {
-    width: 30vw;
-    height: 40px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
+  .talkbutton {
+    width: 28vw;
+    height: 5.6vh;
+  }
 
-    /* Text/Alternate-light-grey */
+  .talkbutton button {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
 
-    color: #edeff3;
-    background: transparent;
+    width: 28vw;
+    height: 5.6vh;
+  }
+
+  .talkbutton button:hover {
+    font-size: 0.75rem;
+    width: 28vw;
+    height: 5.6vh;
+  }
+
+  .talkbutton:hover {
+    width: 28vw;
+
+    margin-right: 0vw;
+    margin-top: 0vh;
+
+    height: 5.6vh;
   }
   .b2 {
     margin: 0;
     padding: 0;
-    width: 35vw;
-    height: 40px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
+    width: 38.8vw;
+    height: 5.6vh;
+
+    font-size: 0.75rem;
+    line-height: 0.75rem;
     /* identical to box height, or 100% */
 
     /* Text/Tertiary */
@@ -97,56 +107,35 @@
     color: #bfc6eb;
   }
   .contact {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
     /* identical to box height, or 100% */
 
     margin-left: 0;
     /* Text/Dark-grey */
 
     color: #656971;
-    margin-top: 30vh;
+    margin-top: 12.5vh;
   }
 
   .item-one h1 {
-    margin-top: 20px;
-    margin-bottom: 2vh;
+    margin-top: 4vh;
+    margin-bottom: 1.8vh;
 
-    font-family: Caveat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 2rem;
+    line-height: 2rem;
     /* identical to box height, or 100% */
 
     text-align: left;
-
-    /* Text/Alternate-light-grey */
-
-    color: #edeff3;
   }
   .c2 {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
     margin-left: 0;
-    /* identical to box height, or 100% */
-
-    /* Text/Alternate-light-grey */
-
-    color: #edeff3;
   }
   .item-one p {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
     /* or 150% */
 
     /* Text/Light-20 */
@@ -157,32 +146,24 @@
     width: 100%;
   }
   .container-two h2 {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
-    /* Text/Light-20 */
-
-    color: #939aa9;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
   }
 
   .container-three {
     flex-direction: column;
   }
   .item-3 {
-    width: 80vw;
+    width: 100%;
   }
   .item-3 h1 {
-    width: 80vw;
+    width: 100%;
     height: auto;
-    font-family: Rubik;
-    font-style: normal;
+
     font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
     /* or 125% */
 
     letter-spacing: 0.0025em;
@@ -191,18 +172,16 @@
 
     color: #363a40;
 
-    margin-top: 44px;
+    margin-top: 6.8vh;
   }
 
   .item-3 p {
-    margin-top: 24px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    /* or 150% */
+    margin-top: 3.7vh;
 
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    /* or 150% */
+    width: 100%;
     margin-left: 0;
     /* Text/Light-20 */
 
@@ -214,79 +193,75 @@
     display: block;
     text-align: center;
 
-    margin-top: 10vh;
+    margin-top: 11.2vh;
   }
   .count {
     display: none;
     width: 100% !important;
   }
-
-  .j {
-    height: 30vh;
-    text-align: center;
+  .countext {
+    height: 25vh;
+    width: 28.3vw;
   }
-  .j h1 {
-    font-size: 32px;
-    line-height: 32px;
-    text-align: center;
+  .countext h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: left;
   }
-  .j p {
-    font-size: 10px;
-    line-height: 14px;
-    color: #939aa9;
-    text-align: center;
+  .countext p {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    width: 28.3vw;
+    text-align: left;
   }
   /* fourth box*/
   .box1 {
-    width: 100vw;
+    width: 100%;
     margin-bottom: 0;
-    margin-left: 0vw;
+    margin-left: 0;
     height: 66vh;
   }
 
   .b3 {
     margin-left: 0vw;
   }
+  .b3 h2 {
+    float: left;
+    text-align: left;
+  }
   .box1 h2 {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
     /* identical to box height, or 100% */
     margin-top: 1vh;
-    width: 80%;
+    width: 56vw;
     /* Text/Alternate-light-grey */
 
     color: #edeff3;
   }
 
   .btext span {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
   }
   .number {
-    margin: 0;
-    margin-left: 75vw !important;
-    margin-top: 1vh;
     transform: rotate(0deg);
+    top: 40.5vh;
+    left: 76vw;
   }
   .number2 {
-    margin: 0;
-    margin-left: 75vw;
-    margin-top: 1vh;
+    top: 40.5vh;
+    left: 76vw;
     transform: rotate(0deg);
   }
   .number3 {
-    margin: 0;
-    margin-left: 75vw !important;
-    margin-top: 1vh;
+    top: 40.5vh;
+    left: 76vw;
     transform: rotate(0deg);
   }
   .number4 {
-    margin: 0;
-    margin-left: 75vw;
-    margin-top: 1vh;
+    top: 40.5vh;
+    left: 76vw;
     transform: rotate(0deg);
   }
   .btext {
@@ -294,32 +269,29 @@
     margin: 0;
   }
   .box1 img {
-    width: 333px;
-    height: 258px;
+    width: 80vw;
+    height: 40.3vh;
 
     transition: all 0.3s ease 0s;
     overflow: hidden;
   }
   .box1 div {
-    width: 333px;
-    height: 258px;
+    width: 80vw;
+    height: 40.3vh;
     overflow: hidden;
   }
 
   .box1 img:hover {
-    transform: scale(1.05);
+    transform: scale(1);
   }
 
   .system {
-    margin-top: -15vh;
   }
   .dis {
-    width: 90%;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
+    width: 100%;
+
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
     /* or 150% */
 
     /* Text/Light-20 */
@@ -327,13 +299,9 @@
     color: #939aa9;
   }
   .head {
-    margin-top: 10vh;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 100%;
     /* identical to box height, or 100% */
 
     /* Text/Alternate-light-grey */
@@ -342,7 +310,7 @@
   }
   .navigation {
     display: none;
-    margin-top: 32px;
+    margin-top: 4vh;
   }
   .example-two {
     display: block;
@@ -484,11 +452,9 @@
     margin-top: 72px;
   }
   .anmate-text {
-    font-family: Rubik;
-    font-style: normal;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
     /* identical to box height, or 100% */
 
     /* Text/Alternate-light-grey */
@@ -498,10 +464,9 @@
   }
   .anmate-text span {
     font-family: Caveat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
+
+    font-size: 0.875rem;
+    line-height: 0.875rem;
     /* identical to box height, or 100% */
 
     /* Text/Dark-grey */
@@ -509,117 +474,91 @@
     color: #656971;
   }
   /* intersest*/
-  .table1 {
-    margin-left: -3vw;
+
+  .interests {
+    margin-left: 11vw;
+    margin-right: 11vw;
   }
-  .table3 {
-    margin-left: 0.5vw;
-    margin-top: -2vh;
+  .table1 {
+    display: flex;
+    width: 100%;
   }
   .one {
-    width: 84px;
-    height: 56px;
-    margin-top: 30vh;
+    margin-top: 40vh;
+    overflow: hidden;
   }
   .one img {
-    width: 84px;
-    height: 56px;
+    width: 18vw !important;
   }
   .two {
-    width: 46px;
-    height: 67px;
-    margin-top: 20vh;
+    margin-left: 4vw;
+    margin-top: 32vh;
+    overflow: hidden;
   }
   .two img {
-    width: 46px;
-    height: 67px;
+    width: 10vw;
   }
   .three {
-    width: 59px;
-    height: 81px;
-    margin-top: 16vh;
+    margin-left: 5vw;
+    margin-top: 28vh;
+    overflow: hidden;
   }
   .three img {
-    width: 59px;
-    height: 81px;
+    width: 13vw;
   }
   .four {
-    width: 97px;
-    height: 66px;
-    margin-top: 30vh;
+    margin-left: 3vw;
+    margin-top: 38vh;
+    overflow: hidden;
   }
-  .four img {
-    width: 98px;
-    height: 66px;
-    margin-left: -2vw;
+  .four {
+    width: 24vw;
   }
   .table2 {
-    text-align: center;
-    width: 80%;
-    margin-left: 10vw;
-    opacity: 0.8;
+    margin-top: 5.4vh;
+
+    width: 65vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
   }
   .table2 h1 {
-    font-family: Rubik;
-    font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 20px;
-    /* identical to box height, or 100% */
-
-    margin-left: 4vw;
-    /* Text/Light */
-
-    color: #fcfcfc;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
   }
   .table2 p {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    /* or 150% */
-    margin-left: 4vw;
-    text-align: center;
-
-    /* Text/Light-20 */
-
-    color: #939aa9;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
   }
+
   .five {
-    width: 91px;
-    height: 73px;
-    margin-left: 11vw;
-    margin-top: 5vh;
+    width: 24vw;
+
+    margin-top: 4vh;
     overflow: hidden;
   }
   .five img {
-    width: 91px;
-    height: 73px;
+    width: 24vw;
   }
-
   .six {
-    width: 84px;
-    height: 98px;
+    width: 24vw;
+
     overflow: hidden;
-    margin-left: 7vw;
-    margin-top: 17vh;
+    margin-left: 8vw;
+    margin-top: 10vh;
   }
   .six img {
-    width: 84px;
-    height: 98px;
+    width: 24vw;
   }
-
   .seven {
-    width: 82px;
-    height: 62px;
-    margin-left: 2vw;
-    margin-top: 3vh;
+    width: 16vw;
+
+    margin-left: 6vw;
+    margin-top: 4vh;
     overflow: hidden;
   }
   .seven img {
-    width: 82px;
-    height: 62px;
+    width: 16vw;
   }
   /*footer*/
   .fouter {
@@ -627,7 +566,7 @@
     margin: 0;
     padding: 0;
     margin-top: 88px;
-    margin-left: -19px;
+
     vertical-align: middle;
     align-items: center;
     justify-self: center;
@@ -656,13 +595,11 @@
   }
 
   .fo1 h2 {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 21px;
     /* or 150% */
     margin: 0;
+    width: 100%;
     text-align: center;
 
     /* Text/Alternate-light-grey */
@@ -670,36 +607,22 @@
     color: #edeff3;
   }
   .fo1 p {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 12px;
     /* identical to box height, or 100% */
     text-align: center;
     margin: 0;
-    /* Text/Dark-grey */
-
-    color: #656971;
   }
   .span {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 14px;
     /* identical to box height, or 100% */
     text-align: center;
-    text-decoration-line: underline;
 
-    /* Text/Alternate-light-grey */
     margin: 0;
     color: #edeff3;
   }
   .fo2 p {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 18px;
     /* or 150% */
@@ -719,12 +642,15 @@
   .icons a {
     text-align: center;
     display: block;
-    width: 5vw;
   }
   .icons i {
-    font-size: 16px;
+    font-size: 1.5rem;
     text-align: center;
-    margin-left: 5vw;
+    padding-left: 2vw;
+  }
+  .back img {
+    text-align: center;
+    margin-left: 0vw;
   }
   /*
 .icons{
@@ -781,13 +707,10 @@
     padding-bottom: 0vh;
   }
   .copy {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 12px;
     /* identical to box height, or 100% */
-    margin-left: -4vw;
+    margin-left: 0vw;
     text-align: center;
     /* Text/Dark-20 */
 
@@ -800,14 +723,15 @@
     margin-bottom: -1px;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1rem;
+    line-height: 1rem;
   }
   /* model*/
   .modal-content {
     background: #2d3136;
     border-radius: 20px;
-    height: 70vh;
+    width: 80vw;
+    height: 84.3vh;
     box-shadow: none;
     vertical-align: middle;
     align-items: right;
@@ -817,28 +741,23 @@
     padding: 0;
   }
   .modal-fullscreen {
-    width: 85vw !important;
+    width: 80vw !important;
 
-    margin-top: 6.5vh;
-    margin-left: 8vw;
-    height: 89vh;
-  }
-  .im {
-    width: 70vw;
-    margin-top: 1vh;
+    height: 84.3vh;
   }
   .top {
     display: block;
-
-    width: 150px;
-    height: 42px;
-    margin-left: 9px;
-    margin-top: 3vh;
-    font-family: Rubik;
+  }
+  .top h6 {
+    width: 40vw;
+    height: 6.5vh;
+    margin-left: 2vw;
+    margin-top: 3.5vh;
     font-style: normal;
+
     font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     /* or 150% */
 
     /* Text/Alternate-light-grey */
@@ -852,42 +771,20 @@
     height: 0px;
   }
 
-  .m {
-    margin: 0 !important;
-  }
-
-  .m img {
-    width: 200px !important;
-    height: 56px;
-    margin-left: -13vw !important;
-    margin-top: -5px !important;
-  }
-
-  .mb img {
-    width: 200px !important;
-    height: 56px;
-    margin-left: -13vw !important;
-    margin-top: -5px !important;
-  }
-  .mb {
-    margin: 0 !important;
-  }
-
   .modal-body img {
-    width: 97px;
-    height: 82px;
-    margin-left: 5px;
+    width: 30vw;
+    height: 12.8vh;
+    margin-left: 4.4vw;
     margin-top: 0px;
     padding: 0 !important;
   }
   .modal-body {
     flex-direction: column;
-    margin-top: -5vh;
   }
   .from {
-    width: 70vw;
+    width: 75vw;
     margin-top: 0vh;
-    margin-left: 3vw;
+    margin-left: 0vw;
   }
   .texttop {
     display: none;
@@ -898,9 +795,11 @@
 
   .buttoncolor {
     margin-bottom: 0px;
+    width: 70vw;
   }
   .buttoncolor input {
-    padding: 1em 2em;
+    padding: 0em 1em;
+    width: 70vw;
   }
 
   .button {
@@ -910,33 +809,30 @@
       rgba(45, 49, 54, 0) 95.8%
     );
     border-radius: 5px;
-
+    width: 70vw;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 1px;
     text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 0px;
   }
   .button input {
     background: #2d3136;
     border: transparent;
     display: block;
-    width: 360px;
-    height: 56px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
+    width: 70vw;
+    height: 6.2vh;
+
+    font-size: 0.75rem;
+    line-height: 0.75rem;
 
     color: #fcfcfc;
-    padding: 1em 2em;
-    border-radius: 6px;
+    padding: 0em 1em;
+    border-radius: 5px;
   }
   .buttoncolor2 textarea {
-    padding: 2em 2em;
-    height: 162px;
+    padding: 1em 1em;
+    width: 70vw;
+    height: 30vh;
   }
   .button2 {
     background: linear-gradient(
@@ -945,181 +841,121 @@
       rgba(45, 49, 54, 0) 95.8%
     );
     border-radius: 5px;
-
+    width: 70vw;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 1px;
     text-decoration: none;
-    margin-top: 10px;
   }
   .button2 textarea {
     background: #2d3136;
     border: transparent;
     display: block;
-    height: 162px;
+    height: 30vh;
 
-    width: 360px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
+    width: 70vw;
+
+    font-size: 0.75rem;
+    line-height: 0.75rem;
     /* identical to box height, or 100% */
 
     /* Text/Light */
 
     color: #fcfcfc;
-    padding: 2em 2em;
-    border-radius: 6px;
+    padding: 1em 1em;
+    border-radius: 5px;
   }
 
   .inputtext input::placeholder {
-    position: absolute;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
 
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
     color: #656971;
-    padding-top: 10px;
-  }
-  .borders {
-    background-color: black;
-    margin-top: 10px;
-    padding: 0;
-    width: 360px;
-    height: 56px;
   }
 
   .inputtext textarea::placeholder {
-    position: absolute;
-    margin-top: 0px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
     /* identical to box height, or 100% */
 
     /* Text/Dark-grey */
 
     color: #656971;
   }
-  .inputtext button {
-    background: transparent;
 
-    border-radius: 4px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 16px;
-    /* identical to box height, or 100% */
-    margin-top: 16px;
-
-    /* Text/Alternate-light-grey */
-
-    color: #edeff3;
-
-    width: 250px;
-    height: 46px;
+  .submitbutton,
+  .submitbutton2:hover,
+  .submitbutton:hover,
+  .submitbutton2 {
+    width: 46.5vw;
+    height: 5.3vh;
   }
 
+  .submitbutton button,
+  .submitbutton2 button:hover,
+  .submitbutton button:hover,
+  .submitbutton2 button {
+    width: 46vw;
+    height: 5vh;
+    font-size: 0.75rem;
+  }
+  .ondone .submitbutton2 {
+    margin-top: 9vh;
+  }
   .contax {
-    width: 90vw !important;
+    width: 80vw !important;
     background: transparent !important;
     box-shadow: transparent;
-    margin-left: 5vw;
-    margin-top: 10vh;
-    height: 85vh;
+    margin-left: 10vw;
+    height: 85vh !important;
   }
-  .contax .modal-content {
-    width: 90vw !important;
-    margin-left: 0vw !important;
-    box-shadow: transparent;
-  }
+
   .cross2 {
     position: absolute;
-    margin-left: 76vw;
-    margin-top: 15px;
-    z-index: 99999999999999;
+    right: 3.4vw;
+    top: 6.1vw;
+    z-index: 9999999999;
   }
   .cross {
     position: absolute;
-    margin-left: 70vw;
-    margin-top: 2.3vh;
-    z-index: 99999999999999;
-  }
-  .ondone {
-    width: 80vw;
-    margin: 0;
-    margin-top: -10vh;
+    left: 70vw;
+    top: 2.3vh;
+    z-index: 999999999;
   }
 
   .ondone img {
-    width: 246px !important;
-    height: 208px !important;
-    margin-top: 0vh;
-    margin-left: 15px;
+    width: 68.3vw !important;
+    height: 32.5vh !important;
   }
 
   .ondone h2 {
-    font-family: Rubik;
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
     /* or 150% */
-
+    margin-top: 2.5vh;
     text-align: center;
 
     /* Text/Alternate-light-grey */
-
-    color: #edeff3;
-    margin-top: 16px;
   }
   .ondone p {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 10px;
+    margin-top: 3.4vh;
+    font-size: 0.625rem;
+    line-height: 0.625rem;
     /* identical to box height, or 100% */
 
     /* Text/Light-20 */
 
     color: #939aa9;
-    margin-top: 22px;
   }
   .no {
-    padding-top: 6px;
-    font-family: Rubik;
-    font-style: normal;
+    padding-top: 0.9vh;
+
     font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
     display: block;
 
     color: #edeff3;
-  }
-  .ondone button {
-    position: absolute;
-    background: transparent;
-    border: transparent;
-    width: 182px !important;
-    height: 46px !important;
-
-    margin-left: -27vw;
-    margin-top: 4vh;
-    text-align: center;
-  }
-  .fbt a {
-    width: 182px !important;
-    height: 46px !important;
-  }
-  .fbt img {
-    width: 182px !important;
-    height: 46px !important;
   }
 }

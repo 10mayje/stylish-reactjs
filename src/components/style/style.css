@@ -9,13 +9,12 @@
 }
 
 .anmate-text {
-  font-family: Rubik;
-  margin-top: 51px;
-  margin-bottom: 51px;
+  margin-top: 5.8vh;
+  margin-bottom: 5.8vh;
   font-style: normal;
   font-weight: 300;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
 
   display: inline-block;
 
@@ -27,8 +26,8 @@
   font-family: Caveat;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
   /* identical to box height, or 100% */
 
   /* Text/Dark-grey */
@@ -105,6 +104,9 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-color: #24292a;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
 }
 * {
   margin: 0;
@@ -115,7 +117,7 @@ body {
 .topicon {
   position: fixed;
   z-index: 9999999;
-  margin-top: 34px;
+  margin-top: 3.9vh;
   margin-left: 0.5vw;
 }
 .menu-collapsed {
@@ -140,7 +142,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9999999;
-  height: 103px !important;
+  height: 11.9vh;
   box-shadow: 0px 0px 30px rgba(25, 28, 30, 0.5);
 }
 .navb2 {
@@ -148,13 +150,13 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9999999;
-  height: 103px !important;
+  height: 11.9vh;
 }
 .navbars {
   display: flex;
   float: right;
   margin-right: 10vw;
-  margin-top: 36px;
+  margin-top: 5.3vh;
   text-decoration: none;
 }
 .navbars li {
@@ -163,15 +165,14 @@ body {
 .tap {
   text-decoration: none;
   width: auto;
-  height: 14px;
 
-  margin-left: 96px;
+  margin-left: 6.6vw;
 
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
   /* identical to box height, or 100% */
 
   /* Text/Alternate-light-grey */
@@ -182,90 +183,101 @@ body {
 .container-one {
   display: flex;
   overflow: hidden;
-  padding: 10px;
 }
 .item-one {
-  width: 70vw;
+  width: 52.5vw;
 }
 .item-two {
-  margin-top: 100px;
+  margin-top: 12.9vh;
   margin-left: 4vw;
-  width: 99vw;
-  height: 549px !important;
+  width: 64vw;
+  height: 64vh;
 
   overflow: hidden;
 }
 .item-two img {
-  margin-top: 10px;
-  width: 709px;
-  height: 549px !important;
+  margin-top: 1.3vh;
+  width: 45vw;
+  height: 63.3vh;
   margin-left: -1vw;
 }
 .t-text {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 1em;
+  line-height: 1em;
   overflow: hidden;
   color: #939aa9;
 }
 .bt-n {
   display: flex;
-  margin-top: 7.5vh;
+  margin-top: 6.45vh;
 }
 .contact {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
   color: #656971;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 .c2 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
   color: #edeff3;
-  width: 158px;
-  height: 16px;
+
   text-decoration-line: underline;
 }
 
 .item-one h1 {
-  margin-top: 258px;
+  margin-top: 30vh;
   font-family: Caveat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 48px;
+
+  font-size: 3rem;
+  line-height: 3rem;
   color: #edeff3;
-  margin-bottom: 2vh;
+  margin-bottom: 2.3vh;
 }
-.b1 {
-  margin-right: 18px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
 
-  cursor: pointer;
+.talkbutton {
+  display: inline-block;
 
+  padding: 1px;
+  text-decoration: none;
+  background: linear-gradient(
+    91.42deg,
+    #f0f1f3 -1.9%,
+    rgba(45, 49, 54, 0) 95.8%
+  );
   border-radius: 4px;
+  width: 10.4vw;
+  height: 6.4vh;
+}
+
+.talkbutton button {
+  background: linear-gradient(97.15deg, #793599 -11.99%, #133a9e 109.23%);
+  border-radius: 4px;
+
+  font-size: 1rem;
+  line-height: 1rem;
   /* identical to box height, or 100% */
-  width: 150px;
-  height: 56px;
 
   /* Text/Alternate-light-grey */
-
+  border: transparent;
   color: #edeff3;
+  width: 10.4vw;
+  height: 6.1vh;
 }
-.b1:hover {
-  transform: scale(1.02);
+
+.talkbutton button:hover {
+  font-size: 1.1rem;
+  width: 10.6vw;
+  height: 6.3vh;
+}
+
+.talkbutton:hover {
+  width: 10.6vw;
+
+  margin-right: -0.2vw;
+  margin-top: -0.1vh;
+
+  height: 6.6vh;
 }
 .b2:hover {
   transform: scale(1.05);
@@ -274,37 +286,30 @@ body {
 .b2 {
   background: transparent;
   border: transparent;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: medium;
-  width: 202px;
-  height: 56px;
-  font-size: 16px;
-  line-height: 16px;
+
+  width: 14.3vw;
+  height: 6.45vh;
+  font-size: 1rem;
+  line-height: 1rem;
   /* identical to box height, or 100% */
 
   /* Text/Tertiary */
 
   color: #bfc6eb;
 }
-.b2:hover {
-  background: transparent !important;
-}
+
 /* secound box*/
 .container-two {
   color: #939aa9;
-  width: 648px;
+  width: 45vw;
 
-  margin-top: 89px;
+  margin-top: 10.2vh;
 }
 .container-two h2 {
-  width: 648px;
-  height: 132px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
+  width: 43vw;
+
+  font-size: 2rem;
+  line-height: 2.75rem;
   /* or 137% */
 
   /* Text/Light-20 */
@@ -321,41 +326,37 @@ body {
   opacity: 1;
 }
 .item-3 h1 {
-  width: 460px;
-  height: 283px;
+  width: 30vw;
+  height: 52.6vh;
   opacity: 1;
 
   color: #363a40;
-  margin-top: 260px;
-  font-family: Rubik;
-  font-style: normal;
+  margin-top: 33.7vh;
+
   font-weight: bold;
-  font-size: 56px;
-  line-height: 65px;
+  font-size: 3.5rem;
+  line-height: 4.25rem;
   /* or 121% */
 
   letter-spacing: 0.0025em;
 }
 
 .item-3 p {
-  font-family: Rubik;
+  width: 38vw;
 
-  width: 95%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
-  margin-top: 112px;
-  width: 552px;
-  margin-left: 13vw;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 13vh;
+
+  margin-left: 8.6vw;
   color: #939aa9;
 }
 .belowtext {
-  font-size: 24px;
-  line-height: 40px;
-  margin-top: 64px !important;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 7.4vh;
 
-  color: #fcfcfc !important;
+  color: #fcfcfc;
 }
 /*third box*/
 
@@ -370,27 +371,22 @@ body {
   display: none;
 }
 
-.j {
+.countext {
   height: 30vh;
 }
-.j h1 {
-  font-family: Rubik;
-  font-style: normal;
+.countext h1 {
   font-weight: bold;
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
   /* identical to box height, or 100% */
 
   /* Text/Light */
 
   color: #fcfcfc;
 }
-.j p {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
+.countext p {
+  font-size: 1rem;
+  line-height: 1.25rem;
   /* or 125% */
 
   text-align: center;
@@ -408,36 +404,34 @@ body {
   position: relative;
   height: 575px;
 }
-.p {
+.opacityhigh {
   opacity: 1;
 }
-.z {
+.opacitylow {
   opacity: 0.2;
 }
 .b3 {
   margin-left: 29vw;
 }
+.b3 h2 {
+  text-align: right;
+  float: right;
+}
 
 .btext {
-  height: 84px;
+  height: 7.3vh;
   overflow: hidden;
 }
 .btext h2 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 20px;
-  width: 50vw;
+  font-size: 1.5em;
+  line-height: 2rem;
+  margin-top: 2.3vh;
+  width: 37.8vw;
   color: #edeff3;
 }
 .btext span {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   /* identical to box height, or 100% */
 
   /* Text/Light-30 */
@@ -445,8 +439,8 @@ body {
   color: #6c778c;
 }
 .box1 img {
-  width: 648px;
-  height: 575px;
+  width: 45vw;
+  height: 63.3vh;
   text-align: center;
   vertical-align: middle;
   align-items: center;
@@ -460,17 +454,14 @@ body {
   transform: scale(1.15);
 }
 .box1 div {
-  width: 648px;
-  height: 575px;
+  width: 45vw;
+  height: 63.3vh;
   overflow: hidden;
 }
 
 .number {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   opacity: 0.5;
   /* identical to box height, or 100% */
   color: #6c778c;
@@ -478,33 +469,27 @@ body {
   transform: rotate(-90deg);
   /* Text/Dark-grey */
   position: absolute;
-  margin-left: 37vw;
-  margin-top: -3vh;
+  right: -3vw;
+  top: 60vh;
   z-index: 99999999999;
 }
 .number2 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   /* identical to box height, or 100% */
   color: #6c778c;
   letter-spacing: 0.05em;
   transform: rotate(-90deg);
   /* Text/Dark-grey */
   position: absolute;
-  margin-left: -2.5vw;
-  margin-top: -3.5vh;
+  left: -3vw;
+  top: 60vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
 .number3 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   /* identical to box height, or 100% */
   color: #6c778c;
   letter-spacing: 0.05em;
@@ -515,47 +500,39 @@ margin-left: 43vw;
 */
   position: absolute;
 
-  margin-left: 37vw;
-  margin-top: -3.5vh;
+  right: -3vw;
+  top: 60vh;
 
   z-index: 99999999999;
   opacity: 0.5;
 }
 .number4 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   /* identical to box height, or 100% */
   color: #6c778c;
   letter-spacing: 0.05em;
   transform: rotate(-90deg);
   /* Text/Dark-grey */
   position: absolute;
-  margin-left: -2.5vw;
-  margin-top: -3.4vh;
+  left: -3vw;
+  top: 60vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
 
 .dis {
-  font-family: Rubik;
-  width: 40%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
+  width: 25vw;
+  font-size: 1.5rem;
+  line-height: 2rem;
 
   color: #939aa9;
 }
 .head {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 62px;
-
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  width: 25vw;
+  margin-top: 10vh;
   color: #edeff3;
 }
 .navigation {
@@ -563,30 +540,27 @@ margin-left: 43vw;
   flex-direction: row;
   align-items: flex-start;
 
-  margin-top: 56px;
+  margin-top: 6.4vh;
 }
 .n {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 
-  margin-right: 64px;
+  margin-right: 5.9vw;
   position: static;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-bottom: 6px;
+  margin-bottom: 1vh;
 }
 .frame {
-  margin-top: 10vh;
+  margin-top: 8.4vh;
 }
 .n button {
   position: static;
   background: transparent;
   border: transparent;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
 
   flex: none;
   order: 0;
@@ -695,57 +669,61 @@ margin-left: 43vw;
 .an-text {
   margin-top: 260px;
 }
+
 /* 5th fase*/
+.interests {
+  margin-left: 11vw;
+  margin-right: 11vw;
+}
 .table1 {
   display: flex;
+  width: 100%;
 }
 .one {
-  margin-left: 14vw;
   margin-top: 57vh;
   overflow: hidden;
 }
 .one img {
-  width: 17.1vw !important;
+  width: 17vw !important;
 }
 .two {
-  height: 27.1vh;
   margin-left: 4vw;
   margin-top: 40vh;
   overflow: hidden;
 }
-.one img {
+.two img {
   width: 9vw;
 }
 .three {
-  margin-left: 5vw;
+  margin-left: 9vw;
   margin-top: 27vh;
   overflow: hidden;
 }
 .three img {
-  width: 11vw;
+  width: 12vw;
 }
 .four {
-  margin-left: 2vw;
+  margin-left: 3vw;
   margin-top: 55vh;
   overflow: hidden;
 }
 .four {
-  width: 23.5vw;
+  width: 24vw;
 }
 .table2 {
-  margin-top: 2vh;
-  margin-bottom: -2vh;
+  margin-top: 9.4vh;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  width: 52vw;
-  margin-left: 22vw;
-  opacity: 0.8;
+  justify-content: center;
+  width: 65vw;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
 }
 .table2 h1 {
-  font-family: Rubik;
-  font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
   /* identical to box height, or 100% */
 
   /* Text/Light */
@@ -753,11 +731,8 @@ margin-left: 43vw;
   color: #fcfcfc;
 }
 .table2 p {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   /* or 133% */
 
   text-align: center;
@@ -769,155 +744,111 @@ margin-left: 43vw;
 
 .table3 {
   display: flex;
-  margin-left: 4vw;
 }
 .five {
-  width: 23.5vw;
+  width: 24vw;
 
-  margin-left: 11vw;
   margin-top: 10vh;
   overflow: hidden;
 }
 .five img {
-  width: 23.5vw;
+  width: 24vw;
 }
 .six {
-  width: 23vw;
+  width: 24vw;
 
   overflow: hidden;
-  margin-left: 7vw;
+  margin-left: 8vw;
   margin-top: 29vh;
 }
 .six img {
-  width: 23vw;
+  width: 24vw;
 }
 .seven {
-  width: 19vw;
+  width: 16vw;
 
-  margin-left: 2vw;
+  margin-left: 6vw;
   margin-top: 5vh;
   overflow: hidden;
 }
 .seven img {
-  width: 17vw;
+  width: 16vw;
 }
 
 /* footer */
 .bottom {
   margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .fouter {
   display: flex;
 
-  margin-top: 16vh;
+  margin-top: 21.6vh;
 }
-.fo1 {
-  width: 30%;
-}
+
 .fo1 h2 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
+  width: 25vw;
+  height: 12.7vh;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
 
   color: #edeff3;
 }
 .fo1 p {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
-  margin-top: 32px;
+  font-size: 1rem;
+  line-height: 1rem;
   color: #656971;
 }
 .idea {
-  margin-bottom: 6px;
+  margin-bottom: 0.9vh;
 }
 .span {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   text-decoration-line: underline;
-  margin-top: 4px;
+
   color: #edeff3;
 }
 .fo2 p {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 14px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #7c7f86;
-  margin: 0;
-  margin-bottom: 14px;
 }
 .fo2 {
-  width: 30%;
-  margin-left: 25vw;
+  margin-left: 27vw;
+  width: 25vw;
 }
-.back {
-  margin-top: 6vh !important;
+.back img {
+  text-align: center;
+  margin-left: 12vw;
 }
 .icons {
   display: flex;
-  margin-top: 35px;
+  margin-top: 3.2vh;
 }
 .icons a {
-  margin-right: 30px;
+  margin-right: 3vw;
 }
 .icons i {
   color: #edeff3;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
-/*
-.icons a:nth-child(1) {
-  margin-top: -7px;
-  width: 40px;
-  height: 40px;
+.icons i:hover {
+  color: #7c7f86;
 }
-.icons a:nth-child(4) {
-  margin-top: 2px;
-}
-.icons a:nth-child(5) {
-  margin-top: 2px;
-}
-
-.icons img:nth-child(2){
-    opacity: 0;
-    position: absolute;
-}
-.icons img:nth-child(1):hover{
-    opacity: 0;
-    
-}
-.icons img:nth-child(1){
-    opacity: 1;
-    position: absolute;
-}
-.icons img:nth-child(2):hover{
-    opacity: 1;
-}*/
 
 .icons img:hover {
   opacity: 0.3;
 }
 .last {
   text-align: center;
-  padding-bottom: 0vh;
+  margin-top: 8.8vh;
 }
 .copy {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 1rem;
+  line-height: 1rem;
   /* identical to box height, or 100% */
-  margin-left: -2.5vw;
   text-align: center;
   /* Text/Dark-20 */
 
@@ -931,19 +862,6 @@ margin-left: 43vw;
   align-items: center;
   justify-self: center;
 
-  box-shadow: 10px 10px 40px 0px rgba(12, 13, 13, 0.7);
-
-  box-shadow: -10px -10px 40px 0px rgba(212, 211, 226, 0.15);
-
-  box-shadow: 5px 5px 24px 0px rgba(12, 13, 13, 0.25) inset;
-
-  box-shadow: -5px -5px 24px 0px rgba(179, 178, 186, 0.05) inset;
-  border-radius: 20px !important;
-
-  box-shadow: -10px -10px 40px rgba(212, 211, 226, 0.15),
-    10px 10px 40px rgba(12, 13, 13, 0.7),
-    inset -5px -5px 24px rgba(179, 178, 186, 0.05),
-    inset 5px 5px 24px rgba(12, 13, 13, 0.25);
   border-radius: 20px !important;
 }
 .model {
@@ -952,9 +870,9 @@ margin-left: 43vw;
 }
 .modal-fullscreen {
   width: 80vw;
-  margin-top: 8.5vh;
+  margin-top: 10vh;
   margin-left: 10vw;
-  height: 86vh;
+  height: 80vh;
   background: linear-gradient(
     91.42deg,
     #f0f1f3 -1.9%,
@@ -972,26 +890,11 @@ margin-left: 43vw;
   justify-self: center;
   justify-content: center;
 }
-.contax {
-  width: 60vw !important;
-  height: 82.5vh !important;
-  padding: 1px;
-  margin-left: 20vw;
-}
-.contax .modal-content {
-  width: 60vw !important;
-  margin-left: 0vw !important;
-}
-.cross2 {
-  position: absolute;
-  margin-left: 55vw;
-  margin-top: 4vh;
-  z-index: 99999999999999;
-}
+
 .cross {
   position: absolute;
-  margin-left: 75vw;
-  margin-top: 2.9vh;
+  right: 2.2vw;
+  top: 3.5vh;
   z-index: 99999999999999;
 }
 .modal-header {
@@ -1001,36 +904,34 @@ margin-left: 43vw;
   border: transparent;
 }
 
-.modal-body img {
-  width: 483px;
-  height: 398px;
+.submitimg {
+  width: 31.4vw;
+  height: 42.5vh;
 
   text-align: center;
-  padding: 0 !important;
+  padding: 0;
   vertical-align: middle;
   align-items: center;
   justify-self: center;
   justify-content: center;
 }
+
 .modal-body {
   display: flex;
   vertical-align: middle;
   align-items: center;
   justify-self: center;
   justify-content: center;
-  margin-top: -5vh;
 }
 .from {
   width: 30vw;
-  margin-left: 6vw;
-  margin-top: 20px;
+  margin-left: 4.4vw;
+  margin-top: 5.3vh;
 }
 .texttop h1 {
-  font-family: Rubik;
-  font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   color: #edeff3;
 }
 .top {
@@ -1040,21 +941,15 @@ margin-left: 43vw;
   display: flex;
 }
 .texttop p {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  width: 29.6vw;
   color: #939aa9;
 }
 .inputtext label {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
   /* identical to box height, or 100% */
-  margin-top: 9px;
 
   /* Text/Light-20 */
 
@@ -1064,12 +959,11 @@ margin-left: 43vw;
 .buttoncolor {
   background: linear-gradient(91.42deg, #8346c2 -1.9%, #243a9e 95.8%);
   border-radius: 5px;
-
+  margin-top: 1vh;
   display: inline-block;
-  font-size: 20px;
+  font-size: 2.4vh;
   padding: 1px;
   text-decoration: none;
-  margin-top: 10px;
 }
 
 .button {
@@ -1080,30 +974,27 @@ margin-left: 43vw;
   );
 
   border-radius: 5px;
-
+  margin-top: 1vh;
   display: inline-block;
-  font-size: 20px;
+  font-size: 2.4vh;
   padding: 1px;
   text-decoration: none;
-  margin-top: 10px;
 }
 .button input {
   background: #2d3136;
   border: transparent;
   display: block;
-  width: 360px;
-  height: 56px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
+  width: 25vw;
+  height: 6.2vh;
+
+  font-size: 0.75rem;
+  line-height: 0.75rem;
   /* identical to box height, or 100% */
 
   /* Text/Light */
 
   color: #fcfcfc;
-  padding: 1em 2em;
+  padding: 0em 1.4vw;
   border-radius: 6px;
 }
 input:focus {
@@ -1120,19 +1011,17 @@ textarea:focus {
   background: #2d3136;
   border: transparent;
   display: block;
-  width: 360px;
-  height: 56px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
+  width: 25vw;
+  height: 6.2vh;
+
+  font-size: 0.75rem;
+  line-height: 0.75rem;
   /* identical to box height, or 100% */
 
   /* Text/Light */
 
   color: #fcfcfc;
-  padding: 1em 2em;
+  padding: 0em 1.4vw;
   border-radius: 6px;
 }
 
@@ -1141,10 +1030,10 @@ textarea:focus {
   border-radius: 5px;
 
   display: inline-block;
-  font-size: 20px;
+
   padding: 1px;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 1vh;
 }
 
 .button2 {
@@ -1156,27 +1045,25 @@ textarea:focus {
   border-radius: 5px;
 
   display: inline-block;
-  font-size: 20px;
+
   padding: 1px;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 1vh;
 }
 
 .buttoncolor2 textarea {
   background: #2d3136;
   border: transparent;
   display: block;
-  height: 192px;
+  height: 21.3vh;
 
-  width: 360px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
+  width: 25vw;
+
+  font-size: 0.875rem;
+  line-height: 1.125rem;
 
   color: #fcfcfc;
-  padding: 1.7em 2em;
+  padding: 2.2vh 1.4vw;
   border-radius: 6px;
 }
 
@@ -1184,107 +1071,98 @@ textarea:focus {
   background: #2d3136;
   border: transparent;
   display: block;
-  height: 192px;
+  height: 21.3vh;
 
-  width: 360px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
+  width: 25vw;
+
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 
   color: #fcfcfc;
-  padding: 1.7em 2em;
+  padding: 2.2vh 1.4vw;
   border-radius: 6px;
 }
 
 .inputtext input::placeholder {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
   color: #656971;
-  padding-top: 7px;
-}
-.borders {
-  background-color: black;
-  margin-top: 10px;
-  padding: 0;
-  width: 360px;
-  height: 56px;
 }
 
 .inputtext textarea::placeholder {
-  position: absolute;
-  margin-top: 0px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
-  /* identical to box height, or 100% */
-
-  /* Text/Dark-grey */
-
   color: #656971;
 }
 .solvelabel {
-  margin-top: 36px !important;
+  margin-top: 4vh;
 }
-.m img:hover {
-  transform: scale(1.02);
-}
-.mb img:hover {
-  transform: scale(1.02);
-}
-.m img {
-  margin-left: 0px;
-  width: 250px;
-  height: 56px;
-  margin-top: 3vh !important;
-}
-.m {
-  width: 250px;
-  height: 56px;
-  margin-top: 3vh !important;
-}
-.mb img {
-  width: 250px;
-  height: 56px;
-  margin-left: 0px !important;
-  margin-top: 3vh !important;
-}
-.mb {
-  width: 250px;
-  height: 56px;
-  margin-top: 3vh !important;
-  margin-left: 0px !important;
+.submitbutton,
+.submitbutton2 {
+  display: inline-block;
+  margin-top: 4.4vh;
+  padding: 0.5px;
+  text-decoration: none;
+  background: linear-gradient(
+    91.42deg,
+    #f0f1f3 -1.9%,
+    rgba(45, 49, 54, 0) 95.8%
+  );
+  border-radius: 4px;
+  width: 17.3vw;
+  height: 6.24vh;
 }
 
-.inputtext button {
-  background: transparent;
+.submitbutton2 button {
+  background: linear-gradient(97.15deg, #793599 -11.99%, #133a9e 109.23%);
   border-radius: 4px;
+
+  font-size: 1rem;
+  line-height: 1rem;
+  /* identical to box height, or 100% */
 
   /* Text/Alternate-light-grey */
   border: transparent;
+  color: #edeff3;
+  width: 17.3vw;
+  height: 6vh;
 }
-.modelanimation {
+.submitbutton button {
+  background: #656971;
+  border-radius: 4px;
   display: block;
-  animation: srick linear 4s;
+  width: 17.3vw;
+  height: 6vh;
+
+  font-size: 1rem;
+  line-height: 1rem;
+  border: transparent;
+  color: #27292d;
 }
-@keyframes srick {
-  from {
-    width: 100% !important;
-  }
-  to {
-    width: 50% !important;
-  }
+.submitbutton2 button:hover,
+.submitbutton button:hover {
+  width: 17.6vw;
+  font-size: 1.1rem;
+  height: 6.1vh;
+}
+.submitbutton2:hover,
+.submitbutton:hover {
+  width: 17.6vw;
+  height: 6.4vh;
+  margin-top: 4.4vh;
+}
+.contax {
+  width: 51.6vw;
+  height: 72.4vh !important;
+  padding: 1px;
+  margin-left: 24.1vw;
+}
+
+.cross2 {
+  position: absolute;
+  right: 2.2vw;
+  top: 3.5vh;
+  z-index: 999999;
 }
 .ondone {
   text-align: center;
-  margin-top: -4vh;
-  padding: 0 !important;
+
   vertical-align: middle;
   align-items: center;
   justify-self: center;
@@ -1297,74 +1175,34 @@ textarea:focus {
   display: none;
 }
 .img {
-  margin-top: -5vh;
   text-align: center;
-  padding: 0 !important;
+
   vertical-align: middle;
   align-items: center;
   justify-self: center;
   justify-content: center;
 
-  width: 443px !important;
-  height: 395px !important;
-}
-.ondone button {
-  position: absolute;
-  background: transparent;
-  border: transparent;
-  width: 248px !important;
-  height: 56px !important;
-  margin-top: 2vh;
-  text-align: center;
-  vertical-align: middle;
-  align-items: center;
-  justify-self: center;
-  justify-content: center;
-  margin-left: -9vw;
-}
-.ondone button:hover {
-  transform: scale(1.05);
-}
-.fbt a {
-  width: 258px !important;
-  height: 56px !important;
-}
-.fbt img {
-  width: 258px !important;
-  height: 56px !important;
+  width: 33.4vw;
+  height: 42.5vh;
 }
 
 .ondone h2 {
-  font-family: Rubik;
-  font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
-
-  /* identical to box height, or 100% */
-
-  /* Text/Alternate-light-grey */
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 
   color: #edeff3;
 }
 .ondone p {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
-  /* identical to box height, or 100% */
-
-  /* Text/Light-20 */
+  font-size: 1rem;
+  line-height: 1rem;
 
   color: #939aa9;
 }
 .ondone span {
-  font-family: Rubik;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 1rem;
+  line-height: 1rem;
   /* identical to box height, or 100% */
 
   /* Text/Alternate-light-grey */
@@ -1402,60 +1240,4 @@ textarea:focus {
   position: fixed;
 
   z-index: 9999999;
-}
-
-@media screen and (max-width: 1700px) {
-  .number {
-    margin-left: 43vw !important;
-  }
-  .number3 {
-    margin-left: 43vw !important;
-  }
-  .fo2 {
-    margin-left: 27vw !important;
-  }
-}
-
-@media screen and (min-width: 1700px) {
-  .navbars {
-    margin-right: 10vw;
-  }
-  .form {
-    margin-right: 10vw;
-  }
-  .modal-body {
-    margin-top: -1vh;
-    margin-left: 4vw;
-  }
-  .inputtext button {
-    margin-top: 10vh;
-  }
-  .mb {
-    margin-top: 4.5vh !important;
-  }
-  .m {
-    margin-top: 4vh !important;
-  }
-  .table2 {
-    margin-left: 24vw;
-  }
-  .table1 {
-    margin-left: 4vw;
-  }
-  .table3 {
-    margin-left: 4vw;
-  }
-  .ondone {
-    margin-left: -2.5vw;
-    margin-top: 4vh;
-    width: 60vw;
-  }
-  .ondone img {
-    margin-top: -15vh;
-    margin-bottom: 2vh;
-  }
-  .ondone button {
-    margin-top: 13vh;
-    margin-left: -7vw;
-  }
 }

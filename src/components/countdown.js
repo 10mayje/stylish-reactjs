@@ -89,7 +89,7 @@ return(
 
 
   <div class="row ">
-    <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
+    <div class="col countext"  data-aos="fade-up" data-aos-delay="500" >
  
  <Waypoint
   onEnter={timer} 
@@ -98,26 +98,26 @@ return(
 <h1>0{count}</h1>
       <p className={style}>years as a freelancer</p>
     </div>
-    <div class="col j" data-aos="fade-up" data-aos-delay="500">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="500">
     <h1>0{count}</h1>
        <p className={style}>Academic Research Projects</p>
     </div>
-    <div class="col j" data-aos="fade-up" data-aos-delay="500">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="500">
     <h1>0{count}</h1>
       <p className={style}>Degrees</p>
     </div>
   </div>
  
   <div class="row " >
-    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>0{count}</h1>
      <p className={style}>Awards Won</p>
     </div>
-    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>0{count2}</h1>
      <p className={style}>years as of experience</p>
     </div>
-    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>{count3<10?'0':''}{count3}</h1>
      <p className={style}>years lived</p>
     </div>
@@ -136,13 +136,13 @@ return(
 />
 
   <div class="row ">
-    <div class="col j"  data-aos="fade-up" data-aos-delay="500" >
+    <div class="col countext"  data-aos="fade-up" data-aos-delay="500" >
   
 
 <h1>0{count}</h1>
       <p className={style}>years as a freelancer</p>
     </div>
-    <div class="col j" data-aos="fade-up" data-aos-delay="500">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="500">
     <h1>0{count}</h1>
        <p className={style}>Academic Research Projects</p>
     </div>
@@ -150,13 +150,13 @@ return(
   </div>
  
   <div class="row " >
- <div class="col j" data-aos="fade-up" data-aos-delay="500">
+ <div class="col countext" data-aos="fade-up" data-aos-delay="500">
     <h1>0{count}</h1>
       <p className={style}>Degrees</p>
     </div>
 
 
-    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>0{count}</h1>
      <p className={style}>Awards Won</p>
     </div>
@@ -166,11 +166,11 @@ return(
 
   <div class="row " >
    
-    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>0{count2}</h1>
      <p className={style}>years as of experience</p>
     </div>
-    <div class="col j" data-aos="fade-up" data-aos-delay="600">
+    <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>{count3<10?'0':''}{count3}</h1>
      <p className={style}>years lived</p>
     </div>

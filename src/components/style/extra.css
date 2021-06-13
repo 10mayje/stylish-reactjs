@@ -1,141 +1,140 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 
-.sut{
-	display: block;
+.sut {
+  display: block;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  .sut {
+    display: none;
+  }
+  .b-a,
+  .bar,
+  .bar:before,
+  .bar:after {
+    transition: all 0.5s;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 0.5vh;
+    width: 10vw;
 
-.sut{
-	display:none;
-}    
- .b-a, .bar, .bar:before, .bar:after {
-	 transition: all 0.25s;
-	 content: "";
-	 position: absolute;
-	 left: 0;
-	 height: 2px;
-	 width: 30px;
-	 border-radius: 15px;
-	 background-color: rgba(255, 255, 255, 0.95);
-}
- .menu-collapsed {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  .menu-collapsed {
     display: block;
-	 transition: all 0.25s;
-	 position: fixed;
-	 top: 10vh;
-	 left: 9px;
-	 height: 36px;
-	 width: 36px;
-	 z-index: 1;
-	 cursor: pointer;
-}
- .menu-collapsed ul {
-	 transition: all 0s;
-	 position: fixed;
-	 left: -9000px;
-     text-decoration: none;
-}
- .bar {
-	 position: fixed;
-	 left: 85vw;
-	 top: 30px;
-	 z-index: 99999999999;
-}
-.bar2{
+    transition: all 0.5s;
+    position: fixed;
+    top: 10vh;
+    left: 9px;
+    height: 36px;
+    width: 36px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .menu-collapsed ul {
+    transition: all 0s;
+    position: fixed;
+    left: -9000px;
+    text-decoration: none;
+  }
+  .bar {
+    position: fixed;
+    left: 85vw;
+    top: 4vh;
+    z-index: 99999999999;
+  }
+  .bar2 {
     width: 100vw;
     position: fixed;
     margin-top: -10vh;
     height: 10vh;
-    background-color: #24292A;
+    background-color: #24292a;
     box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
-}
+  }
 
-.bar3{
-    background-color:#24292A ;
+  .bar3 {
+    background-color: #24292a;
     position: fixed;
     width: 100%;
     z-index: 9999999999;
     margin-top: -10vh;
     height: 10vh;
     box-shadow: 0px 10px 40px rgba(25, 28, 30, 0.3);
-}
-.bar4{
-    background-color:#24292A;
+  }
+  .bar4 {
+    background-color: #24292a;
     position: fixed;
     width: 100%;
     z-index: 999999999;
     margin-top: -10vh;
     height: 10vh;
-  
-}
+  }
 
+  .bar:before {
+    top: -8px;
+  }
+  .bar:after {
+    top: 8px;
+  }
+  .b-a-expanded,
+  .menu-expanded .bar:before,
+  .menu-expanded .bar:after {
+    transition: all 0.5s;
+    top: 0px;
+  }
+  .menu-expanded {
+    position: fixed;
+    z-index: 9999999999999;
+    transition: all 0.5s;
+    margin-top: 10vh;
+    text-align: center;
+    line-height: 30vh;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+    background-color: #24292a;
+  }
+  .menu-expanded ul {
+    transition: all 0s;
+    text-decoration: none;
 
-
-
- .bar:before {
-	 top: -8px;
-}
- .bar:after {
-	 top: 8px;
-}
- .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
-	 transition: all 0.25s;
-	 top: 0px;
-}
- .menu-expanded {
-     position: fixed;
-     z-index: 9999999999999;
-	 transition: all 0.25s;
-     margin-top: 10vh;
-	 text-align: center;
-	 line-height: 200px;
-	 height: 100%;
-	 width: 100%;
-	 border-radius: 0px;
-	 top: 0;
-	 left: 0;
-	 background-color: #24292A;
-}
- .menu-expanded ul {
-	 transition: all 0s;
-     text-decoration: none;
-
-	 position: relative;
-	 left: 0;
-	 z-index: 2;
-}
- .menu-expanded a {
-	 transition: all 0.15s;
-	 text-decoration: none;
-     width: 90vw;
-     height: 25vh;
-	 font-size: 16px;
-	 padding: 5px;
-	 color: #fff;
-	 display: block;
-}
- .menu-expanded a:hover {
-	
-	 transition: all 0.15s;
-	 letter-spacing: 2px;
-	 
-}
- .menu-expanded .bar {
-	 background-color: transparent;
-	 transition: all 0.25s;
-}
- .menu-expanded .bar:before {
-	 transform: rotate(45deg);
-}
- .menu-expanded .bar:after {
-	 transform: rotate(-45deg);
-}
-}
-
-.menu-collapsed{
+    position: relative;
+    left: 0;
+    z-index: 2;
+  }
+  .menu-expanded a {
+    transition: all 0.15s;
+    text-decoration: none;
+    width: 90vw;
+    height: 25vh;
+    font-size: 16px;
+    padding: 5px;
+    color: #fff;
     display: block;
+  }
+  .menu-expanded a:hover {
+    transition: all 0.15s;
+    letter-spacing: 2px;
+  }
+  .menu-expanded .bar {
+    background-color: transparent;
+    transition: all 0.25s;
+  }
+  .menu-expanded .bar:before {
+    transform: rotate(45deg);
+  }
+  .menu-expanded .bar:after {
+    transform: rotate(-45deg);
+  }
 }
-.topbar{
-    display: none;
+
+.menu-collapsed {
+  display: block;
+}
+.topbar {
+  display: none;
 }

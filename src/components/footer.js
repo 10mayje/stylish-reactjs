@@ -25,9 +25,9 @@ const Foot=()=>{
           <div className="fouter " id="Contact">
             <div className="fo1 ">
               <h2 >
-                <span data-aos="fade-right" data-aos-delay="220" data-aos-duration="550">Let’s build something together </span>
-                <span data-aos="fade-right" data-aos-delay="420" data-aos-duration="550">that actually solves a problem, </span>
-                <span data-aos="fade-right" data-aos-delay="620" data-aos-duration="550"> and creates an impact!</span>
+                <span data-aos="fade-right" data-aos-delay="520" data-aos-duration="750">Let’s build something together </span>
+                <span data-aos="fade-right" data-aos-delay="720" data-aos-duration="850">that actually solves a problem, </span>
+                <span data-aos="fade-right" data-aos-delay="820" data-aos-duration="950"> and creates an impact!</span>
      
                 </h2>
             
@@ -35,8 +35,12 @@ const Foot=()=>{
 
             </div>
             <div className="fo2 ">
-              <p data-aos="fade-left" data-aos-delay="220" data-aos-duration="500">I like to interact with people and have started </p>
-              <p data-aos="fade-left" data-aos-delay="420" data-aos-duration="500">posting on my social media too!</p>
+              <p>
+         <span data-aos="fade-left" data-aos-delay="520" data-aos-duration="500">I like to interact with people and have started </span>
+              <span data-aos="fade-left" data-aos-delay="720" data-aos-duration="700">posting on my social media too!</span>
+
+              </p>
+     
                <div className="icons" data-aos="fade-left" data-aos-delay="600" data-aos-duration="500">
                  <a href='https://www.behance.net/Rounak0713'  target="_blank">
                  <i class="fab fa-behance"></i>
@@ -73,14 +77,14 @@ const Foot=()=>{
               <div className='fo2 back'>
            
            
-              <span data-aos="fade-left" ><a href="#"><img src={button}/></a></span>
+              <span  data-aos="fade-left" data-aos-delay="600" data-aos-duration="500"><a href="#"><img src={button}/></a></span>
               </div>
 
 
 
           </div>
          
-          <div className="last"> <hr style={{color:"white",marginTop:"20vh",marginRight:'10vw'}} />
+          <div className="last"> <hr style={{color:"white"}} />
             <p className="copy">2021. Made with ❤️. All rights reserved</p>
           </div>  
         </div>
