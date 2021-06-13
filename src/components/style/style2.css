@@ -58,8 +58,8 @@
     height: 38vh;
   }
   .item-two img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
   }
   .bt-n {
     width: 100vw;
@@ -742,8 +742,8 @@
   }
   .modal-fullscreen {
     width: 80vw !important;
-
-    height: 84.3vh;
+    height: 84vh;
+    margin: 8vh 10vw;
   }
   .top {
     display: block;
@@ -774,7 +774,6 @@
   .modal-body img {
     width: 30vw;
     height: 12.8vh;
-    margin-left: 4.4vw;
     margin-top: 0px;
     padding: 0 !important;
   }
