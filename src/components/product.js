@@ -37,11 +37,11 @@ const PD=()=>{
       },[]); 
 
     return(<div className="containner">
-        <div className="box1" >
+        <div className="box1" data-aos="fade-up" data-aos-delay="500" >
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href={file1} target="_blank">
                     
-                <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+                <div width="100%" >
                          <img  src={Img}/>    
                         </div>
                     
@@ -59,11 +59,11 @@ const PD=()=>{
                 </div>
             
         </div>
-        <div className="box1 b3" >
+        <div className="box1 b3" data-aos="fade-up" data-aos-delay="500" >
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://www.behance.net/gallery/87352065/Kloh-A-Social-App-UIUX' target="_blank">
                     
-                <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+                <div width="100%" >
                          <img  src={Img2}/>    
                         </div>
                     
@@ -81,10 +81,10 @@ const PD=()=>{
             
             
         </div>
-        <div className="box1" >
+        <div className="box1" data-aos="fade-up" data-aos-delay="500">
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://play.google.com/store/apps/details?id=com.etark.app' target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+                <div width="100%" >
                          <img  src={Img3}/>    
                         </div>
                     

@@ -826,12 +826,12 @@
     line-height: 0.75rem;
 
     color: #fcfcfc;
-    padding: 0em 1em;
+    padding-left: 1em;
     border-radius: 5px;
   }
   .buttoncolor2 textarea {
-    padding: 1em 1em;
     width: 70vw;
+    padding-left: 1em;
     height: 30vh;
   }
   .button2 {
@@ -862,7 +862,7 @@
     /* Text/Light */
 
     color: #fcfcfc;
-    padding: 1em 1em;
+    padding-left: 1em;
     border-radius: 5px;
   }
 
@@ -889,6 +889,7 @@
   .submitbutton2 {
     width: 46.5vw;
     height: 5.3vh;
+    padding: 0.5px;
   }
 
   .submitbutton button,

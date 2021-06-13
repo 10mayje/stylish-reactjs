@@ -47,12 +47,12 @@ const UX=()=>{
      
       },[]); 
     return(<div className="containner">
-        <div className="box1" >
+        <div className="box1" data-aos="fade-up" data-aos-delay="500" >
             <div>
                 
                 <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href={file1} target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+                <div width="100%" >
                          <img  src={Img}/>    
                         </div>
                     </a></Tilt>
@@ -68,9 +68,9 @@ const UX=()=>{
                     </div>
             
         </div>
-        <div className="box1 b3" >
+        <div className="box1 b3" data-aos="fade-up" data-aos-delay="500" >
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}><a href={file2} target="_blank">
-            <div width="100%" data-aos="fade-up" data-aos-delay="1000">
+            <div width="100%">
                          <img  src={Img2}/>    
                         </div>
                 </a></Tilt>
@@ -86,10 +86,10 @@ const UX=()=>{
                 </div>
             
         </div>
-        <div className="box1" >
+        <div className="box1" data-aos="fade-up" data-aos-delay="500" >
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://blog.prototypr.io/a-step-away-from-privacy-hoax-d6e29ced0488' target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="500" >
+                <div width="100%">
                          <img  src={Img3}/>    
                         </div>
                     </a></Tilt>
@@ -106,12 +106,12 @@ const UX=()=>{
                     </div>
 
         </div>
-        <div className="box1 b3" >
+        <div className="box1 b3" data-aos="fade-up" data-aos-delay="500">
             <div>                   <Waypoint
   onEnter={timer4} onLeave={end4}
 /><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                 <a href='https://blog.prototypr.io/ecogrocer-app-an-ux-case-study-2e2a9dba5d8e' target="_blank">
-                <div width="100%" data-aos="fade-up" data-aos-delay="500">
+                <div width="100%" >
                          <img  src={Img4}/>    
                         </div>
                     </a></Tilt>

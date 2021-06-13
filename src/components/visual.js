@@ -109,7 +109,7 @@ const check2=()=>{
      
       },[]); 
     return(<div className="containner" > 
-        <div className='box1'   >
+        <div className='box1' data-aos="fade-up" data-aos-delay="500"  >
        
             <div>           <Waypoint
   onEnter={timer} onLeave={end}
@@ -117,7 +117,7 @@ const check2=()=>{
 />
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }} >
                     
-                        <div className="hover"  data-aos="fade-up" data-aos-delay="1000" >
+                        <div className="hover"   >
                          <img onClick={check}
                             onMouseEnter={hover} onMouseLeave={hout} onTouchMove={hover} onTouchStart={hover} onTouchEnd={hout}  className={style2} src={Img}/> 
                          
@@ -158,7 +158,7 @@ const check2=()=>{
             
         </div>
 
-        <div className="box1 b3"   >
+        <div className="box1 b3"  data-aos="fade-up" data-aos-delay="500" >
         
             <div>              <Waypoint
   onEnter={timer2} onLeave={end2}
@@ -166,7 +166,7 @@ const check2=()=>{
 />  
                 <Tilt  style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                   
-                        <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
+                        <div width="100%"  >
                          <img  onClick={check2} onMouseEnter={hover2} onMouseLeave={hout2} onTouchMove={hover2} onTouchStart={hover2} onTouchEnd={hout2}  className={style4} src={Img2}/> 
                            
                         </div>
@@ -192,11 +192,11 @@ const check2=()=>{
             </div>
             
         </div>
-        <div className="box1" >
+        <div className="box1" data-aos="fade-up" data-aos-delay="500">
             <div>
                 <Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
                     <a href='https://www.behance.net/gallery/63648505/AAROHAN-2018-WEBSITE-DESIGN-DEVELOPMENT' target="_blank">
-                    <div width="100%" data-aos="fade-up" data-aos-delay="1000" >
+                    <div  >
                          <img  src={Img3}/>    
                         </div> 
                     </a>

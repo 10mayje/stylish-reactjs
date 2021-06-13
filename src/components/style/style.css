@@ -621,12 +621,20 @@ margin-left: 43vw;
   height: 20vh !important;
 }*/
 .hoverbtn button:hover {
-  font-size: 17px;
+  font-size: 1.05rem;
+
+  width: 13.6vw !important;
+  height: 7.8vh !important;
+}
+.hoverbtn:hover {
+  font-size: 1.05rem;
+  width: 13.6vw !important;
+  height: 8.2vh !important;
 }
 
 .hoverbtn {
   width: 13.5vw !important;
-  height: 7.95vh !important;
+  height: 8vh !important;
   margin-bottom: 5vh;
   border-radius: 5px;
   padding: 1px;
@@ -641,11 +649,9 @@ margin-left: 43vw;
   border-radius: 5px;
   width: 13.5vw !important;
   height: 7.7vh !important;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
+
+  font-size: 1rem;
+  line-height: 1rem;
   color: #edeff3;
   border: transparent;
 }
@@ -1097,7 +1103,7 @@ textarea:focus {
 .submitbutton2 {
   display: inline-block;
   margin-top: 4.4vh;
-  padding: 0.5px;
+  padding: 1px;
   text-decoration: none;
   background: linear-gradient(
     91.42deg,
@@ -1105,8 +1111,8 @@ textarea:focus {
     rgba(45, 49, 54, 0) 95.8%
   );
   border-radius: 4px;
-  width: 17.3vw;
-  height: 6.24vh;
+  width: 17.2vw;
+  height: 6.3vh;
 }
 
 .submitbutton2 button {
@@ -1120,14 +1126,14 @@ textarea:focus {
   /* Text/Alternate-light-grey */
   border: transparent;
   color: #edeff3;
-  width: 17.3vw;
+  width: 17vw;
   height: 6vh;
 }
 .submitbutton button {
   background: #656971;
   border-radius: 4px;
   display: block;
-  width: 17.3vw;
+  width: 17vw;
   height: 6vh;
 
   font-size: 1rem;
@@ -1137,15 +1143,16 @@ textarea:focus {
 }
 .submitbutton2 button:hover,
 .submitbutton button:hover {
-  width: 17.6vw;
-  font-size: 1.1rem;
+  width: 17.2vw;
+  font-size: 1.05rem;
   height: 6.1vh;
+  padding-top: -0.2vh;
 }
 .submitbutton2:hover,
 .submitbutton:hover {
-  width: 17.6vw;
+  width: 17.2vw;
   height: 6.4vh;
-  margin-top: 4.4vh;
+  margin-top: 4.2vh;
 }
 .contax {
   width: 51.6vw;
