@@ -55,7 +55,7 @@ const Body = () => {
     if (text == null && text2 == null) {
       setR(0)
     }
-    else {/*
+    else {
       emailjs.sendForm('service_mty4gyp', 'template_mqdw5en', e.target, 'user_TLmvK5IREb4yuPyoXDbAQ')
         .then(function (response) {
           console.log('SUCCESS!', response.status, response.text);
@@ -64,7 +64,7 @@ const Body = () => {
           console.log('FAILED...', error);
 
         });
-      e.target.reset();*/
+      e.target.reset();
     }
 
     setText('');
