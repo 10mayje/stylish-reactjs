@@ -3,7 +3,7 @@ import Img2 from '../images/Project.png';
 import Img from '../images/Project2.png';
 import Img3 from '../images/Etark-app.png';
 import Tilt from 'react-vanilla-tilt';
-import file1 from './file/Case-study-PayU.pdf';
+import file1 from './file/Case-study-PayU2.pdf';
 import { Waypoint } from 'react-waypoint';
 import "aos/dist/aos.css";
 import Aos from 'aos';
@@ -39,7 +39,7 @@ const PD=()=>{
     return(<div className="containner">
         <div className="box1" data-aos="fade-up" data-aos-delay="500" >
             <div><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
-                <a href='https://drive.google.com/file/d/1FqrlY6x3EjESJDgC2S5LNWsXdc9Y2nOo/view' target="_blank">
+                <a href={file1} target="_blank">
                     
                 <div width="100%" >
                          <img  src={Img}/>    
