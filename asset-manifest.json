@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.51c02210.chunk.css",
-    "main.js": "/static/js/main.071bc67c.chunk.js",
-    "main.js.map": "/static/js/main.071bc67c.chunk.js.map",
+    "main.js": "/static/js/main.9b0eabfd.chunk.js",
+    "main.js.map": "/static/js/main.9b0eabfd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a181caa9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a181caa9.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Aarohan-web-design.531e82c2.png": "/static/media/Aarohan-web-design.531e82c2.png",
     "static/media/Behance.635a7b1b.svg": "/static/media/Behance.635a7b1b.svg",
     "static/media/CASE STUDY-UX in Libraries.ace340b3.pdf": "/static/media/CASE STUDY-UX in Libraries.ace340b3.pdf",
-    "static/media/Case-study-PayU.6740e263.pdf": "/static/media/Case-study-PayU.6740e263.pdf",
+    "static/media/Case-study-PayU.e3782638.pdf": "/static/media/Case-study-PayU.e3782638.pdf",
     "static/media/Contact-me.46dc0abd.png": "/static/media/Contact-me.46dc0abd.png",
     "static/media/Cross-cultural research - Rounak Ghosh.58cf04a1.pdf": "/static/media/Cross-cultural research - Rounak Ghosh.58cf04a1.pdf",
     "static/media/Ecogrocer-app.51ead225.png": "/static/media/Ecogrocer-app.51ead225.png",
@@ -54,6 +54,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.35b765ca.chunk.js",
     "static/css/main.51c02210.chunk.css",
-    "static/js/main.071bc67c.chunk.js"
+    "static/js/main.9b0eabfd.chunk.js"
   ]
 }
