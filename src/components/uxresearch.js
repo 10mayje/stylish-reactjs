@@ -106,7 +106,7 @@ const UX=()=>{
                     </div>
 
         </div>
-        <div className="box1 b3" data-aos="fade-up" data-aos-delay="500">
+       {/* <div className="box1 b3" data-aos="fade-up" data-aos-delay="500">
             <div>                   <Waypoint
   onEnter={timer4} onLeave={end4}
 /><Tilt style={{width:'100%'}} options={{ scale: 2, max: 15 }}>
@@ -124,7 +124,7 @@ const UX=()=>{
                     <h2 className={style4}>ECOGROCER MOBILE APP - A VIEW INTO USER RESEARCH</h2>      
                     </div>
            
-        </div>
+        </div>*/} 
     </div>);
 }
 export default UX;

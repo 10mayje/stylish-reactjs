@@ -271,6 +271,8 @@
   .box1 img {
     width: 80vw;
     height: 40.3vh;
+    max-width: 200px;
+    max-height: 200px;
 
     transition: all 0.3s ease 0s;
     overflow: hidden;
@@ -377,7 +379,7 @@
     margin-bottom: 4px;
   }
   .an-text {
-    margin-top: 72px;
+    margin-top: 7px;
   }
   .anmate-text {
     font-weight: 300;

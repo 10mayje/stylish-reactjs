@@ -44,7 +44,7 @@ const timer=()=>{
         setCounter(counter + 1);
         i=counter;
         j=Math.floor(i/12);
-        k=Math.floor((i*5)/24); 
+        k=Math.floor((i*5)/25); 
         if(j>=2){
           setText(1);
           setStyle('animated9')
@@ -64,9 +64,9 @@ const timer=()=>{
          if(i>=10){
            setT(1);
         }
-         if(i>=24){
+         if(i>=25){
            setText3(1);
-           setCount3(24);
+           setCount3(25);
            
          }
          else{
@@ -110,7 +110,7 @@ return(
  
   <div class="row " >
     <div class="col countext" data-aos="fade-up" data-aos-delay="600">
-    <h1>0{count}</h1>
+    <h1>0{count2}</h1>
      <p className={style}>Awards Won</p>
     </div>
     <div class="col countext" data-aos="fade-up" data-aos-delay="600">

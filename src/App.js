@@ -11,10 +11,13 @@ function App() {
     <div className="main">
       <Nav/>
     <Body/>
-    <hr className='an-text' style={{color:"white"}} />
-                    <div className="bio"><h1 className="anmate-text text-moving" ><span>Currently, </span>I’m crafting five new products at Stylework. Stay tuned for the updates!  </h1>
+    <div style={{postion:'absolute'}}>
+      <hr className='an-text' style={{color:"white"}} />
+                    <div className="bio"><h1 className="anmate-text text-moving" ><span>Currently, </span>I’m crafting products at Airtel. Stay tuned for the updates!  </h1>
                       </div>
     <hr style={{color:"white"}} />
+    </div>
+    
     <Intrest/>
     
     <Foot/>

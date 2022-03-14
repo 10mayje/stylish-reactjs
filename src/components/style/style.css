@@ -155,7 +155,7 @@ body {
 .navbars {
   display: flex;
   float: right;
-  margin-right: 10vw;
+  margin-right: 13vw;
   margin-top: 5.3vh;
   text-decoration: none;
 }
@@ -191,14 +191,20 @@ body {
   margin-top: 12.9vh;
   margin-left: 4vw;
   width: 64vw;
-  height: 64vh;
+  height: 74vh;
 
   overflow: hidden;
 }
+@media screen and (min-width: 2000px) {
+  .item-two {
+    width: 64vw;
+    height: 64vh;
+  }
+}
 .item-two img {
-  margin-top: 1.3vh;
+  margin-top: 1.5vh;
   width: auto;
-  height: 100%;
+  height: auto;
   margin-left: -1vw;
 }
 .t-text {
@@ -398,11 +404,7 @@ body {
 /*fourth box*/
 
 .box1 {
-  margin-bottom: 176px;
-  margin-left: 5vw;
-  width: 648px;
   position: relative;
-  height: 575px;
 }
 .opacityhigh {
   opacity: 1;
@@ -440,7 +442,7 @@ body {
 }
 .box1 img {
   width: 45vw;
-  height: 63.3vh;
+  height: auto;
   text-align: center;
   vertical-align: middle;
   align-items: center;
@@ -469,7 +471,7 @@ body {
   transform: rotate(-90deg);
   /* Text/Dark-grey */
   position: absolute;
-  right: -3vw;
+  right: 29vw;
   top: 60vh;
   z-index: 99999999999;
 }
@@ -500,7 +502,7 @@ margin-left: 43vw;
 */
   position: absolute;
 
-  right: -3vw;
+  right: 29vw;
   top: 60vh;
 
   z-index: 99999999999;
@@ -673,7 +675,7 @@ margin-left: 43vw;
   border: 2px;
 }
 .an-text {
-  margin-top: 260px;
+  margin-top: 2vh;
 }
 
 /* 5th fase*/
