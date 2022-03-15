@@ -54,13 +54,13 @@ const PD=()=>{
                     
                     </a></Tilt>
                     <Waypoint
-  onEnter={timer4} onLeave={end4}
+  onEnter={timer} onLeave={end}
 />
-                    <div className={style2}><h2 className="number">01</h2> 
+                    <div><h2 className="number">01</h2> 
                         </div>
                     </div>
                 <div className="btext">
-<h2  className={style2}>REDESIGNING AIRTEL RECHARGES</h2>
+<h2  className={style}>REDESIGNING AIRTEL RECHARGES</h2>
 
                 </div>
             
@@ -76,15 +76,15 @@ const PD=()=>{
                     
                     </a></Tilt>
                     <Waypoint
-  onEnter={timer} onLeave={end}
+  onEnter={timer2} onLeave={end2}
 />
    
-                    <div className={style}><h2 className="number2">02</h2> 
+                    <div className={style2}><h2 className="number2">02</h2> 
                         </div>
                     </div>
                 <div className="btext">
 
-                   <h2  className={style}>PAYU NEXTGEN MERCHANTS</h2> 
+                   <h2  className={style2}>PAYU NEXTGEN MERCHANTS</h2> 
                 </div>
             
         </div>
@@ -98,13 +98,13 @@ const PD=()=>{
                     
                     </a></Tilt>
                     <Waypoint
-  onEnter={timer2} onLeave={end2}
+  onEnter={timer3} onLeave={end3}
 />
-                    <div className={style2}><h2 className="number3">03</h2> 
+                    <div className={style3}><h2 className="number3">03</h2> 
                         </div>
                     </div>
                 <div className="btext">
-<h2  className={style2}>KLOH APP-MEET WITH PEOPLE OFFLINE</h2>
+<h2  className={style3}>KLOH APP-MEET WITH PEOPLE OFFLINE</h2>
 
                 </div>
             
@@ -119,14 +119,14 @@ const PD=()=>{
                     
                     </a></Tilt>
                     <Waypoint
-  onEnter={timer3} onLeave={end3}
+  onEnter={timer4} onLeave={end4}
 />
                     
-                    <div className={style3}><h2  className="number4">04</h2> 
+                    <div className={style4}><h2  className="number4">04</h2> 
                         </div>
                     </div>
                     <div className="btext">
- <h2 className={style3}>ETARK-APPLICATION DESIGN + BUSINESS ADVISORY</h2>
+ <h2 className={style4}>ETARK-APPLICATION DESIGN + BUSINESS ADVISORY</h2>
 
                     </div>
            

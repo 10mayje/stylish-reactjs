@@ -63,7 +63,7 @@
   }
   .bt-n {
     width: 100vw;
-    margin-top: 12.5vh;
+    margin-top: 10vh;
   }
   .talkbutton {
     width: 28vw;
@@ -247,25 +247,25 @@
   .number {
     transform: rotate(0deg);
     top: auto;
-    bottom: 3vh;
+    bottom: 4vh;
     left: 76vw;
   }
   .number2 {
     transform: rotate(0deg);
     top: auto;
-    bottom: 3vh;
+    bottom: 4vh;
     left: 76vw;
   }
   .number3 {
     transform: rotate(0deg);
     top: auto;
-    bottom: 3vh;
+    bottom: 4vh;
     left: 76vw;
   }
   .number4 {
     transform: rotate(0deg);
     top: auto;
-    bottom: 3vh;
+    bottom: 4vh;
     left: 76vw;
   }
   .btext {
@@ -390,7 +390,7 @@
     /* identical to box height, or 100% */
 
     /* Text/Alternate-light-grey */
-
+    padding: 10px;
     color: #edeff3;
   }
   .anmate-text span {
