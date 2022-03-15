@@ -217,9 +217,9 @@
   /* fourth box*/
   .box1 {
     width: 100%;
-    margin-bottom: 0;
+    margin-top: 5vh;
     margin-left: 0;
-    height: 66vh;
+    height: auto;
   }
 
   .b3 {
@@ -246,23 +246,27 @@
   }
   .number {
     transform: rotate(0deg);
-    top: 40.5vh;
+    top: auto;
+    bottom: 3vh;
     left: 76vw;
   }
   .number2 {
-    top: 40.5vh;
-    left: 76vw;
     transform: rotate(0deg);
+    top: auto;
+    bottom: 3vh;
+    left: 76vw;
   }
   .number3 {
-    top: 40.5vh;
-    left: 76vw;
     transform: rotate(0deg);
+    top: auto;
+    bottom: 3vh;
+    left: 76vw;
   }
   .number4 {
-    top: 40.5vh;
-    left: 76vw;
     transform: rotate(0deg);
+    top: auto;
+    bottom: 3vh;
+    left: 76vw;
   }
   .btext {
     height: 70px !important;
@@ -270,16 +274,14 @@
   }
   .box1 img {
     width: 80vw;
-    height: 40.3vh;
-    max-width: 200px;
-    max-height: 200px;
+    height: auto;
 
     transition: all 0.3s ease 0s;
     overflow: hidden;
   }
   .box1 div {
     width: 80vw;
-    height: 40.3vh;
+    height: auto;
     overflow: hidden;
   }
 
@@ -375,11 +377,11 @@
   }
 
   .bio {
-    margin-top: -25px;
-    margin-bottom: 4px;
+    padding: 5px;
+    margin: 0;
   }
   .an-text {
-    margin-top: 7px;
+    margin-top: 72px;
   }
   .anmate-text {
     font-weight: 300;
@@ -390,7 +392,6 @@
     /* Text/Alternate-light-grey */
 
     color: #edeff3;
-    height: 34px;
   }
   .anmate-text span {
     font-family: Caveat;
@@ -600,8 +601,7 @@
 
   .anmate-text {
     font-family: Rubik;
-    margin-top: 30px;
-    margin-bottom: -1px;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1rem;

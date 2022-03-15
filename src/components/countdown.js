@@ -157,7 +157,7 @@ return(
 
 
     <div class="col countext" data-aos="fade-up" data-aos-delay="600">
-    <h1>0{count}</h1>
+    <h1>0{count2}</h1>
      <p className={style}>Awards Won</p>
     </div>
 
@@ -165,7 +165,6 @@ return(
 
 
   <div class="row " >
-   
     <div class="col countext" data-aos="fade-up" data-aos-delay="600">
     <h1>0{count2}</h1>
      <p className={style}>years as of experience</p>
