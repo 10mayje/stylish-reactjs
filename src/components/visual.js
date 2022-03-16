@@ -143,15 +143,18 @@ const VD = () => {
               </a>
             </div>
           </div>
-          <div className={style5}>
-            <h2 className="number">01</h2>
-          </div>
+         
         </div>
+       
         <div className="btext">
+        
           <h2 className={style5}>
             VISUAL DESIGN PROJECTS <span> HEAD, WDCT </span>{" "}
           </h2>
         </div>
+        <div className={style5}>
+            <h2 className="number">01</h2>
+          </div>
       </div>
 
       <div className="box1 b3" data-aos="fade-up" data-aos-delay="500">
@@ -203,13 +206,14 @@ const VD = () => {
               </a>
             </div>
           </div>
-          <div className={style6}>
-            <h2 className="number2">02</h2>
-          </div>
+          
         </div>
         <div className="btext">
           <h2 className={style6}>SOCIAL MEDIA POST - COLLECTIONS</h2>
         </div>
+        <div className={style6}>
+            <h2 className="number2">02</h2>
+          </div>
       </div>
       <div className="box1" data-aos="fade-up" data-aos-delay="500">
         <div>

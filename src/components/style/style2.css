@@ -415,7 +415,7 @@
     width: 100%;
   }
   .one {
-    margin-top: 40vh;
+    margin-top: 20vh;
     overflow: hidden;
   }
   .one img {
@@ -423,7 +423,7 @@
   }
   .two {
     margin-left: 4vw;
-    margin-top: 32vh;
+    margin-top: 12vh;
     overflow: hidden;
   }
   .two img {
@@ -431,7 +431,7 @@
   }
   .three {
     margin-left: 5vw;
-    margin-top: 28vh;
+    margin-top: 8vh;
     overflow: hidden;
   }
   .three img {
@@ -439,7 +439,7 @@
   }
   .four {
     margin-left: 3vw;
-    margin-top: 38vh;
+    margin-top: 18vh;
     overflow: hidden;
   }
   .four {
