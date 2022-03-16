@@ -100,7 +100,7 @@ const PD=()=>{
                     <Waypoint
   onEnter={timer3} onLeave={end3}
 />
-                    <div className={style3}><h2 className="number3">03</h2> 
+                    <div className={style3}><h2 className="number3 ex" >03</h2> 
                         </div>
                     </div>
                 <div className="btext">
