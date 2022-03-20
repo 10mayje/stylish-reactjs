@@ -198,7 +198,7 @@ body {
 @media screen and (min-width: 2000px) {
   .item-two {
     width: 64vw;
-    height: 64vh;
+    height: 45vh;
   }
 }
 .item-two img {
@@ -423,13 +423,17 @@ body {
   opacity: 0.2;
 }
 .b3 {
-  margin-left: 33vw;
+  margin-left: 34vw;
 }
 .b3 h2 {
   text-align: right;
   float: right;
 }
-
+.containner {
+  height: auto;
+  width: 100%;
+  display: block;
+}
 .btext {
   height: 7.3vh;
   overflow: hidden;
@@ -482,7 +486,7 @@ body {
   /* Text/Dark-grey */
   position: absolute;
   right: -3vw;
-  top: 77.5vh;
+  top: 76vh;
   z-index: 99999999999;
 }
 .number2 {
@@ -495,7 +499,7 @@ body {
   /* Text/Dark-grey */
   position: absolute;
   left: -3vw;
-  top: 77.5vh;
+  top: 76vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
@@ -514,7 +518,7 @@ margin-left: 43vw;
 
   right: -3vw;
 
-  top: 77.5vh;
+  top: 76vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
@@ -528,15 +532,15 @@ margin-left: 43vw;
   /* Text/Dark-grey */
   position: absolute;
   left: -3vw;
-  top: 77.5vh;
+  top: 76vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
 .ex {
-  top: 66.5vh !important;
+  top: 65.5vh !important;
 }
 .an {
-  margin-top: 30vh;
+  margin-top: 40vh;
 }
 .dis {
   width: 25vw;
