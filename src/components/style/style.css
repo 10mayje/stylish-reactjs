@@ -423,7 +423,7 @@ body {
   opacity: 0.2;
 }
 .b3 {
-  margin-left: 32vw;
+  margin-left: 33vw;
 }
 .b3 h2 {
   text-align: right;
@@ -486,7 +486,7 @@ body {
   /* Text/Dark-grey */
   position: absolute;
   right: -3vw;
-  top: 76vh;
+  bottom: 0;
   z-index: 99999999999;
 }
 .number2 {
@@ -499,7 +499,7 @@ body {
   /* Text/Dark-grey */
   position: absolute;
   left: -3vw;
-  top: 76vh;
+  bottom: 0;
   z-index: 99999999999;
   opacity: 0.5;
 }
@@ -518,7 +518,7 @@ margin-left: 43vw;
 
   right: -3vw;
 
-  top: 76vh;
+  bottom: 0;
   z-index: 99999999999;
   opacity: 0.5;
 }
@@ -532,12 +532,12 @@ margin-left: 43vw;
   /* Text/Dark-grey */
   position: absolute;
   left: -3vw;
-  top: 76vh;
+  bottom: 0;
   z-index: 99999999999;
   opacity: 0.5;
 }
 .ex {
-  top: 65.5vh !important;
+  bottom: 10vh !important;
 }
 .an {
   margin-top: 40vh;
