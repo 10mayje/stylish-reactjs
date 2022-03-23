@@ -486,7 +486,7 @@ body {
   /* Text/Dark-grey */
   position: absolute;
   right: -3vw;
-  bottom: 0;
+  bottom: 0vh;
   z-index: 99999999999;
 }
 .number2 {
@@ -499,7 +499,7 @@ body {
   /* Text/Dark-grey */
   position: absolute;
   left: -3vw;
-  bottom: 0;
+  bottom: 0vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
@@ -518,7 +518,7 @@ margin-left: 43vw;
 
   right: -3vw;
 
-  bottom: 0;
+  bottom: 0vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
@@ -532,7 +532,7 @@ margin-left: 43vw;
   /* Text/Dark-grey */
   position: absolute;
   left: -3vw;
-  bottom: 0;
+  bottom: 0vh;
   z-index: 99999999999;
   opacity: 0.5;
 }
